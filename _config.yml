@@ -5,3 +5,4 @@ baseurl: /github-for-portfolios
 safe: true
 lsi: false
 pygments: true
+permalink: pretty
