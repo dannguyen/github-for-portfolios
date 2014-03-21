@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Lesson 1. Setup Github</title>
+        <meta name="viewport" content="width=device-width">
+
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/github-for-portfolios/assets/bootstrap.min-0861a3185a34639ecfdb83159e672d33.css">
+        <link rel="stylesheet" href="/github-for-portfolios/assets/main-331f1916ae6e5fbb43d8d56ba0414b8f.css">
+
+    </head>
+    <body>
+
+<header class="header">
+
+    <div class="container">
+            <h1 class="title"><a href="/github-for-portfolios/">How to Build a Portfolio on Github</a></h1>
+    </div>
+</header>
+
+
+<div class="container">
+
+
+          <h1>Lesson 1. Setup Github</h1>
+
+<article class="lesson">
+
+
+<h2 id="create-a-github-account">Create a Github account</h2>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>On first visit to <a href="https://github.com">https://github.com</a>, you can create a new account with just your email address and by choosing a username with
+alphanumeric characters.</p>
+
+    <p>Be sure to check your email afterwards to <strong>confirm</strong> the registration.</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-signup.png" alt="howto" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>The next screen will ask you to <strong>choose your personal plan</strong>. For a monthly price, you get to host projects privately. But since we’re not
+making anything that needs to be hidden or propietary, we can choose the <strong>Free</strong> plan, which allows us to create an unlimited number of publicly
+visible projects.</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-choose-plan.png" alt="howto" /></p>
+  </div>
+</section>
+
+<h2 id="create-a-github-repository">Create a Github repository</h2>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>In git-vocabulary, <strong>repositories</strong> (or <em>repos</em>) can be thought of as <em>projects</em>. Or less abstractly, think of them as <em>folders</em> in which we store our files (and subfolders).</p>
+
+    <p>That means that a repo can contain anything we want. Not just code files, but images and documents, just like file folders on our computers.</p>
+
+    <p>Navigate back to the <a href="//github.com">Github homepage</a>. Now that you’re a new member, Github will helpfully point out that you have 0 repositories.</p>
+
+    <p>Click the green <strong>New repository</strong> button to get started.</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-create-new-repo.png" alt="howto" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>Our first repo, i.e. <em>project</em>, will be our portfolio site.</p>
+
+    <p>Github has a special feature, <a href="//pages.github.com">Github Pages</a>, in which the contents of a repo can be auto-published onto their webservers. This is what we want. To enable this feature, we have to follow a specific naming convention. </p>
+
+    <p>For the <strong>Repository __name</strong>, enter your <strong>username</strong>, followed by <code>github.io</code>. You must use your <em>exact</em> username or else Github Pages will not be enabled.</p>
+
+    <p>All of the other fields, including <strong>Description</strong>, can be left alone for now. Hit the green <strong>Create Repository</strong> button.</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-name-new-repo.png" alt="howto" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>Congrats, you are now the owner of a new Github repository.</p>
+
+    <p>If you are unfamiliar to git, about 95 percent of this screen will be totally alien to you, and, for our portfolio purposes, irrelevant.</p>
+
+    <p>For now, revisit <a href="https://github.com">https://github.com</a> to see what the homepage looks like.</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-new-repo-created.png" alt="howto" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>The homepage is largely unchanged, but you’ll see that our repositories list is no longer empty. Clicking on the repo name will take you to <strong>that repo’s
+homepage</strong>, which will be the same confusing screen we had just navigated from.</p>
+
+    <p>For now, let’s take a quick look at your <strong>user</strong> page, which you can visit by going to:</p>
+
+    <pre><code>    https://github.com/YOUR_USER_NAME
+</code></pre>
+
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-new-repo-listed.png" alt="howto" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>Most of this will be irrelevant to you right now. You haven’t done anything besides
+create a repository, so your <strong>Contribution Activity</strong> will be empty.</p>
+
+    <p>However, since we’re not currently using Github to collaborate or work on team projects, most of
+this screen won’t matter to us right now. But if you visit the page of an active user, such as <a href="https://github.com/hadley">Hadley Wickham</a> 
+of R/ggplot2 fame, you can see how Github is basically a social network for developers.</p>
+
+    <p>What’s important to know is that this is simply your Github account/user page, and <strong>not</strong> the homepage for the <strong>repo</strong>
+that contains your portfolio, i.e. <code>yourname.github.io</code> </p>
+
+    <p>Let’s go to that page now by clicking on the listed repo link.</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-user-page.png" alt="howto" /></p>
+  </div>
+</section>
+
+<h2 id="creating-a-readmemd">Creating a README.md</h2>
+
+<section class="row">
+  <div class="col-sm-6">
+
+    <p>On our empty repo page, the one instruction we should care about is the one that says:</p>
+
+    <blockquote>
+      <p>We recommend every repository include a README, LICENSE, and .gitignore.</p>
+    </blockquote>
+
+    <p>Click on the <strong>README</strong> link, which conveniently takes you to the Github file editor.</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-link-to-create-readme.png" alt="howto" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>The Github file editor lets you create and edit files in your web browser. The more you get experienced with git and Github, 
+the less you’ll be using this feature. But it’s convenient for trying things out.</p>
+
+    <p>Notice at the top of the file how <code>README.md</code> has been filled out for you. You <em>could</em> enter
+any filename you want. But let’s stick with <code>README.md</code></p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-create-readme-blank.png" alt="howto" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>The <code>md</code> file extension is short for <strong>Markdown</strong>, which is a mini-language that is meant to be
+a simplified, human-friendly version of HTML.</p>
+
+    <p>I <em>highly</em> recommend <a href="http://guides.github.com/overviews/mastering-markdown/">learning Markdown at some point</a>, 
+but the upshot here is that you can type in any text you want, it doesn’t have to be code. If you already know HTML, you can
+write some now. But to get a taste of how Markdown works, just type in text as if it were a plain-text editor.</p>
+
+    <p>Besides plain text, paste in a few URLs (<em>sans</em> <code>&lt;a&gt; tags</code>), such as the link to your repo page and Github account page.</p>
+
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-editor-markdown-sample.png" alt="howto" />
+<br /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>At the bottom of the page, you can ignore the optional fields and just click the green button to <strong>Commit new file</strong></p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-commit-readme.png" alt="howto" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>After creating the file, you’ll be taken back to your portfolio repo’s homepage, which now contains one file: <code>README.md</code></p>
+
+    <p>Besides creating and adding the <code>README.md</code> file to the repo, that <strong>Commit new file</strong> action has  helpfully recorded some useful metadata, including when the “commit” took place and a short description: <code>Create README.md</code>. </p>
+
+    <p>As we’ll see later, “commit” is not synonymous with “create”. A commit can consist of <em>changes</em> (including deletions) to one or multiple existing files.</p>
+
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-commit-readme.png" alt="howto" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>Scroll down a bit and you’ll see that Github has rendered <code>README.md</code> – even though it was just plaintext – as if it were a real webpage. This is a special convenience feature of Github, to treat <code>README.md</code> as a sort of boilerplate informational webpage for visitors of your repo homepage.</p>
+
+    <p>Note that this is <em>not</em> your actual portfolio page. Again, think of a repo as simply a folder for your project, and this is how Github displays the project’s file listing.</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-readme-basic.png" alt="howto" /></p>
+  </div>
+</section>
+
+<p>The readme now exists</p>
+
+<p><img src="/github-for-portfolios/images/lessons/github-readme-exists.png" alt="howto" /></p>
+
+
+
+
+
+</article>
+
+
+</div>
+
+
+          <footer class="footer">
+<div class="container">
+            <div class="contact">
+              <p>
+                Dan Nguyen<br />
+                Portfolio Maker<br />
+                danwin.com
+              </p>
+            </div>
+            <div class="contact">
+              <p>
+                <a href="https://github.com/dannguyen">github.com/dannguyen</a><br />
+                <a href="https://twitter.com/dancow">twitter.com/dancow</a><br />
+              </p>
+            </div>
+
+</div>
+          </footer>
+
+
+
+
+    </body>
+</html>
