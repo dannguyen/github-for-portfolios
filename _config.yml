@@ -8,6 +8,7 @@ safe: false
 lsi: false
 pygments: true
 permalink: pretty
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
 
 assets:
   baseurl: /github-for-portfolios/assets
