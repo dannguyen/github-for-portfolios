@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: lesson
 title: "Lesson 3. Clone, Edit, Commit, and Push"
 ---
 

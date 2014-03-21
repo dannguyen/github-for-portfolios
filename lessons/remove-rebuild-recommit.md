@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: lesson
 title: "Lesson 4. Remove, Rebuild, and Recommit"
 ---
 
