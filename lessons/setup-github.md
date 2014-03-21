@@ -158,10 +158,7 @@ The `md` file extension is short for __Markdown__, which is a mini-language that
 a simplified, human-friendly version of HTML.
 
 I _highly_ recommend [learning Markdown at some point](http://guides.github.com/overviews/mastering-markdown/), 
-but the upshot here is that you can type in any text you want, it doesn't have to be code. If you already know HTML, you can
-write some now. But to get a taste of how Markdown works, just type in text as if it were a plain-text editor.
-
-Besides plain text, paste in a few URLs (_sans_ `<a> tags`), such as the link to your repo page and Github account page.
+but the upshot here is that you can type in any text you want, it doesn't have to be code. 
 
 </div>
 <div class="col-sm-6">
@@ -170,6 +167,43 @@ Besides plain text, paste in a few URLs (_sans_ `<a> tags`), such as the link to
 </div>
 </section>
 
+
+
+
+
+<section class="row">
+<div class="col-sm-4">
+If you already know HTML, you can
+write some now. But to get a taste of how Markdown works, just type in text as if it were a plain-text editor.
+
+Besides plain text, paste in a few URLs (_sans_ `<a> tags`), such as the link to your repo page and Github account page.
+</div>
+<div class="col-sm-8">
+
+You can paste in the following (and edit to your specific case):
+
+~~~ markdown
+dantnguyen.github.io
+====================
+
+## Hello world!
+
+This is my first try at github!
+
+My Github user page is at: 
+https://github.com/dantnguyen/
+
+My Github Pages repo can be found at:  
+https://github.com/dantnguyen/dantnguyen.github.io/
+
+And, soon, you can see my customized homepage at:
+
+http://dantnguyen.github.io/
+~~~
+
+
+</div>
+</section>
 
 
 
@@ -195,7 +229,7 @@ As we'll see later, "commit" is not synonymous with "create". A commit can consi
 
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/github-commit-readme.png)
+![howto]({{ site.baseurl }}/images/lessons/github-readme-exists.png)
 </div>
 </section>
 
@@ -214,12 +248,8 @@ Note that this is _not_ your actual portfolio page. Again, think of a repo as si
 
 
 
+## Wrapping up
 
-
-
-
-The readme now exists
-
-![howto]({{ site.baseurl }}/images/lessons/github-readme-exists.png)
-
-
+- Created a Github account
+- Created a repository that will contain the files for your portfolio website
+- Created a file in the repo

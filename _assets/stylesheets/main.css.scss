@@ -27,10 +27,17 @@ article.lesson{
   section{
     margin-bottom: 6.0em;
 
+    border-top: thin solid #ccc;
+    padding-top: 1.0em;
+
     img{
       width: 100%;
       border: thin solid #aaa;
     }
+  }
+
+
+  section:nth-child(even){
 
   }
 

@@ -2,6 +2,7 @@ name: How to Build a Portfolio on Github
 markdown: kramdown
 kramdown:
   parse_block_html: true
+  coderay_line_numbers: nil
 pygments: true
 baseurl: /github-for-portfolios
 safe: false
