@@ -6,24 +6,32 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+        {% stylesheet bootstrap.min.css %}
+        {% stylesheet main %}
 
     </head>
     <body>
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
+<header class="header">
+
+    <div class="container">
+            <h1 class="title"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+    </div>
+</header>
+
+
+<div class="container">
+
 
           {{ content }}
 
-          <div class="footer">
+</div>
+
+
+          <footer class="footer">
+<div class="container">
             <div class="contact">
               <p>
                 Dan Nguyen<br />
@@ -33,12 +41,16 @@
             </div>
             <div class="contact">
               <p>
-                <a href="https://github.com/yourusername">github.com/dannguyen</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/dancow</a><br />
+                <a href="https://github.com/dannguyen">github.com/dannguyen</a><br />
+                <a href="https://twitter.com/dancow">twitter.com/dancow</a><br />
               </p>
             </div>
-          </div>
-        </div>
+
+</div>
+          </footer>
+
+
+
 
     </body>
 </html>

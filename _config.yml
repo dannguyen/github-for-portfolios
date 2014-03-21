@@ -1,8 +1,14 @@
 name: How to Build a Portfolio on Github
 markdown: kramdown
+kramdown:
+  parse_block_html: true
 pygments: true
 baseurl: /github-for-portfolios
-safe: true
+safe: false
 lsi: false
 pygments: true
-source: /github-for-portfolios
+permalink: pretty
+
+assets:
+  baseurl: /github-for-portfolios/assets
+  css_compressor: sass
