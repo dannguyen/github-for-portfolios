@@ -3,6 +3,15 @@ layout: lesson
 title: "Lesson 1. Setup Github"
 ---
 
+The purpose of this tutorial is to create a webpage, but this chapter is just about through the motions that are specific to Github, such as creating an account and how to do a few things. If you've ever used a social network, you know this dance. You hand over your email address, set a password, and now you have an account.
+
+And Github is no different. The terminology on Github is different, but in the end, it's conceptually no different than starting a new Facebook account, creating a new photo album, and uploading a few photos.
+
+Again, we won't be building a webpage of our own in _this_ lesson, but just learning Github.
+
+
+
+
 
 ## Create a Github account
 
@@ -221,7 +230,25 @@ At the bottom of the page, you can ignore the optional fields and just click the
 
 <section class="row">
 <div class="col-sm-6">
-After creating the file, you'll be taken back to your portfolio repo's homepage, which now contains one file: `README.md`
+After creating the file, you'll be shown the results of your commit: a new file named `README.md`
+
+TKTK
+
+Note the URL: TKTK
+
+
+You recognize this:
+
+https://github.com/danksnguyen/danksnguyen.github.io
+
+And this is simply a reflection of how git keeps track of the file.
+
+/blob/master/README.md
+
+Since this isn't a lesson on git, there's not much point in remembering this, and in fact, this is the kind of detail that we won't have to deal with in day-to-day management of our website. In fact, clicking around Github's file folders is something I rarely do as a programmer anyway.
+
+
+you'll be taken back to your portfolio repo's homepage, which now contains one file: `README.md`
 
 Besides creating and adding the `README.md` file to the repo, that __Commit new file__ action has  helpfully recorded some useful metadata, including when the "commit" took place and a short description: `Create README.md`. 
 
