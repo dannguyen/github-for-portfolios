@@ -14,9 +14,9 @@ Github is just a free, relatively convenient starting spot.
 ### Lessons
 
 1. [Setup Github]({{ site.baseurl }}/lessons/setup-github)
+2. [Deploy a Github Page]({{ site.baseurl }}/lessons/deploy-github-pages)
 
-
-<!-- 2. [Deploy a Github Page]({{ site.baseurl }}/lessons/deploy-github-pages)
+<!-- 
 3. [Clone, Edit, Commit, and Push]({{ site.baseurl }}/lessons/clone-github-pages-repo)
 4. [Remove, Rebuild, and Recommit]({{ site.baseurl }}/lessons/remove-rebuild-recommit)
  -->
