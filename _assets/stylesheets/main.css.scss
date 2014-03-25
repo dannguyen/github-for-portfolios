@@ -7,17 +7,41 @@ body{
 footer.footer{
   border-top: thin solid #aaa;
   margin-top: 6.0em;
-  padding-top: 1.0em;
+  padding-bottom: 4.0em;
+  padding-top: 1.5em;
 
+  background: black;
+
+  color: white;
+
+
+  a, a:link{
+    color: #aaf;
+  }
 }
 
 header.header{
   border-bottom: thin solid #aaa;
-  margin-bottom: 6.0em;
-  padding-bottom: 1.0em;
+  margin-bottom: 3.0em;
+  padding-bottom: 0.5em;
+  padding-top: 1.0em;
+
+  .title{
+    font-size: 1.1em;
+
+    a:link, a{
+      color: #555;
+    }
+  }
 }
 
 article.lesson{
+
+    h1{
+      font-size: 5.0em;
+      text-align: center;
+    }
+
 
     h2{
       margin-top: 2.0em;
@@ -34,7 +58,16 @@ article.lesson{
       width: 100%;
       border: thin solid #aaa;
     }
+
+
+    &.overview{
+      margin-bottom: 2.0em;
+      p{
+        font-size: 1.2em;
+      }
+    }
   }
+
 
 
   section:nth-child(even){

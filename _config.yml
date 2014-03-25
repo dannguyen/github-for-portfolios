@@ -1,10 +1,11 @@
-name: How to Build a Portfolio on Github
+name: Simple Web Portfolios on Github
 markdown: kramdown
 kramdown:
   parse_block_html: true
   coderay_line_numbers: nil
 pygments: true
 baseurl: /github-for-portfolios
+repourl: dannguyen/github-for-portfolios
 safe: false
 lsi: false
 pygments: true

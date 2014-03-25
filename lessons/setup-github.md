@@ -1,13 +1,17 @@
 ---
 layout: lesson
-title: "Lesson 1. Setup Github"
+title: "Setup Github"
 ---
+
+<section class="overview">
 
 The purpose of this tutorial is to create a webpage, but this chapter is just about through the motions that are specific to Github, such as creating an account and how to do a few things. If you've ever used a social network, you know this dance. You hand over your email address, set a password, and now you have an account.
 
 And Github is no different. The terminology on Github is different, but in the end, it's conceptually no different than starting a new Facebook account, creating a new photo album, and uploading a few photos.
 
 Again, we won't be building a webpage of our own in _this_ lesson, but just learning Github.
+
+</section>
 
 
 
@@ -230,25 +234,7 @@ At the bottom of the page, you can ignore the optional fields and just click the
 
 <section class="row">
 <div class="col-sm-6">
-After creating the file, you'll be shown the results of your commit: a new file named `README.md`
-
-TKTK
-
-Note the URL: TKTK
-
-
-You recognize this:
-
-https://github.com/danksnguyen/danksnguyen.github.io
-
-And this is simply a reflection of how git keeps track of the file.
-
-/blob/master/README.md
-
-Since this isn't a lesson on git, there's not much point in remembering this, and in fact, this is the kind of detail that we won't have to deal with in day-to-day management of our website. In fact, clicking around Github's file folders is something I rarely do as a programmer anyway.
-
-
-you'll be taken back to your portfolio repo's homepage, which now contains one file: `README.md`
+After creating the file, you'll be shown the results of your commit: a new file named `README.md` in your repo.
 
 Besides creating and adding the `README.md` file to the repo, that __Commit new file__ action has  helpfully recorded some useful metadata, including when the "commit" took place and a short description: `Create README.md`. 
 
@@ -274,6 +260,28 @@ Note that this is _not_ your actual portfolio page. Again, think of a repo as si
 </section>
 
 
+<section class="row">
+<div class="col-sm-6">
+Note the URL:
+
+`github.com/dantnguyen/dantnguyen.github.io/tree/master`
+
+
+The repo path should be familar:
+
+`github.com/dantnguyen/dantnguyen.github.io/`
+
+
+The rest of it &ndash; `tree/master` &ndash; is a reflection of how `git` [internally tracks and stores files in a _tree_ structure](http://git-scm.com/book/en/Git-Internals-Git-Objects#Tree-Objects).
+
+We're not going to cover the internals of git in this tutorial, so for now keep thinking of your project repo as any other file folder you've maintained. You can always get to the root of your repo at this URL:
+
+`http://github.com/your_username/your_username.github.io/`
+</div>
+<div class="col-sm-6">
+![howto]({{ site.baseurl }}/images/lessons/github-post-readme-tree-master.png)
+</div>
+</section>
 
 ## Wrapping up
 
