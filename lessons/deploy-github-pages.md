@@ -1,30 +1,38 @@
 ---
 layout: lesson
-title: "Lesson 2. Create and Deploy a Github Page"
+title: "Create and Deploy Github Pages"
+lesson_number: 2
 ---
 
+<section class="overview">
 
-## About Github Pages
+In the previous lesson, we created a `README.md` file. And Github turned it into a webpage, _technically_. 
+
+But it's just a quickie-homepage for our repo, with a URL that looks like any regular normal file (which, well, it is...):
+
+`github.com/your_username/your_username.github.io/README.md`
+
+
+Github provides a web publishing service called [Github Pages](//pages.github.com). In this lesson, we will learn how to publish a proper webpage via   __Github Pages__. 
+</section>
+
+
 
 <section class="row">
 <div class="col-sm-6">
-In the previous lesson, we created a README.md file, and Github turned it into a webpage, _technically_. And it's just a quickie-homepage for our repo, with a URL that looks like just some normal file (which, well, it is...):
+According to the [Github Pages documentation](//pages.github.com), by creating a repo named  `your_username.github.io`, Github Pages knows (by convention) to publish anything in this repo to the corresponding URL:
 
-`https://github.com/your_username/your_username.github.io/README.md`
+[https://your_username.github.io](https://your_username.github.io)
 
-
-But we want a "real" homepage, which, at the very least, has a URL that _looks_ like a proper
-
-
-According to the [Github Pages documentation](//pages.github.com), if you
-visit `your_username.github.io`, you
-
-To the __right__ of the repo name is a little __paper-plus icon__. Click on it to create a new file.
-</div>
+However, if you visit that URL, you'll find a 404 page.
+</div> 
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/github-create-new-file.png)
+![howto]({{ site.baseurl }}/images/lessons/github-pages-404.png)
+
 </div>
-</section>
+</section>  
+
+
 
 
 
@@ -32,20 +40,9 @@ To the __right__ of the repo name is a little __paper-plus icon__. Click on it t
 
 <section class="row">
 <div class="col-sm-6">
-According to the [Github Pages documentation](//pages.github.com), if you
-visit `your_username.github.io`, you
+Go back to your __repository homepage__ on github.com, e.g.
 
-To the __right__ of the repo name is a little __paper-plus icon__. Click on it to create a new file.
-</div>
-<div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/github-create-new-file.png)
-</div>
-</section>
-
-
-<section class="row">
-<div class="col-sm-6">
-Go back to your repository homepage, e.g. your_account_name.github.io
+`github.com/your_username/your_username.github.io`
 
 To the __right__ of the repo name is a little __paper-plus icon__. Click on it to create a new file.
 </div>
