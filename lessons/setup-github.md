@@ -1,6 +1,7 @@
 ---
 layout: lesson
 title: "Setup Github"
+lesson_number: 1
 ---
 
 <section class="overview">
