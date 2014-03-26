@@ -71,6 +71,19 @@ Then type in some __plain-text__ nonsense, like: `Hello world this is my portfol
 
 <section class="row">
 <div class="col-sm-6">
+TK
+</div>
+<div class="col-sm-6">
+![howto]({{ site.baseurl }}/images/lessons/github-hello-new-index.html-post-create.png)
+</div>
+</section>
+
+
+
+
+
+<section class="row">
+<div class="col-sm-6">
 Commit the file. You can add a __commit message__ if you wish.
 
 Your repo file listing should now contain two files:
@@ -101,7 +114,7 @@ And the repo page that consists of the README file should be unchanged because y
 
 
 
-github-hello-new-index.html-post-create.png
+
 
 
 <section class="row">

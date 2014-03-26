@@ -13,3 +13,18 @@ After it's done with the magic, Github leaves us with a pile of raw text files -
 
 (And if you've ever built or maintained a website, you can probably skip this chapter entirely.)
 
+
+
+github-pages-templates-4.jpg
+github-pages-added-and-published-video-embed.jpg
+github-pages-choose-template.png
+github-pages-continue-to-layouts.png
+github-pages-customizing-index-for-template.png
+github-pages-default-template.png
+github-pages-manually-re-adding-video-embed.png
+github-pages-removed-video-embed.png
+github-pages-template-chosen.png
+github-pages-template-published.png
+github-pages-through-settings-menu.png
+simple-index-html-with-html-rendered.png
+simple-index-html-with-html.png
