@@ -142,6 +142,10 @@ The raw source (i.e. the plaintext) behind `index.html`:
 
 ## Web Publishing 101
 
+
+<section class="row">
+<div class="col-sm-6">
+
 If you've ever written a webpage from scratch, i.e. from the `<html>` to the closing `</body>` tag, you might already know the concepts (and can skip ahead). But if your Web publishing experience has been confined to posting in an "update status" box, or through your company's content-management system, or even on your own WordPress/Tumblr, then what you've just done with Github Pages __should seem very underwhelming__.
 
 And that's OK. It's underwhelming because Github Pages merely took the simple text you wrote:
@@ -152,162 +156,16 @@ And that's OK. It's underwhelming because Github Pages merely took the simple te
     ----------------------------
     http://your_username.github.io
 
-And put it on a public web server. Check out the source of the page with your browser's View Source (which you can access by Right Clicking on the page TK:
-
-![TK IMG](TKIMG)
-
-Unlike the social networks and blogging software you may have used, Github basically did nothing. It didn't publish your page, so much as it just dropped it somewhere on the Internet.
-
-If you want a properly published page, then you're going to have to write some actual code yourself, do some extra work.
-
-So why even use Github Pages, especially if you have no intention of becoming a web developer? Good question, and one I answered in the AboutTK.
-
-The tradeoff for extra work on our part is total freedom in publishing, which, if your intent was to make a special portfolio page for yourself, is something that you _think_ you want.
-
-To see what I mean by "freedom", go to your favorite Wikipedia page. Here's the one for GIF:
-
-http://TK
+&ndash; and put it on a public web server, *as is*.
 
 
-Now __view the source__; what you should see should be _text_, but the jumble of code that defines not just the content but the positioning and arrangement, i.e. the HTML.
-
-Now highlight and _copy the entire thing_
-
-And Go back to your portfolio repo and __create a new file__. You can call it something like `gif.html`
-
-And then just paste the _entire HTML source_ of the Wikipedia page into the Github file editor. That's right, the whole thing, because Wikipedia says you can.
-
-Commit the file and now go to the applicable address:
-
-username.github.io/gif.html
-
-Github Pages, again, just puts the file, as is, onto the Internet. Your page at the given address now looks like a carbon-copy of Wikipedia's entry.
-
-
-If it isn't clear how different this is than publishing through a web service, you can test it out on your own blog. Here's me pasting the contents of that page into a Wordpress blogpost:
-
-
-Wordpress is designed to handle posts, articles, not entire webpages.
-
-
-
-------------
-
-
-
-## Edit the index.html
-
-So let's end the lesson with a proper webpage at index.html. You can just copy the html below and add your own text. Below is the code for a very bare webpage, with a couple of headlines, a cat photo, and an embedded YouTube video:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-It doesn't seem like much, but this is quite a bit different than what you've done before.
-
-<section class="row">
-<div class="col-sm-6">
-lorem ipsum
+So Github Pages basically did nothing here. It "published" your `index.html` page, if plopping it raw onto the Internet counts as "published."
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/)
-</div>
-</section>
 
+![howto]({{ site.baseurl }}/images/lessons/github-raw-index-html-page.png)
 
-
-
-
-<section class="row">
-<div class="col-sm-6">
-lorem ipsum
-</div>
-<div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/)
-</div>
-</section>
-
-
-
-
-
-
-
-
-## Auto-generate index.html and template
-
-
-### Introduction to Markdown
-
-
-
-## Change up the template
-
-
-
-## Manually edit the HTML
-
-
-
-## Create index.html
-
-
-
-
-Add some text
-
-
-
-Add a commit message if you want
-
-![howto]({{ site.baseurl }}/images/lessons/github-create-new-index.html-commit.png)
-
-
-Look at the non cool webpage 
-
-    TK
-
-
-
-Revise the index.html
-
-![howto]({{ site.baseurl }}/images/lessons/github-revise-index.html.png)
-
-
-Show the index html
-
-![howto]({{ site.baseurl }}/images/lessons/github-show-revised-index.html.png)
-
-
-
-Show the source
-
-
-
-
-
-
-
-
-<section class="row">
-<div class="col-sm-6">
-lorem ipsum
-</div>
-<div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/)
+![view source]({{ site.baseurl }}/images/lessons/github-raw-index-view-source.png)
 </div>
 </section>
 
@@ -315,9 +173,245 @@ lorem ipsum
 
 <section class="row">
 <div class="col-sm-6">
-lorem ipsum
+(Again, if you have any experience with web development, you should probably skip this section).
+
+Go back to your __Github.com repo__ page (_not_ your __Github Pages__ homepage) and examine the plaintext behind `README.md`  
 </div>
+
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/)
+![README.md raw text]({{ site.baseurl }}/images/lessons/github-raw-readme-md.png)
 </div>
 </section>
+
+<section class="row">
+<div class="col-sm-6">
+Now __View Source__ of the rendered `README.md` (which, again, is visible by default on your Github.com repo page).
+
+Notice how Github turned the plaintext behind `README.md` into __actual HTML code__; hence, why the headers and link text are properly formatted.
+</div>
+
+<div class="col-sm-6">
+![README.md html source]({{ site.baseurl }}/images/lessons/github-html-source-rendered-readme-md.png)
+</div>
+</section>
+
+
+<section class="row">
+<div class="col-sm-6">
+To get a proper webpage, with real HTML and all that, we're going to have to write actual HTML ourselves.
+
+In your repo page and file-listing, click through `index.html` and click the __Edit__ button, which will let you edit `index.html` via the Github file editor.
+</div>
+
+<div class="col-sm-6">
+![Edit index.html via the Github file editor]({{ site.baseurl }}/images/lessons/github-edit-button-indexhtml.png)
+</div>
+</section>
+
+
+<section class="row">
+<div class="col-sm-6">
+Delete all the plaintext in `index.html` and replace it with some HTML. Such as:
+
+~~~html
+<html>
+  <head>
+    <title>My Homepage</title>
+  </head>
+
+
+  <body>
+    <h1>My homepage!</h1>
+    
+    <h2>
+        ;)
+    </h2>
+
+  </body>
+</html>
+~~~
+
+</div>
+
+<div class="col-sm-6">
+![Edit index.html by adding real HTML]({{ site.baseurl }}/images/lessons/github-revise-index.html.png)
+</div>
+</section>
+
+
+<section class="row">
+<div class="col-sm-6">
+
+__Commit__ your changes. These should go into effect near-instantaneously, but feel free to take a couple-minutes break.
+
+Then revisit your __Github Pages__ homepage, e.g.
+
+`http://your_username.github.io`
+
+Pretty plain, but at least it's a bonafide webpage; notice those properly-formatted `h1` and `h2` header tags.
+</div>
+
+<div class="col-sm-6">
+![The new index.html]({{ site.baseurl }}/images/lessons/simple-index-html-with-html-rendered.png)
+</div>
+</section>
+
+
+
+
+## Web publishing, with ease and brevity
+<section class="row">
+<div class="col-sm-6">
+So why even use Github Pages, especially if you have no intention of becoming a web developer or even learning basic HTML? 
+
+Good question. The simple answer is: In web publishing, as in basically every life choice, you have a tradeoff between:
+
+1. Power and control
+2. Ease and brevity
+
+__Github Pages__ sits more on the __power-and-control__-side of the spectrum. If you want to put something on the Web, Github Pages lets you do it from your web browser, rather than the traditional route of setting up your own FTP/Apache server (and by using Github Pages, you're trading the power and control you have by setting up your own web server).
+</div>
+
+<div class="col-sm-6">
+TKIMG
+![The new index.html]({{ site.baseurl }}/images/lessons/)
+</div>
+</section>
+
+<section class="row">
+<div class="col-sm-6">
+With a service such as WordPress, you get the _ease_ of creating web content with a __rich-text editor__, similar to a traditional word-processor.
+
+When you hit __Publish Post__, WordPress takes care of wrapping your post content in HTML code and putting it in a reasonably pretty container. The tradeoff is that you can't (_easily_) break out of those boundaries, not with out learning enough code to hack around WordPress. 
+</div>
+
+<div class="col-sm-6">
+TKIMG
+![The new index.html]({{ site.baseurl }}/images/lessons/)
+</div>
+</section>
+
+
+<section class="row">
+<div class="col-sm-6">
+It took me about five minutes to create a new blog on [WordPress.com](http://wordpress.com), pick a pre-built theme ([ThemeTrust's "McKinley"](http://wordpress.org/themes/mckinley)), and create a new post, with a headline, text, link, blockquote, and even some tags.
+</div>
+
+<div class="col-sm-6">
+TKIMG
+![The new index.html]({{ site.baseurl }}/images/lessons/)
+</div>
+</section>
+
+<section class="row">
+<div class="col-sm-6">
+WordPress helpfully formats my post and fits it inside the pretty McKinley theme I've chosen. Check out the live version and notice all the niceties that WordPress adds, such as  making "Albert Einstein" a clickable link. And notice the extras: the tags are also clickable-links, a date has been added to the post, there are __Share this:__ social buttons, and ooh, a courteous notice that my post might show ads, because I am, after all, using WordPress's _free_ service.
+</div>
+
+<div class="col-sm-6">
+TKIMG
+![The new index.html]({{ site.baseurl }}/images/lessons/)
+</div>
+</section>
+
+
+
+<section class="row">
+<div class="col-sm-6">
+If you want, you can go back to your __Github.com repo page__ and create a new file, like: `blog-post.html`, and add the same content that I've added to my WordPress post. Commit the new `blog-post.html` file, which will be auto-published by __Github Pages__, and visit it at:
+
+`your_username.github.io/blog-post.html`
+
+And again, Github Pages does basically nothing.
+
+</div>
+
+<div class="col-sm-6">
+TKIMG
+![The new index.html]({{ site.baseurl }}/images/lessons/)
+</div>
+</section>
+
+
+
+
+## Web publishing, with power and control
+<section class="row">
+<div class="col-sm-6">
+OK, now let's see the advantages of having the __power-and-control__ of Github Pages.
+</div>
+<div class="col-sm-6">
+TKIMG
+![The new index.html]({{ site.baseurl }}/images/lessons/)
+</div>
+</section>
+
+
+<section class="row">
+<div class="col-sm-6">
+Visit the Wikipedia page for GIF:
+
+[http://en.wikipedia.org/wiki/GIF](http://en.wikipedia.org/wiki/GIF)
+
+</div>
+<div class="col-sm-6">
+TKIMG
+![The new index.html]({{ site.baseurl }}/images/lessons/)
+</div>
+</section>
+
+
+<section class="row">
+<div class="col-sm-6">
+__View Source__ of the Wikipedia entry on GIF, and then __Select All__ the code and __Copy__ it to your clipboard (i.e. via __Ctrl-C__ or __Cmd-C__)
+</div>
+<div class="col-sm-6">
+TKIMG
+![The new index.html]({{ site.baseurl }}/images/lessons/)
+</div>
+</section>
+
+
+<section class="row">
+<div class="col-sm-6">
+If you have a WordPress blog, you can follow along as I try to paste this massive chunk of HTML code into the WordPress post editor (in the raw __Text mode__, not the __Visual mode__)
+</div>
+<div class="col-sm-6">
+TKIMG
+![The new index.html]({{ site.baseurl }}/images/lessons/)
+</div>
+</section>
+
+
+<section class="row">
+<div class="col-sm-6">
+_Some_ of the raw HTML is interpreted correctly, but we lose all of the styling of Wikipedia. And for much of the HTML code, WordPress just basically barfs it out as raw text, because by having a user-friendly interface, WordPress necessarily has to make assumptions about what users often mistakenly copy-and-paste, and these assumptions end up being _restrictions_, to some degree.
+
+You can see the attempted [raw-Wikipedia-HTML-as-WordPress-blog-post on my sample blog](http://dantnguyen.wordpress.com/2014/04/02/wikipedia-gif-entry/)
+.
+</div>
+<div class="col-sm-6">
+TKIMG
+![The new index.html]({{ site.baseurl }}/images/lessons/)
+</div>
+</section>
+
+
+
+<section class="row">
+<div class="col-sm-6">
+Now post that same raw Wikipedia HTML into a new file in your Github repo, e.g. `wiki-gif.html`
+
+Wait a second for Github Pages to auto-publish that page and visit it at the expected URL:
+
+`http://your_username.github.io/wiki-gif.html`
+
+
+</div>
+<div class="col-sm-6">
+TKIMG
+![The new index.html]({{ site.baseurl }}/images/lessons/)
+</div>
+</section>
+
+
