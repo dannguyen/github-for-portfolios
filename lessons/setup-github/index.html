@@ -3,13 +3,13 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Lesson 1. Setup Github</title>
+        <title>Setup Github</title>
         <meta name="viewport" content="width=device-width">
 
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/github-for-portfolios/assets/bootstrap.min-0861a3185a34639ecfdb83159e672d33.css">
-        <link rel="stylesheet" href="/github-for-portfolios/assets/main-331f1916ae6e5fbb43d8d56ba0414b8f.css">
+        <link rel="stylesheet" href="/github-for-portfolios/assets/bootstrap.min-344dc9bf034f34ea6ca892fe97eaaa35.css">
+        <link rel="stylesheet" href="/github-for-portfolios/assets/main-195fb80ab8368317e53ec707075a9120.css">
 
     </head>
     <body>
@@ -17,7 +17,7 @@
 <header class="header">
 
     <div class="container">
-            <h1 class="title"><a href="/github-for-portfolios/">How to Build a Portfolio on Github</a></h1>
+            <div class="site-title"><a href="/github-for-portfolios/">Creating Simple Web Portfolios using Github Pages</a></div>
     </div>
 </header>
 
@@ -25,10 +25,23 @@
 <div class="container">
 
 
-          <h1>Lesson 1. Setup Github</h1>
+          <article class="lesson">
 
-<article class="lesson">
 
+<div class="title">
+  <div class="lesson-number">Lesson 1</div>
+  <h1>Setup Github</h1>
+</div>
+
+<section class="overview">
+
+  <p>The purpose of this tutorial is to create a webpage, but this chapter is just about through the motions that are specific to Github, such as creating an account and how to do a few things. If you’ve ever used a social network, you know this dance. You hand over your email address, set a password, and now you have an account.</p>
+
+  <p>And Github is no different. The terminology on Github is different, but in the end, it’s conceptually no different than starting a new Facebook account, creating a new photo album, and uploading a few photos.</p>
+
+  <p>Again, we won’t be building a webpage of our own in <em>this</em> lesson, but just learning Github.</p>
+
+</section>
 
 <h2 id="create-a-github-account">Create a Github account</h2>
 
@@ -172,15 +185,47 @@ any filename you want. But let’s stick with <code>README.md</code></p>
 a simplified, human-friendly version of HTML.</p>
 
     <p>I <em>highly</em> recommend <a href="http://guides.github.com/overviews/mastering-markdown/">learning Markdown at some point</a>, 
-but the upshot here is that you can type in any text you want, it doesn’t have to be code. If you already know HTML, you can
-write some now. But to get a taste of how Markdown works, just type in text as if it were a plain-text editor.</p>
-
-    <p>Besides plain text, paste in a few URLs (<em>sans</em> <code>&lt;a&gt; tags</code>), such as the link to your repo page and Github account page.</p>
+but the upshot here is that you can type in any text you want, it doesn’t have to be code. </p>
 
   </div>
   <div class="col-sm-6">
     <p><img src="/github-for-portfolios/images/lessons/github-editor-markdown-sample.png" alt="howto" />
 <br /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-4">
+    <p>If you already know HTML, you can
+write some now. But to get a taste of how Markdown works, just type in text as if it were a plain-text editor.</p>
+
+    <p>Besides plain text, paste in a few URLs (<em>sans</em> <code>&lt;a&gt; tags</code>), such as the link to your repo page and Github account page.</p>
+  </div>
+  <div class="col-sm-8">
+
+    <p>You can paste in the following (and edit to your specific case):</p>
+
+    <div><div class="CodeRay">
+  <div class="code"><pre>dantnguyen.github.io
+====================
+
+## Hello world!
+
+This is my first try at github!
+
+My Github user page is at: 
+https://github.com/dantnguyen/
+
+My Github Pages repo can be found at:  
+https://github.com/dantnguyen/dantnguyen.github.io/
+
+And, soon, you can see my customized homepage at:
+
+http://dantnguyen.github.io/
+</pre></div>
+</div>
+    </div>
+
   </div>
 </section>
 
@@ -195,7 +240,7 @@ write some now. But to get a taste of how Markdown works, just type in text as i
 
 <section class="row">
   <div class="col-sm-6">
-    <p>After creating the file, you’ll be taken back to your portfolio repo’s homepage, which now contains one file: <code>README.md</code></p>
+    <p>After creating the file, you’ll be shown the results of your commit: a new file named <code>README.md</code> in your repo.</p>
 
     <p>Besides creating and adding the <code>README.md</code> file to the repo, that <strong>Commit new file</strong> action has  helpfully recorded some useful metadata, including when the “commit” took place and a short description: <code>Create README.md</code>. </p>
 
@@ -203,7 +248,7 @@ write some now. But to get a taste of how Markdown works, just type in text as i
 
   </div>
   <div class="col-sm-6">
-    <p><img src="/github-for-portfolios/images/lessons/github-commit-readme.png" alt="howto" /></p>
+    <p><img src="/github-for-portfolios/images/lessons/github-readme-exists.png" alt="howto" /></p>
   </div>
 </section>
 
@@ -218,10 +263,38 @@ write some now. But to get a taste of how Markdown works, just type in text as i
   </div>
 </section>
 
-<p>The readme now exists</p>
+<section class="row">
+  <div class="col-sm-6">
+    <p>Note the URL:</p>
 
-<p><img src="/github-for-portfolios/images/lessons/github-readme-exists.png" alt="howto" /></p>
+    <p><code>github.com/dantnguyen/dantnguyen.github.io/tree/master</code></p>
 
+    <p>The repo path should be familar:</p>
+
+    <p><code>github.com/dantnguyen/dantnguyen.github.io/</code></p>
+
+    <p>The rest of it – <code>tree/master</code> – is a reflection of how <code>git</code> <a href="http://git-scm.com/book/en/Git-Internals-Git-Objects#Tree-Objects">internally tracks and stores files in a <em>tree</em> structure</a>.</p>
+
+    <p>We’re not going to cover the internals of git in this tutorial, so for now keep thinking of your project repo as any other file folder you’ve maintained. You can always get to the root of your repo at this URL:</p>
+
+    <p><code>http://github.com/your_username/your_username.github.io/</code></p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-post-readme-tree-master.png" alt="howto" /></p>
+
+    <p>For <em>our limited purposes</em>, this is functionally the same repo page:</p>
+
+    <p><img src="/github-for-portfolios/images/lessons/github-base-repo-url-sans-tree-master.png" alt="howto" /></p>
+  </div>
+</section>
+
+<h2 id="wrapping-up">Wrapping up</h2>
+
+<ul>
+  <li>Created a Github account</li>
+  <li>Created a repository that will contain the files for your portfolio website</li>
+  <li>Created a file in the repo</li>
+</ul>
 
 
 
@@ -232,24 +305,22 @@ write some now. But to get a taste of how Markdown works, just type in text as i
 </div>
 
 
-          <footer class="footer">
+<footer class="footer">
 <div class="container">
-            <div class="contact">
-              <p>
-                Dan Nguyen<br />
-                Portfolio Maker<br />
-                danwin.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/dannguyen">github.com/dannguyen</a><br />
-                <a href="https://twitter.com/dancow">twitter.com/dancow</a><br />
-              </p>
-            </div>
+    <div class="contact">
+      <p>
+        By <a href="http://danwin.com">Dan Nguyen</a> | <a href="https://twitter.com/dancow">@dancow</a><br />
 
+      </p>
+    </div>
+
+
+    <div>
+      <p>Fork <a href="//github.com/dannguyen/github-for-portfolios">this tutorial on Github</a></p>
+
+    </div>
 </div>
-          </footer>
+</footer>
 
 
 

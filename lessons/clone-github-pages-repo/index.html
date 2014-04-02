@@ -8,8 +8,8 @@
 
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/github-for-portfolios/assets/bootstrap.min-0861a3185a34639ecfdb83159e672d33.css">
-        <link rel="stylesheet" href="/github-for-portfolios/assets/main-331f1916ae6e5fbb43d8d56ba0414b8f.css">
+        <link rel="stylesheet" href="/github-for-portfolios/assets/bootstrap.min-344dc9bf034f34ea6ca892fe97eaaa35.css">
+        <link rel="stylesheet" href="/github-for-portfolios/assets/main-195fb80ab8368317e53ec707075a9120.css">
 
     </head>
     <body>
@@ -17,7 +17,7 @@
 <header class="header">
 
     <div class="container">
-            <h1 class="title"><a href="/github-for-portfolios/">How to Build a Portfolio on Github</a></h1>
+            <div class="site-title"><a href="/github-for-portfolios/">Creating Simple Web Portfolios using Github Pages</a></div>
     </div>
 </header>
 
@@ -25,22 +25,262 @@
 <div class="container">
 
 
-          <h1>Lesson 3. Clone, Edit, Commit, and Push</h1>
+          <article class="lesson">
 
-<article class="lesson">
 
+<div class="title">
+  <div class="lesson-number">Lesson </div>
+  <h1>Lesson 3. Clone, Edit, Commit, and Push</h1>
+</div>
 
 <h2 id="download-the-github-application">Download the Github application</h2>
 
-<h2 id="clone-the-repo">Clone the repo</h2>
+<section class="row">
+  <div class="col-sm-6">
+    <p>Show link on Github.com</p>
+  </div>
+  <div class="col-sm-6">
+    <p>![howto]({“source”=&gt;”.”, “destination”=&gt;”_site”, “plugins”=&gt;”_plugins”, “layouts”=&gt;”_layouts”, “data_source”=&gt;”_data”, “keep_files”=&gt;[“.git”, “.svn”], “gems”=&gt;[], “timezone”=&gt;nil, “encoding”=&gt;nil, “safe”=&gt;false, “detach”=&gt;false, “show_drafts”=&gt;nil, “limit_posts”=&gt;0, “lsi”=&gt;false, “future”=&gt;true, “pygments”=&gt;true, “relative_permalinks”=&gt;true, “markdown”=&gt;”kramdown”, “permalink”=&gt;”pretty”, “baseurl”=&gt;”/github-for-portfolios”, “include”=&gt;[“.htaccess”], “exclude”=&gt;[“Gemfile”, “Gemfile.lock”, “Rakefile”, “README.md”], “paginate_path”=&gt;”/page:num”, “markdown_ext”=&gt;”markdown,mkd,mkdn,md”, “textile_ext”=&gt;”textile”, “port”=&gt;”4000”, “host”=&gt;”0.0.0.0”, “excerpt_separator”=&gt;”\n\n”, “maruku”=&gt;{“fenced_code_blocks”=&gt;true, “use_tex”=&gt;false, “use_divs”=&gt;false, “png_engine”=&gt;”blahtex”, “png_dir”=&gt;”images/latex”, “png_url”=&gt;”/images/latex”}, “rdiscount”=&gt;{“extensions”=&gt;[]}, “redcarpet”=&gt;{“extensions”=&gt;[]}, “kramdown”=&gt;{“auto_ids”=&gt;true, “footnote_nr”=&gt;1, “entity_output”=&gt;”as_char”, “toc_levels”=&gt;”1..6”, “smart_quotes”=&gt;”lsquo,rsquo,ldquo,rdquo”, “use_coderay”=&gt;false, “coderay”=&gt;{“coderay_wrap”=&gt;”div”, “coderay_line_numbers”=&gt;”inline”, “coderay_line_number_start”=&gt;1, “coderay_tab_width”=&gt;4, “coderay_bold_every”=&gt;10, “coderay_css”=&gt;”style”}, “parse_block_html”=&gt;true, “coderay_line_numbers”=&gt;”nil”}, “redcloth”=&gt;{“hard_breaks”=&gt;true}, “name”=&gt;”Creating Simple Web Portfolios using Github Pages”, “repourl”=&gt;”dannguyen/github-for-portfolios”, “assets”=&gt;{“baseurl”=&gt;”/github-for-portfolios/assets”, “css_compressor”=&gt;”sass”}, “time”=&gt;2014-04-01 22:02:58 -0400, “posts”=&gt;[], “pages”=&gt;[#&lt;Jekyll:Page @name=”index.md”&gt;, #&lt;Jekyll:Page @name=”clone-github-pages-repo.md”&gt;, #&lt;Jekyll:Page @name=”deploy-github-pages.md”&gt;, #&lt;Jekyll:Page @name=”premanufactured-github-pages.md”&gt;, #&lt;Jekyll:Page @name=”remove-rebuild-recommit.md”&gt;, #&lt;Jekyll:Page @name=”setup-github.md”&gt;], “html_pages”=&gt;[#&lt;Jekyll:Page @name=”index.md”&gt;, #&lt;Jekyll:Page @name=”clone-github-pages-repo.md”&gt;, #&lt;Jekyll:Page @name=”deploy-github-pages.md”&gt;, #&lt;Jekyll:Page @name=”premanufactured-github-pages.md”&gt;, #&lt;Jekyll:Page @name=”remove-rebuild-recommit.md”&gt;, #&lt;Jekyll:Page @name=”setup-github.md”&gt;], “categories”=&gt;{}, “tags”=&gt;{}, “data”=&gt;{}}/images/lessons/)</p>
+  </div>
+</section>
 
-<h2 id="explore-the-file-system">Explore the file system</h2>
+<section class="row">
+  <div class="col-sm-6">
 
-<h3 id="edit-a-file">Edit a file</h3>
+    <p>Find the zip file in your <strong>Downloads</strong> folder</p>
 
-<h2 id="commit">Commit</h2>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-zip-in-downloads.png" alt="howto" /></p>
+  </div>
+</section>
 
-<h2 id="push">Push</h2>
+<section class="row">
+  <div class="col-sm-6">
+    <p>Double-click on the zip file which will produce a <strong>Github.app</strong> file. You can move this file to your <strong>Applications</strong> folder, or just double-click it and the app will offer to move itself for you.</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-app-opened.png" alt="howto" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>The app should ask you to sign with your Github credentials so that it can sync with Github.com. You’ll see TK.</p>
+
+  </div>
+  <div class="col-sm-6">
+
+    <p><img src="/github-for-portfolios/images/lessons/github-app-show-account.png" alt="howto" /></p>
+  </div>
+</section>
+
+<h2 id="clone-a-repo">Clone a repo</h2>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>A little Git terminology: the term <strong>clone</strong> refers to a <strong>git</strong> function that makes an entirely new copy of a repo. At the most basic level, this is no different than stashing a project folder on a USB drive or Dropbox and allowing collaborators to copy it onto their own computer.</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-app-clone-specific-repo.png" alt="howto" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>Part of cloning a repo is you also clone the <strong>git</strong> activity, i.e. the history of changes so far.</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-app-show-history-so-far.png" alt="howto" /></p>
+
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>text</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-app-cloned-repo-list.png" alt="Show in Finder" /></p>
+
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>After cloning the repo, you’ll see a new file folder with the same name as the repo. </p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/local-download-folder.png" alt="The repo downloaded to our computer" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>Go ahead and open the repo folder. If you weren’t convinced that a git repo is pretty much like any file folder, here’s the proof.</p>
+
+    <p>You can visit the repo page on Github to confirm that the files are the same. The takeaway here is that Github.com can be seen, for our purposes, as a website that stores a copy of our project and allows us to peruse it via a web browser. But at any time, we can make an exact copy of the repo and distribute our files as we please.</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/local-repo-file-listing.png" alt="The local repo's listing of files compared to Github's" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>Go ahead and click through the files. The images should open in your native image editor, text files in your text editor, and so forth.</p>
+
+    <p>I’ve chosen to open the <code>index.html</code> file in my own text-editor to change the YouTube embed code.</p>
+
+    <p>This is functionally no different than just editing <code>index.html</code> (and <code>README.md</code>) in the web browser, as we’ve done previously. Except that the file is <em>only updated on our computer</em>. Again, we’re working on a <em>clone</em> of the project repo, which now exists independently of the copy on Github.com. </p>
+
+    <p>Just as if you gave a haircut to an identical (human) twin, the hair on the other twin doesn’t automatically update, so do our file changes not automatically propogate to all the other cloned repos.</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/editing-index-html-youtube-embed.png" alt="Editing the youtube embed code" /></p>
+  </div>
+</section>
+
+<h2 id="committing-changes-to-our-local-repo">Committing changes to our local repo</h2>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>So it’s nice that we can make changes to our cloned repo without screwing up work that we’ve stored on Github.com. <em>However</em>, the repo on Github.com is the one that gets published via <strong>Github Pages</strong>.</p>
+
+    <p>And if we want our <em>local</em> changes to make it online, we need to <strong>sync</strong> our local repo with the Github.com repo.</p>
+
+    <p>The first step is to <strong>commit</strong> our changes. Click the <strong>Changes</strong> tab (in the Github app’s side-menu). Since I edited my <code>index.html</code>, this screen shows me that I have changes to <code>index.html</code> to commit. On the right-hand side, the Github app shows me the <strong>diff</strong> of <code>index.html</code>, that is, what I’ve cut out (in <span style="color: #900;">red</span>) and what I’ve added (in <span style="color:#0a0">green</span>)</p>
+
+    <p>Everytime you make changes to your local repo, the Github app (which continuously monitors that file folder) will update and show the changes. Try it out for yourself.</p>
+
+    <p>Then enter a commit message and press the <strong>Commit</strong> button.</p>
+
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-app-showing-index-html-diff.png" alt="Github app showing the diff" /></p>
+  </div>
+</section>
+
+<h2 id="syncing-with-githubcom">Syncing with Github.com</h2>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>When we edited files on Github.com, pressing <strong>Commit</strong> meant that the changes were saved and reflected online.</p>
+
+    <p>Things happen a little differently in our <strong>local file system</strong>. First of all, anytime you hit <strong>Save</strong>, such as in your text-editor, you are still saving the file – being inside a git repo doesn’t change that.</p>
+
+    <p>So what does <strong>commit</strong> actually mean in the <strong>local</strong> context? We’re basically telling <strong>git</strong> (through the friendly Github app user-interface): “Here’s a snapshot of my project, please note the changes”. But we haven’t yet said: “Now make these changes appear on Github.com”</p>
+
+    <p>After pressing the <strong>Commit</strong> button, you should notice that the bottom half of the app has a section for <strong>Unsynced Commits</strong>. It means exactly what you might think: these fresh <em>commits</em> need to be <em>synced</em> with Github.com.</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-app-post-commit.png" alt="After pressing commit" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>So press the big <strong>Sync</strong> button. You may get a request from the Github app to use the credentials you have set for your Github.com account.</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-app-asking-for-permission.png" alt="Granting permissions" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>After a few seconds, you’ll see that the sections for <strong>Uncommitted Changes</strong> and <strong>Unsynced Commits</strong> are now empty, indicating that the sync action has finished.</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-app-post-sync.png" alt="After syncing to server" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>In the <strong>Github app</strong>, check out the <strong>History</strong> tab, which will now list the latest commit.</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-app-showing-history.png" alt="Looking at the history" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>Now visit your <strong>Github.com repo page</strong> which will also show the synced files. In my case, the only file I changed was <code>index.html</code></p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-site-showing-sync-and-message.png" alt="Github site showing latest commit and message" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>Finally, visit your home on Github Pages, e.g. <code>http://your_username.github.io</code>, to see the changes you’ve made to <code>index.html</code></p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/screenshot-of-new-youtube-embed-on-site.jpg" alt="howto" /></p>
+  </div>
+</section>
+
+<section class="overview">
+  <p>If you haven’t been too confused by this new procedure, you might have noticed that, despite walking through all these different steps, we <em>did not gain any new functionality</em>.</p>
+
+  <p>That is, downloading the Github app, editing a file via text editor, and then syncing it, gave us no different a situation than as if we just edited the file directly on Github.com.</p>
+
+  <p>So why even download the Github app and clone the repo? For one thing, in most non-trivial projects, you’ll be editing more than one file at a time, and it’s usually easier to do this on your computer’s own text-editor than via the Github.com file editor.</p>
+
+  <p>Second, Github.com does not allow us (yet) to add <strong>non-text</strong> files via the web browser. And even if it did, it probably wouldn’t be easier than drag-and-droping files on our own operating system and file folders.</p>
+
+  <p>So by learning how to use the Github app and cloning the repo, we’ve made the process a bit more complicated, but we’ve also gained more flexibility in what we can add to our web project.</p>
+</section>
+
+<h2 id="uploading-new-files">Uploading new files</h2>
+<section class="row">
+  <div class="col-sm-6">
+
+  </div>
+  <div class="col-sm-6">
+
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>TK</p>
+  </div>
+  <div class="col-sm-6">
+
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>TK</p>
+  </div>
+  <div class="col-sm-6">
+
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>TK</p>
+  </div>
+  <div class="col-sm-6">
+
+  </div>
+</section>
+
+<p><img src="/github-for-portfolios/images/lessons/" alt="howto" /></p>
+
+<p><img src="/github-for-portfolios/images/lessons/" alt="howto" />
+<img src="/github-for-portfolios/images/lessons/" alt="howto" />
+<img src="/github-for-portfolios/images/lessons/" alt="howto" />
+<img src="/github-for-portfolios/images/lessons/" alt="howto" /></p>
+
+<p><img src="/github-for-portfolios/images/lessons/" alt="howto" /></p>
+
 
 
 
@@ -51,24 +291,22 @@
 </div>
 
 
-          <footer class="footer">
+<footer class="footer">
 <div class="container">
-            <div class="contact">
-              <p>
-                Dan Nguyen<br />
-                Portfolio Maker<br />
-                danwin.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/dannguyen">github.com/dannguyen</a><br />
-                <a href="https://twitter.com/dancow">twitter.com/dancow</a><br />
-              </p>
-            </div>
+    <div class="contact">
+      <p>
+        By <a href="http://danwin.com">Dan Nguyen</a> | <a href="https://twitter.com/dancow">@dancow</a><br />
 
+      </p>
+    </div>
+
+
+    <div>
+      <p>Fork <a href="//github.com/dannguyen/github-for-portfolios">this tutorial on Github</a></p>
+
+    </div>
 </div>
-          </footer>
+</footer>
 
 
 
