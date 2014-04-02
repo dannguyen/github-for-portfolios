@@ -151,125 +151,261 @@ exactly what you entered into the Github file editor.</p>
 
 <h2 id="web-publishing-101">Web Publishing 101</h2>
 
-<p>If you’ve ever written a webpage from scratch, i.e. from the <code>&lt;html&gt;</code> to the closing <code>&lt;/body&gt;</code> tag, you might already know the concepts (and can skip ahead). But if your Web publishing experience has been confined to posting in an “update status” box, or through your company’s content-management system, or even on your own WordPress/Tumblr, then what you’ve just done with Github Pages <strong>should seem very underwhelming</strong>.</p>
+<section class="row">
+  <div class="col-sm-6">
 
-<p>And that’s OK. It’s underwhelming because Github Pages merely took the simple text you wrote:</p>
+    <p>If you’ve ever written a webpage from scratch, i.e. from the <code>&lt;html&gt;</code> to the closing <code>&lt;/body&gt;</code> tag, you might already know the concepts (and can skip ahead). But if your Web publishing experience has been confined to posting in an “update status” box, or through your company’s content-management system, or even on your own WordPress/Tumblr, then what you’ve just done with Github Pages <strong>should seem very underwhelming</strong>.</p>
 
-<pre><code>Hello world check out my homepage!
+    <p>And that’s OK. It’s underwhelming because Github Pages merely took the simple text you wrote:</p>
+
+    <pre><code>Hello world check out my homepage!
 
 
 ----------------------------
 http://your_username.github.io
 </code></pre>
 
-<p>And put it on a public web server. Check out the source of the page with your browser’s View Source (which you can access by Right Clicking on the page TK:</p>
+    <p>– and put it on a public web server, <em>as is</em>.</p>
 
-<p><img src="TKIMG" alt="TK IMG" /></p>
-
-<p>Unlike the social networks and blogging software you may have used, Github basically did nothing. It didn’t publish your page, so much as it just dropped it somewhere on the Internet.</p>
-
-<p>If you want a properly published page, then you’re going to have to write some actual code yourself, do some extra work.</p>
-
-<p>So why even use Github Pages, especially if you have no intention of becoming a web developer? Good question, and one I answered in the AboutTK.</p>
-
-<p>The tradeoff for extra work on our part is total freedom in publishing, which, if your intent was to make a special portfolio page for yourself, is something that you <em>think</em> you want.</p>
-
-<p>To see what I mean by “freedom”, go to your favorite Wikipedia page. Here’s the one for GIF:</p>
-
-<p>http://TK</p>
-
-<p>Now <strong>view the source</strong>; what you should see should be <em>text</em>, but the jumble of code that defines not just the content but the positioning and arrangement, i.e. the HTML.</p>
-
-<p>Now highlight and <em>copy the entire thing</em></p>
-
-<p>And Go back to your portfolio repo and <strong>create a new file</strong>. You can call it something like <code>gif.html</code></p>
-
-<p>And then just paste the <em>entire HTML source</em> of the Wikipedia page into the Github file editor. That’s right, the whole thing, because Wikipedia says you can.</p>
-
-<p>Commit the file and now go to the applicable address:</p>
-
-<p>username.github.io/gif.html</p>
-
-<p>Github Pages, again, just puts the file, as is, onto the Internet. Your page at the given address now looks like a carbon-copy of Wikipedia’s entry.</p>
-
-<p>If it isn’t clear how different this is than publishing through a web service, you can test it out on your own blog. Here’s me pasting the contents of that page into a Wordpress blogpost:</p>
-
-<p>Wordpress is designed to handle posts, articles, not entire webpages.</p>
-
-<hr />
-
-<h2 id="edit-the-indexhtml">Edit the index.html</h2>
-
-<p>So let’s end the lesson with a proper webpage at index.html. You can just copy the html below and add your own text. Below is the code for a very bare webpage, with a couple of headlines, a cat photo, and an embedded YouTube video:</p>
-
-<p>It doesn’t seem like much, but this is quite a bit different than what you’ve done before.</p>
-
-<section class="row">
-  <div class="col-sm-6">
-    <p>lorem ipsum</p>
+    <p>So Github Pages basically did nothing here. It “published” your <code>index.html</code> page, if plopping it raw onto the Internet counts as “published.”</p>
   </div>
   <div class="col-sm-6">
-    <p><img src="/github-for-portfolios/images/lessons/" alt="howto" /></p>
+
+    <p><img src="/github-for-portfolios/images/lessons/github-raw-index-html-page.png" alt="howto" /></p>
+
+    <p><img src="/github-for-portfolios/images/lessons/github-raw-index-view-source.png" alt="view source" /></p>
   </div>
 </section>
 
 <section class="row">
   <div class="col-sm-6">
-    <p>lorem ipsum</p>
+    <p>(Again, if you have any experience with web development, you should probably skip this section).</p>
+
+    <p>Go back to your <strong>Github.com repo</strong> page (<em>not</em> your <strong>Github Pages</strong> homepage) and examine the plaintext behind <code>README.md</code>  </p>
   </div>
+
   <div class="col-sm-6">
-    <p><img src="/github-for-portfolios/images/lessons/" alt="howto" /></p>
-  </div>
-</section>
-
-<h2 id="auto-generate-indexhtml-and-template">Auto-generate index.html and template</h2>
-
-<h3 id="introduction-to-markdown">Introduction to Markdown</h3>
-
-<h2 id="change-up-the-template">Change up the template</h2>
-
-<h2 id="manually-edit-the-html">Manually edit the HTML</h2>
-
-<h2 id="create-indexhtml-1">Create index.html</h2>
-
-<p>Add some text</p>
-
-<p>Add a commit message if you want</p>
-
-<p><img src="/github-for-portfolios/images/lessons/github-create-new-index.html-commit.png" alt="howto" /></p>
-
-<p>Look at the non cool webpage </p>
-
-<pre><code>TK
-</code></pre>
-
-<p>Revise the index.html</p>
-
-<p><img src="/github-for-portfolios/images/lessons/github-revise-index.html.png" alt="howto" /></p>
-
-<p>Show the index html</p>
-
-<p><img src="/github-for-portfolios/images/lessons/github-show-revised-index.html.png" alt="howto" /></p>
-
-<p>Show the source</p>
-
-<section class="row">
-  <div class="col-sm-6">
-    <p>lorem ipsum</p>
-  </div>
-  <div class="col-sm-6">
-    <p><img src="/github-for-portfolios/images/lessons/" alt="howto" /></p>
+    <p><img src="/github-for-portfolios/images/lessons/github-raw-readme-md.png" alt="README.md raw text" /></p>
   </div>
 </section>
 
 <section class="row">
   <div class="col-sm-6">
-    <p>lorem ipsum</p>
+    <p>Now <strong>View Source</strong> of the rendered <code>README.md</code> (which, again, is visible by default on your Github.com repo page).</p>
+
+    <p>Notice how Github turned the plaintext behind <code>README.md</code> into <strong>actual HTML code</strong>; hence, why the headers and link text are properly formatted.</p>
   </div>
+
   <div class="col-sm-6">
-    <p><img src="/github-for-portfolios/images/lessons/" alt="howto" /></p>
+    <p><img src="/github-for-portfolios/images/lessons/github-html-source-rendered-readme-md.png" alt="README.md html source" /></p>
   </div>
 </section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>To get a proper webpage, with real HTML and all that, we’re going to have to write actual HTML ourselves.</p>
+
+    <p>In your repo page and file-listing, click through <code>index.html</code> and click the <strong>Edit</strong> button, which will let you edit <code>index.html</code> via the Github file editor.</p>
+  </div>
+
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-edit-button-indexhtml.png" alt="Edit index.html via the Github file editor" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>Delete all the plaintext in <code>index.html</code> and replace it with some HTML. Such as:</p>
+
+    <div><div class="CodeRay">
+  <div class="code"><pre><span style="color:#070;font-weight:bold">&lt;html&gt;</span>
+  <span style="color:#070;font-weight:bold">&lt;head&gt;</span>
+    <span style="color:#070;font-weight:bold">&lt;title&gt;</span>My Homepage<span style="color:#070;font-weight:bold">&lt;/title&gt;</span>
+  <span style="color:#070;font-weight:bold">&lt;/head&gt;</span>
+
+
+  <span style="color:#070;font-weight:bold">&lt;body&gt;</span>
+    <span style="color:#070;font-weight:bold">&lt;h1&gt;</span>My homepage!<span style="color:#070;font-weight:bold">&lt;/h1&gt;</span>
+    
+    <span style="color:#070;font-weight:bold">&lt;h2&gt;</span>
+        ;)
+    <span style="color:#070;font-weight:bold">&lt;/h2&gt;</span>
+
+  <span style="color:#070;font-weight:bold">&lt;/body&gt;</span>
+<span style="color:#070;font-weight:bold">&lt;/html&gt;</span>
+</pre></div>
+</div>
+    </div>
+
+  </div>
+
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-revise-index.html.png" alt="Edit index.html by adding real HTML" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+
+    <p><strong>Commit</strong> your changes. These should go into effect near-instantaneously, but feel free to take a couple-minutes break.</p>
+
+    <p>Then revisit your <strong>Github Pages</strong> homepage, e.g.</p>
+
+    <p><code>http://your_username.github.io</code></p>
+
+    <p>Pretty plain, but at least it’s a bonafide webpage; notice those properly-formatted <code>h1</code> and <code>h2</code> header tags.</p>
+  </div>
+
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/simple-index-html-with-html-rendered.png" alt="The new index.html" /></p>
+  </div>
+</section>
+
+<h2 id="web-publishing-with-ease-and-brevity">Web publishing, with ease and brevity</h2>
+<section class="row">
+  <div class="col-sm-6">
+    <p>So why even use Github Pages, especially if you have no intention of becoming a web developer or even learning basic HTML? </p>
+
+    <p>Good question. The simple answer is: In web publishing, as in basically every life choice, you have a tradeoff between:</p>
+
+    <ol>
+      <li>Power and control</li>
+      <li>Ease and brevity</li>
+    </ol>
+
+    <p><strong>Github Pages</strong> sits more on the <strong>power-and-control</strong>-side of the spectrum. If you want to put something on the Web, Github Pages lets you do it from your web browser, rather than the traditional route of setting up your own FTP/Apache server (and by using Github Pages, you’re trading the power and control you have by setting up your own web server).</p>
+  </div>
+
+  <div class="col-sm-6">
+    <p>TKIMG
+<img src="/github-for-portfolios/images/lessons/" alt="The new index.html" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>With a service such as <a href="http://wordpress.com">WordPress</a>, you get the <em>ease</em> of creating web content with a <strong>rich-text editor</strong>, similar to a traditional word-processor.</p>
+
+    <p>When you hit <strong>Publish Post</strong>, WordPress takes care of wrapping your post content in HTML code and putting it in a reasonably pretty container. The tradeoff is that you can’t (<em>easily</em>) break out of those boundaries, not with out learning enough code to hack around WordPress. </p>
+
+    <p>It took me about five minutes to create a new blog on <a href="http://wordpress.com">WordPress.com</a>, pick a pre-built theme (<a href="http://wordpress.org/themes/mckinley">ThemeTrust’s “McKinley”</a>), and create a new post, with a headline, text, link, blockquote, and even some tags.</p>
+  </div>
+
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/wordpress-new-post-editor.png" alt="Creating a post in WordPress" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>WordPress helpfully formats my post and fits it inside the pretty McKinley theme I’ve chosen. Check out the live version and notice all the niceties that WordPress adds, such as  making “Albert Einstein” a clickable link. And notice the extras: the tags are also clickable-links, a date has been added to the post, there are <strong>Share this:</strong> social buttons, and ooh, a courteous notice that my post might show ads, because I am, after all, using WordPress’s <em>free</em> service.</p>
+  </div>
+
+  <div class="col-sm-6">
+
+    <p><img src="/github-for-portfolios/images/lessons/simple-post-published-on-wordpress.png" alt="Publishing a simple post on WordPress" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>If you want, you can go back to your <strong>Github.com repo page</strong> and create a new file, like: <code>blog-post.html</code>, and add the same content that I’ve added to my WordPress post. </p>
+  </div>
+
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/simple-post-pasted-into-github.png" alt="Blog post pasted into Github" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>Commit the new <code>blog-post.html</code> file, which will be auto-published by <strong>Github Pages</strong>, and visit it at:</p>
+
+    <p><code>your_username.github.io/blog-post.html</code></p>
+
+    <p>And again, Github Pages does basically <em>nothing</em>.</p>
+
+  </div>
+
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/simple-post-published-on-github.png" alt="Blog post published via Github" /></p>
+  </div>
+</section>
+
+<h2 id="web-publishing-with-power-and-control">Web publishing, with power and control</h2>
+<section class="row">
+  <div class="col-sm-6">
+    <p>But sometimes nothing can be a pretty cool hand…as in, being handed the reins to create and publish content exactly as you need it to be.</p>
+
+    <p>Visit the Wikipedia page for GIF:</p>
+
+    <p><a href="http://en.wikipedia.org/wiki/GIF">http://en.wikipedia.org/wiki/GIF</a></p>
+
+  </div>
+  <div class="col-sm-6">
+
+    <p><img src="/github-for-portfolios/images/lessons/wikipedia-gif-page.png" alt="Wikipedia GIF" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p><strong>View Source</strong> of the Wikipedia entry on GIF, and then <strong>Select All</strong> the code and <strong>Copy</strong> it to your clipboard (i.e. via <strong>Ctrl-C</strong> or <strong>Cmd-C</strong>)</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/wikipedia-gif-source.png" alt="View source of Wikipedia GIF" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>If you have a WordPress blog, you can follow along as I try to paste this massive chunk of HTML code into the WordPress post editor (in the raw <strong>Text mode</strong>, not the <strong>Visual mode</strong>)</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/wikipedia-gif-pasted-into-wordpress.png" alt="Wikipedia GIF into WordPress" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p><em>Some</em> of the raw HTML is interpreted correctly, but we lose all of the styling of Wikipedia. And for much of the HTML code, WordPress just basically barfs it out as raw text. </p>
+
+    <p>By having a user-friendly interface, WordPress necessarily has to make assumptions about what users often mistakenly copy-and-paste, and these assumptions end up being <em>restrictions</em>, to some degree.</p>
+
+    <p>You can see the attempted <a href="http://dantnguyen.wordpress.com/2014/04/02/wikipedia-gif-entry/">raw-Wikipedia-HTML-as-WordPress-blog-post on my sample blog</a>.</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/wikipedia-gif-published-on-wordpress.png" alt="Wiki gif published on Wordpress" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>Now copy-and-paste that same raw Wikipedia HTML into a new file in your Github repo, e.g. <code>wiki-gif.html</code>.</p>
+
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/wikipedia-gif-pasted-into-github.png" alt="Github wikipediagif" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>Commit the new <code>wiki-gif.html</code> to your repo.</p>
+
+    <p>Wait a second for Github Pages to auto-publish that page and visit it at the expected URL:</p>
+
+    <p><code>http://your_username.github.io/wiki-gif.html</code></p>
+
+    <p>The two pages are <strong>identical</strong>, from the content, to Wikipedia’s exact styling, even down to the revolving-GIF.</p>
+
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/wikipedia-gif-copied.png" alt="Github wikipediagif" /></p>
+  </div>
+</section>
+
+<h4 id="tk-conclusion-to-come">TK: Conclusion to come,,,</h4>
 
 
 

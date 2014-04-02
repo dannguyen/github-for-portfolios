@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Using Pre-Manufactured Github Pages</title>
+        <title>Using Pre-Designed Pages with Github's Automatic Page Generator</title>
         <meta name="viewport" content="width=device-width">
 
 
@@ -29,33 +29,282 @@
 
 
 <div class="title">
-  <div class="lesson-number">Lesson </div>
-  <h1>Using Pre-Manufactured Github Pages</h1>
+  <div class="lesson-number">Lesson 3</div>
+  <h1>Using Pre-Designed Pages with Github's Automatic Page Generator</h1>
 </div>
 
-<p>In this lesson, we will explore the “AutoTK” generated webpage feature of Github Pages, which, with a press of a button, we can get a nice looking page from Github Pages’ pre-built templates.</p>
+<section class="overview">
+  <p>In this lesson, we will explore the <strong>Automatic Page Generator</strong>. <a href="https://help.github.com/articles/creating-pages-with-the-automatic-generator">This is a feature of Github Pages that</a>, with a press of a button, builds out a nice looking page (e.g. an <code>index.html</code> file) from a pre-designed template.</p>
 
-<p>But because the entire purpose of this tutorial is to create something of our own, from scratch if necessary, this chapter is meant to be entirely optional. Pretty as Github Pages’ templates are, they can’t accomodate the variety of things and expressions that  we may want.</p>
+  <p>Since the entire purpose of this tutorial is to create something of our own, from scratch if necessary, <strong>this chapter is meant to be entirely optional</strong>. Pretty as Github Pages’ templates are, they can’t accomodate the variety of design and expressions that we may want for our personal portfolio page.</p>
 
-<p>However, the reality of modern web development is that you’re almost always starting from someone else’s foundation, and tweaking it to your needs. As it is Github Pages auto-TK does <em>too much</em> for our tastes. But the scaffolding, the concept is the same. </p>
+  <p>However, the reality of modern web development is that you’re almost always starting from someone else’s foundation, and then tweaking it to your needs.  Github’s <strong>Automatic Page Generator</strong>  does <em>too much</em> for what we want, but we can still explore how to build on top of its scaffolding.</p>
 
-<p>After it’s done with the magic, Github leaves us with a pile of raw text files – just like every other web project. So if you’ve never built a website, this is a brief practical overview of how things fit together so that you’re <em>less initimidated</em> at the thought of creating a web site from scratch, and that you don’t see it as magic, but somethign you can freely examine for yourself.</p>
+  <p>After it’s done with the auto-building process, Github leaves us with a pile of raw text files – just like every other web project. So if you’ve never built a website, this is a brief practical overview of how things fit together so that you’re <em>less initimidated</em> at the thought of creating a web site from scratch, and that you don’t see it as magic, but something you can freely examine and tweak for yourself.</p>
 
-<p>(And if you’ve ever built or maintained a website, you can probably skip this chapter entirely.)</p>
+  <p>One of the hardest concepts for non-web-developers to understand about web development is how <em><a href="http://en.wikipedia.org/wiki/Separation_of_presentation_and_content">content and presentation are meant to be kept separate</a></em>.  Even if we won’t use the Automatic Page Generator to build out our own webpages, it’s a great way to interactively explore the concept of how websites can be radically different, in look and layout, even when they have exactly the same content.</p>
 
-<p>github-pages-templates-4.jpg
-github-pages-added-and-published-video-embed.jpg
-github-pages-choose-template.png
-github-pages-continue-to-layouts.png
-github-pages-customizing-index-for-template.png
-github-pages-default-template.png
-github-pages-manually-re-adding-video-embed.png
-github-pages-removed-video-embed.png
-github-pages-template-chosen.png
-github-pages-template-published.png
-github-pages-through-settings-menu.png
-simple-index-html-with-html-rendered.png
-simple-index-html-with-html.png</p>
+  <p>If you <em>do</em> like the Automatic Page Generator, <a href="https://help.github.com/articles/creating-pages-with-the-automatic-generator">you can read Github’s official documentation here</a>. And again, if you’ve ever built or maintained a website yourself, you can probably skip this chapter entirely.</p>
+
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>Go to the <strong>Settings</strong> menu, via the right sidebar.</p>
+
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-pages-through-settings-menu.png" alt="img" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>In the bottom half of the Settings page, look for the <strong>Github Pages</strong> header.</p>
+
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-settings-whole.png" alt="img" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>Click on the <strong>Automatic Page Generator</strong> button</p>
+
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-settings-focus-auto-page-generator.png" alt="img" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>This will take you to a Github file-editing screen, though slightly different than what we’ve used before. This editor is specifically
+for creating an <code>index.html</code> page for your <strong>Github Pages</strong> (i.e. what’s published at <code>http://your_username.github.io</code>)</p>
+
+    <p>You don’t have a choice to name the file, as it is automatically <code>index.html</code>. And the <strong>Body</strong> text is parsed as <a href="https://help.github.com/articles/markdown-basics">Markdown</a>, which is a simplified version of HTML.</p>
+
+    <p>If you want my advice, learning Markdown is probably one of the best mini-tech skills that you can pick up, because:</p>
+
+    <ul>
+      <li>Markdown takes about <a href="https://help.github.com/articles/markdown-basics">5 minutes to learn</a>.</li>
+      <li>Markdown is used in an increasing number of publishing platforms and tools.</li>
+      <li>Markdown is <em>way</em> easier to read and write than HTML. In fact, I hardly ever write HTML if I can help it.</li>
+    </ul>
+
+    <p>Check out the <a href="https://help.github.com/articles/markdown-basics">Github guide on Markdown</a>. It’s not important that you master it, just that you be aware of it for now.</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-pages-default-template.png" alt="img" /></p>
+
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>You don’t have to edit anything yet, just leave the default Body content as is if you’d like. Go to the bottom of the page and hit the green <strong>Continue to Layouts</strong> button.</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-pages-continue-to-layouts.png" alt="img" /></p>
+
+  </div>
+</section>
+
+<h2 id="using-a-pre-made-github-pages-layout">Using a pre-made Github Pages layout</h2>
+<section class="row">
+  <div class="col-sm-6">
+    <p>You’re now given the chance to pick from a variety of pre-made Pages layouts. Click on the previews and notice how the <strong>content</strong> stays the same even as the site’s structure can drastically change.</p>
+
+    <p>Click on the green checkmark labeled <strong>Publish</strong>.</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-pages-choose-template.png" alt="img" /></p>
+
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>You should be taken back to your Github.com repo page (not your newly created Github Pages homepage). There might be a banner message informing you to wait a few minutes before checking out the changes at <code>http://your_username.github.io</code></p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/auto-github-pages-post-publish-banner-message.png" alt="img" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>Meanwhile, check out your repo’s file listing. Besides modifying/creating your <code>index.html</code> file, the automatic page generator created a whole bunch of new files and folders. </p>
+
+    <p>It should also have left your existing files intact, including <code>README.md</code></p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/auto-github-pages-repo-list-post-publish.png" alt="img" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>Now checkout your new automatically-generated Github Pages <code>index.html</code>, which can now be found at:</p>
+
+    <p><code>http://your_username.github.io</code></p>
+
+    <p>(Again, <code>index.html</code> is the default webpage displayed when you’re at a website’s root or directory level)</p>
+
+    <p>Your github.io homepage should look pretty similar to the preview you saw in the Layouts-choosing screen.</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-pages-template-published.png" alt="img" /></p>
+
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>In the previous chapter, we saw how we had to create raw HTML ourselves in order for <code>index.html</code> to be a real webpage. By using Github Pages Automatic Page Generator, we’ve chosen to yield some power and control for a conveniently-pre-built webpage.</p>
+
+    <p>Go back to your <strong>Github repo file listing</strong> and click on <code>index.html</code> to examine its contents.</p>
+
+    <p>All of this raw HTML code was generated for you from the Markdown/text content that was in the <strong>Body</strong> field, thanks to the Automatic Page Generator.</p>
+
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/auto-github-pages-click-on-index.html.png" alt="img" /></p>
+
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>All of this raw HTML code was generated for you from the Markdown/text content that was in the <strong>Body</strong> field, thanks to the Automatic Page Generator.</p>
+
+  </div>
+  <div class="col-sm-6">
+
+    <p><img src="/github-for-portfolios/images/lessons/auto-github-pages-index-html-raw-html.png" alt="img" /></p>
+  </div>
+</section>
+
+<h2 id="switching-up-templates-and-content">Switching up templates and content</h2>
+<section class="row">
+  <div class="col-sm-6">
+
+    <p>The rest of this chapter will go through the same steps to reiterate the concepts behind HTML and content-generation. If you think you already grok this, then you might as well move on to the next chapter. However, if this is all new to you, it’s worth it to go through the motions. The <a href="http://en.wikipedia.org/wiki/Separation_of_presentation_and_content"><em>separation of content from presentation</em></a> is critical to (<em>sane</em>) web development – and design in general – and Github’s Automatic Page Generator is a great way to interactively see this in action.</p>
+
+    <p>Go back to the <strong>Settings</strong> page and click again on the <strong>Automatic Page Generator button</strong>.</p>
+
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/github-settings-whole.png" alt="img" /></p>
+
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>This time, click on <strong>Load README.md</strong> button</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/auto-github-pages-editor-focus-on-load-readme.png" alt="img" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>This will auto-load into the <strong>Body</strong> field whatever is currently in your <code>README.md</code> file.</p>
+
+    <p>Continue on to the <strong>Layouts</strong> selection page.</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/auto-github-pages-editor-loaded-readme.png" alt="img" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+
+    <p>No new insights here. We’ve only replaced the default <strong>Body</strong> field in Github Pages’s file editor with our own content. Picking out a layout and publishing it is exactly the same as before.</p>
+
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/auto-github-pages-editor-loaded-readme-templates.png" alt="img" /></p>
+
+  </div>
+</section>
+
+<h4 id="tk-more-examples-to-come">TK: More examples to come…</h4>
+
+<!-- 
+More images
+
+![img](/github-for-portfolios/images/lessons/auto-github-pages-publish-customize-readme-md.jpg)
+![img](/github-for-portfolios/images/lessons/auto-github-pages-customize-readme-md.png)
+ -->
+
+<!-- 
+
+
+<section class="row">
+<div class="col-sm-6">
+Customizing index
+</div> 
+<div class="col-sm-6">
+![img](/github-for-portfolios/images/lessons/github-pages-customizing-index-for-template.png)
+
+</div>
+</section>  
+
+
+<section class="row">
+<div class="col-sm-6">
+Github Pages removed my embed iframe code
+</div> 
+<div class="col-sm-6">
+![img](/github-for-portfolios/images/lessons/github-pages-removed-video-embed.png)
+</div>
+</section>  
+
+
+
+
+<section class="row">
+<div class="col-sm-6">
+Manually re-adding video embed code into index.html
+</div> 
+<div class="col-sm-6">
+![img](/github-for-portfolios/images/lessons/github-pages-manually-re-adding-video-embed.png)
+
+</div>
+</section>  
+
+
+
+<section class="row">
+<div class="col-sm-6">
+The page with the video embed in place
+</div> 
+<div class="col-sm-6">
+
+![img](/github-for-portfolios/images/lessons/github-pages-added-and-published-video-embed.jpg)
+
+
+</div>
+</section>  
+
+
+
+<section class="row">
+<div class="col-sm-6">
+All four templates
+</div> 
+<div class="col-sm-6">
+![img](/github-for-portfolios/images/lessons/github-pages-templates-4.jpg)
+</div>
+</section>  
+
+
+ -->
 
 
 
