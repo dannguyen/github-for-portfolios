@@ -1,0 +1,12 @@
+
+<ul>
+
+  {% for page in site.pages %}
+    {% if page.layout == 'lesson' %}
+      <li><a href="{{page.permalink}}">{{page.lesson_number}}. {{ page.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+
+
+</ul>
+

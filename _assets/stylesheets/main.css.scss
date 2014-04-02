@@ -1,8 +1,14 @@
+@import "bootstrap.css.scss";
+
 body{
   font-size: 16px;
-
-
 }
+
+.content-silo{
+  @extend .col-md-8 !optional;
+  @extend .col-md-offset-2 !optional;
+}
+
 
 footer.footer{
   border-top: thin solid #aaa;
@@ -35,8 +41,18 @@ header.header{
   }
 }
 
-article.lesson{
 
+.layout{
+  &.home{
+    h1.title{
+      font-size: 4.0em;
+      text-align: center;
+    }
+  }
+
+}
+
+article.lesson{
   div.title{
       text-align: center;
 

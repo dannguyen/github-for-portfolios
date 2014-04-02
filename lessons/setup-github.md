@@ -1,6 +1,7 @@
 ---
 layout: lesson
-title: "Setup Github"
+title: "Setting Up a Place on Github"
+deck: "How to open a Github account, create a project repository, and create a new file in the repository."
 lesson_number: 1
 ---
 

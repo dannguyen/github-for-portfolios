@@ -1,6 +1,7 @@
 ---
 layout: lesson
-title: "Create and Deploy Github Pages"
+title: "Publishing Web Pages from Scratch with Github Pages"
+deck: "How to create and publish a file to the Web and how that is better/worse than publishing a blog post on WordPress."
 lesson_number: 2
 ---
 
@@ -14,6 +15,7 @@ But it's just a quickie-homepage for our repo, with a URL that looks like any re
 
 
 Github provides a web publishing service called [Github Pages](//pages.github.com). In this lesson, we will learn how to publish a proper webpage via   __Github Pages__. 
+
 </section>
 
 
