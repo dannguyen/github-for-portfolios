@@ -2,7 +2,7 @@
 layout: default
 title: Using Github Pages to building web portfolios from scratch 
 ---
-This a very narrowly focused tutorial aimed at someone who has no web devleopment experience and has never used Github, or git, or even the command line, but for some reason, wants a webpage of their own. 
+This a very narrow, novice-focused tutorial aimed at someone who has no web devleopment experience and has never used [Github](https://github.com), or [Git](http://git-scm.com/), or even the command line, but for whatever reason, wants to build a webpage of their own, mostly from scratch. 
 
 (_This tutorial is in progress. [Feel free to fork it on Github](http://github.com/dannguyen/github-for-portfolios)_)
 
@@ -13,11 +13,11 @@ This a very narrowly focused tutorial aimed at someone who has no web devleopmen
 - How to edit a text-file
 
 ##### Topics not covered
-- Basic git concepts and syntax
+- Basic Git concepts and syntax
 - How to use Github to collaborate
 - The command-line
 - Advanced web development
-- The difference between git and Github
+- The difference between Git and Github
 
 ####  Why Github?
 
