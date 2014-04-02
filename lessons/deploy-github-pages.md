@@ -278,28 +278,18 @@ TKIMG
 </div>
 </section>
 
+
 <section class="row">
 <div class="col-sm-6">
-With a service such as WordPress, you get the _ease_ of creating web content with a __rich-text editor__, similar to a traditional word-processor.
+With a service such as [WordPress](http://wordpress.com), you get the _ease_ of creating web content with a __rich-text editor__, similar to a traditional word-processor.
 
 When you hit __Publish Post__, WordPress takes care of wrapping your post content in HTML code and putting it in a reasonably pretty container. The tradeoff is that you can't (_easily_) break out of those boundaries, not with out learning enough code to hack around WordPress. 
-</div>
 
-<div class="col-sm-6">
-TKIMG
-![The new index.html]({{ site.baseurl }}/images/lessons/)
-</div>
-</section>
-
-
-<section class="row">
-<div class="col-sm-6">
 It took me about five minutes to create a new blog on [WordPress.com](http://wordpress.com), pick a pre-built theme ([ThemeTrust's "McKinley"](http://wordpress.org/themes/mckinley)), and create a new post, with a headline, text, link, blockquote, and even some tags.
 </div>
 
 <div class="col-sm-6">
-TKIMG
-![The new index.html]({{ site.baseurl }}/images/lessons/)
+![Creating a post in WordPress]({{ site.baseurl }}/images/lessons/wordpress-new-post-editor.png)
 </div>
 </section>
 
@@ -309,8 +299,8 @@ WordPress helpfully formats my post and fits it inside the pretty McKinley theme
 </div>
 
 <div class="col-sm-6">
-TKIMG
-![The new index.html]({{ site.baseurl }}/images/lessons/)
+
+![Publishing a simple post on WordPress]({{ site.baseurl }}/images/lessons/simple-post-published-on-wordpress.png)
 </div>
 </section>
 
@@ -318,19 +308,30 @@ TKIMG
 
 <section class="row">
 <div class="col-sm-6">
-If you want, you can go back to your __Github.com repo page__ and create a new file, like: `blog-post.html`, and add the same content that I've added to my WordPress post. Commit the new `blog-post.html` file, which will be auto-published by __Github Pages__, and visit it at:
+If you want, you can go back to your __Github.com repo page__ and create a new file, like: `blog-post.html`, and add the same content that I've added to my WordPress post. 
+</div>
+
+<div class="col-sm-6">
+![Blog post pasted into Github]({{ site.baseurl }}/images/lessons/simple-post-pasted-into-github.png)
+</div>
+</section>
+
+
+<section class="row">
+<div class="col-sm-6">
+Commit the new `blog-post.html` file, which will be auto-published by __Github Pages__, and visit it at:
 
 `your_username.github.io/blog-post.html`
 
-And again, Github Pages does basically nothing.
+And again, Github Pages does basically _nothing_.
 
 </div>
 
 <div class="col-sm-6">
-TKIMG
-![The new index.html]({{ site.baseurl }}/images/lessons/)
+![Blog post published via Github]({{ site.baseurl }}/images/lessons/simple-post-published-on-github.png)
 </div>
 </section>
+
 
 
 
@@ -338,25 +339,17 @@ TKIMG
 ## Web publishing, with power and control
 <section class="row">
 <div class="col-sm-6">
-OK, now let's see the advantages of having the __power-and-control__ of Github Pages.
-</div>
-<div class="col-sm-6">
-TKIMG
-![The new index.html]({{ site.baseurl }}/images/lessons/)
-</div>
-</section>
+But sometimes nothing can be a pretty cool hand...as in, being handed the reins to create and publish content exactly as you need it to be.
 
-
-<section class="row">
-<div class="col-sm-6">
 Visit the Wikipedia page for GIF:
 
 [http://en.wikipedia.org/wiki/GIF](http://en.wikipedia.org/wiki/GIF)
 
+
 </div>
 <div class="col-sm-6">
-TKIMG
-![The new index.html]({{ site.baseurl }}/images/lessons/)
+
+![Wikipedia GIF]({{ site.baseurl }}/images/lessons/wikipedia-gif-page.png)
 </div>
 </section>
 
@@ -366,8 +359,7 @@ TKIMG
 __View Source__ of the Wikipedia entry on GIF, and then __Select All__ the code and __Copy__ it to your clipboard (i.e. via __Ctrl-C__ or __Cmd-C__)
 </div>
 <div class="col-sm-6">
-TKIMG
-![The new index.html]({{ site.baseurl }}/images/lessons/)
+![View source of Wikipedia GIF]({{ site.baseurl }}/images/lessons/wikipedia-gif-source.png)
 </div>
 </section>
 
@@ -377,22 +369,21 @@ TKIMG
 If you have a WordPress blog, you can follow along as I try to paste this massive chunk of HTML code into the WordPress post editor (in the raw __Text mode__, not the __Visual mode__)
 </div>
 <div class="col-sm-6">
-TKIMG
-![The new index.html]({{ site.baseurl }}/images/lessons/)
+![Wikipedia GIF into WordPress]({{ site.baseurl }}/images/lessons/wikipedia-gif-pasted-into-wordpress.png)
 </div>
 </section>
 
 
 <section class="row">
 <div class="col-sm-6">
-_Some_ of the raw HTML is interpreted correctly, but we lose all of the styling of Wikipedia. And for much of the HTML code, WordPress just basically barfs it out as raw text, because by having a user-friendly interface, WordPress necessarily has to make assumptions about what users often mistakenly copy-and-paste, and these assumptions end up being _restrictions_, to some degree.
+_Some_ of the raw HTML is interpreted correctly, but we lose all of the styling of Wikipedia. And for much of the HTML code, WordPress just basically barfs it out as raw text. 
 
-You can see the attempted [raw-Wikipedia-HTML-as-WordPress-blog-post on my sample blog](http://dantnguyen.wordpress.com/2014/04/02/wikipedia-gif-entry/)
-.
+By having a user-friendly interface, WordPress necessarily has to make assumptions about what users often mistakenly copy-and-paste, and these assumptions end up being _restrictions_, to some degree.
+
+You can see the attempted [raw-Wikipedia-HTML-as-WordPress-blog-post on my sample blog](http://dantnguyen.wordpress.com/2014/04/02/wikipedia-gif-entry/).
 </div>
 <div class="col-sm-6">
-TKIMG
-![The new index.html]({{ site.baseurl }}/images/lessons/)
+![Wiki gif published on Wordpress]({{ site.baseurl }}/images/lessons/wikipedia-gif-published-on-wordpress.png)
 </div>
 </section>
 
@@ -400,17 +391,30 @@ TKIMG
 
 <section class="row">
 <div class="col-sm-6">
-Now post that same raw Wikipedia HTML into a new file in your Github repo, e.g. `wiki-gif.html`
+Now copy-and-paste that same raw Wikipedia HTML into a new file in your Github repo, e.g. `wiki-gif.html`.
+
+
+</div>
+<div class="col-sm-6">
+![Github wikipediagif]({{ site.baseurl }}/images/lessons/wikipedia-gif-pasted-into-github.png)
+</div>
+</section>
+
+
+
+<section class="row">
+<div class="col-sm-6">
+Commit the new `wiki-gif.html` to your repo.
 
 Wait a second for Github Pages to auto-publish that page and visit it at the expected URL:
 
 `http://your_username.github.io/wiki-gif.html`
 
+The two pages are __identical__, from the content, to Wikipedia's exact styling, even down to the revolving-GIF.
 
 </div>
 <div class="col-sm-6">
-TKIMG
-![The new index.html]({{ site.baseurl }}/images/lessons/)
+![Github wikipediagif]({{ site.baseurl }}/images/lessons/wikipedia-gif-copied.png)
 </div>
 </section>
 
