@@ -293,3 +293,4 @@ For *our limited purposes*, this is functionally the same repo page:
 - Created a Github account
 - Created a repository that will contain the files for your portfolio website
 - Created a file in the repo
+- __Text, explanation, summary to be added...__
