@@ -58,7 +58,15 @@ This will take you to the Github file editor. This time, you'll have to specify 
 
 Name your filename: `index.html`
 
-Then type in some __plain-text__ nonsense, like: `Hello world this is my portfolio homepage!`
+Then type in some __plain-text__ nonsense, e.g.:
+
+
+    Hello world check out my homepage!
+
+
+    ----------------------------
+    http://your_username.github.io
+
 </div>
 <div class="col-sm-6">
 ![howto]({{ site.baseurl }}/images/lessons/github-create-new-index.html-helloworld.png)
@@ -68,44 +76,17 @@ Then type in some __plain-text__ nonsense, like: `Hello world this is my portfol
 
 <section class="row">
 <div class="col-sm-6">
-TK
-</div>
-<div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/github-hello-new-index.html-post-create.png)
-</div>
-</section>
+Commit the `index.html` file. You can add a __commit message__ if you wish.
 
-
-
-
-
-<section class="row">
-<div class="col-sm-6">
-Commit the file. You can add a __commit message__ if you wish.
-
-Your repo file listing should now contain two files:
+After the commit, you should be taken to your repo file listing, which should now contain two files:
 
 - `README.md`
 - `index.html`
 
-And the repo page that consists of the README file should be unchanged because you didn't touch the `README.md`
+The README file should be unchanged because you didn't touch the `README.md`
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/github-create-new-index.html-commit.png)
-</div>
-</section>
-
-
-<section class="row">
-<div class="col-sm-6">
-
-- `README.md`
-- `index.html`
-
-And the repo page that consists of the README file should be unchanged because you didn't touch the `README.md`
-</div>
-<div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/github-create-new-index.html-commit.png)
+![howto]({{ site.baseurl }}/images/lessons/github-pages-post-index-commit-first-tree-master-index.png)
 </div>
 </section>
 
@@ -123,14 +104,39 @@ As per the Github Pages convention, your new webpage exists at:
 `https://your_username.github.io`
 
 And if you visit that address, you should see a very unimpressive page.
+
 </div>
 <div class="col-sm-6">
 
-Behold, your new webpage:
+Behold, your new webpage (`index.html`) on Github Pages:
 
-![howto]({{ site.baseurl }}/images/lessons/)
+![howto]({{ site.baseurl }}/images/lessons/github-raw-index-html-page.png)
 </div>
 </section>
+
+
+
+<section class="row">
+<div class="col-sm-6">
+Not only is your homepage undecorated, but it lacks even the basic spacing between lines. If you __View Source__ (either by right-clicking on the page, or by going to the __View > Developer > View Source__ ) to see the `index.html` source code, you'll see
+exactly what you entered into the Github file editor.
+
+And yet your browser renders it all as a single line. If you don't know anything about web development, this is the explanation: the text you entered into `index.html` wasn't *actual HTML code*. It was just, well, plain text. And Github Pages, unlike most blogging and content sites, did nothing to help you with that. 
+</div>
+<div class="col-sm-6">
+
+
+![view source from the menubar]({{ site.baseurl }}/images/lessons/github-pages-plain-indexhtml-view-source-option.png)
+
+The raw source (i.e. the plaintext) behind `index.html`:
+
+![view source]({{ site.baseurl }}/images/lessons/github-raw-index-view-source.png)
+
+</div>
+</section>
+
+
+
 
 
 
@@ -140,7 +146,11 @@ If you've ever written a webpage from scratch, i.e. from the `<html>` to the clo
 
 And that's OK. It's underwhelming because Github Pages merely took the simple text you wrote:
 
-    hello world TK
+    Hello world check out my homepage!
+
+
+    ----------------------------
+    http://your_username.github.io
 
 And put it on a public web server. Check out the source of the page with your browser's View Source (which you can access by Right Clicking on the page TK:
 

@@ -1,4 +1,4 @@
-name: Simple Web Portfolios on Github
+name: Creating Simple Web Portfolios using Github Pages
 markdown: kramdown
 kramdown:
   parse_block_html: true

@@ -281,6 +281,10 @@ We're not going to cover the internals of git in this tutorial, so for now keep 
 </div>
 <div class="col-sm-6">
 ![howto]({{ site.baseurl }}/images/lessons/github-post-readme-tree-master.png)
+
+For *our limited purposes*, this is functionally the same repo page:
+
+![howto]({{ site.baseurl }}/images/lessons/github-base-repo-url-sans-tree-master.png)
 </div>
 </section>
 
