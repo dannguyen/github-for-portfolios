@@ -13,7 +13,7 @@ lesson_number: 4
 Show link on Github.com
 </div>
 <div class="col-sm-6">
-![howto]({{ <site class="ba"></site>seurl }}/images/lessons/)
+![howto]({{ site.baseurl }}/images/lessons/)
 </div>
 </section>
 

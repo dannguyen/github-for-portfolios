@@ -22,8 +22,9 @@ If you _do_ like the Automatic Page Generator, [you can read Github's official d
 
 <section class="row">
 <div class="col-sm-6">
-Go to the __Settings__ menu, via the right sidebar.
+Go back to the top level of your Github repo page, e.g. `https://github.com/your_username/your_username.github.io`
 
+Then click on the __Settings__ link, via the right sidebar.
 </div> 
 <div class="col-sm-6">
 ![img]({{ site.baseurl }}/images/lessons/github-pages-through-settings-menu.png)
@@ -229,6 +230,106 @@ No new insights here. We've only replaced the default __Body__ field in Github P
 </section>  
 
 
+## Making a new webpage
+
+<!-- <section class="row">
+<div class="col-sm-6">
+NOT NEEDED
+</div> 
+<div class="col-sm-6">
+![img]({{ site.baseurl }}/images/lessons/github-pages-customizing-index-for-template.png)
+
+</div>
+</section>   -->
+
+
+
+<section class="row">
+<div class="col-sm-4">
+
+Customizing a new README.md
+
+Let's repeat the previous set of steps in which we:
+
+1. Start up the Automatic Page Generator
+2. Load in the contents of `README.md`
+3. Choose a layout
+4. Commit and publish to Github Pages
+
+Except this time, edit `README.md` (_before_ step #2) so that it has content we actually want to publish.
+
+In the adjoining section, I've posted some sample __Markdown__ code that I'm using for my own `README.md`. You can copy and paste it as an example, or just write your own.
+
+
+</div> 
+<div class="col-sm-8">
+
+
+~~~markdown
+# My portfolio
+
+My name is [Dan Nguyen](http://twitter.com/dancow)
+
+* [Bastards Book of Regular Expressions](http://regex.bastardsbook.com/)  - A free ebook on how to use regular expressions for everyday informational purposes
+
+* [Eye Heart New York](http://tumblr.eyeheartnewyork.com) - A Tumblr of my New York photos
+
+* [I Heart NY Museums](http://iheartnymuseums.com/) - A really old interactive map showing open/free hours at local museums
+
+A picture of someone playing the didgeridoo
+
+![alt text](http://i.imgur.com/2i35DTo.jpg)
+
+Here's video of that performance:
+
+<iframe width="640" height="360" src="//www.youtube.com/embed/dfCd2eQfueY?list=UUw7F4bJbtGwORQwMBxlGb6w" frameborder="0" allowfullscreen></iframe>
+~~~
+
+</div>
+</section>  
+
+
+<section class="row">
+<div class="col-sm-6">
+Edit the `README.md` file and paste in the desired content, then commit the changes.
+
+In the sample code, there's a couple of lines worth paying attention to:
+
+* This is Markdown for showing the image that is hosted at `i.imgur.com`:    
+
+~~~
+![alt text](http://i.imgur.com/2i35DTo.jpg)
+~~~
+
+* This is regular HTML from YouTube's video embed code: 
+
+~~~
+<iframe width="640" height="360" src="//www.youtube.com/embed/dfCd2eQfueY?list=UUw7F4bJbtGwORQwMBxlGb6w" frameborder="0" allowfullscreen></iframe>
+~~~
+
+</div> 
+<div class="col-sm-6">
+![img]({{ site.baseurl }}/images/lessons/auto-github-pages-customize-readme-md.png)
+</div>
+</section>  
+
+
+
+<section class="row">
+<div class="col-sm-6">
+Again, as a _feature_, Github automatically renders the content of `README.md` as HTML. This is a _convenience_ so that your repo homepage has something interesting to look at besides the file listing.
+
+For the most part, the style is generic. And certain kinds of HTML, such as that YouTube embed, don't show up at all.
+</div> 
+<div class="col-sm-6">
+![img]({{ site.baseurl }}/images/lessons/auto-github-pages-publish-customize-readme-md.jpg)
+
+
+
+</div>
+</section>  
+
+
 
 
 
@@ -237,11 +338,12 @@ No new insights here. We've only replaced the default __Body__ field in Github P
 
 
 
+
+
+
 <!-- 
 More images
 
-![img]({{ site.baseurl }}/images/lessons/auto-github-pages-publish-customize-readme-md.jpg)
-![img]({{ site.baseurl }}/images/lessons/auto-github-pages-customize-readme-md.png)
  -->
 
 
