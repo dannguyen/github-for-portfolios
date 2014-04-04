@@ -319,16 +319,72 @@ In the sample code, there's a couple of lines worth paying attention to:
 <div class="col-sm-6">
 Again, as a _feature_, Github automatically renders the content of `README.md` as HTML. This is a _convenience_ so that your repo homepage has something interesting to look at besides the file listing.
 
-For the most part, the style is generic. And certain kinds of HTML, such as that YouTube embed, don't show up at all.
+For the most part, the style is generic. And certain kinds of HTML, such as that YouTube embed, don't show up at all. If you click the `README.md` file to see its _specific_ page in your repo, and click the __Raw__ button (or just re-edit the file), you'll see that the YouTube `<iframe>` code remains intact. It's just that Github's `README.md` rendering code has ignored it.
+
+Why is that? Probably because Github doesn't want repo/README pages [to turn into MySpace for Geeks](http://www.makefive.com/categories/entertainment/comedy/the-ugliest-myspace-pages). Again, user-freedom and convienence are often at ends with each other when it comes to software as a service.
+
+
 </div> 
 <div class="col-sm-6">
 ![img]({{ site.baseurl }}/images/lessons/auto-github-pages-publish-customize-readme-md.jpg)
 
 
+Notice the blank spot where an embedded YouTube video should be shown:
 
+![Missing youtube video embed]({{ site.baseurl }}/images/lessons/TK)
 </div>
 </section>  
 
+
+
+
+<section class="row">
+<div class="col-sm-6">
+
+We'll add the YouTube embed code in _manually_. For now, though, we've accomplished our goal of making a spiffy `README.md` . Now go back to the __Automatic page generator__ and re-generate some new pre-fab Github Pages for yourself.
+
+Again, click on the __Load README.md__ button, then choose a layout, and then hit the __Publish__ button.
+
+</div> 
+<div class="col-sm-6">
+![img]({{ site.baseurl }}/images/lessons/TK.png)
+</div>
+</section>  
+
+
+<section class="row">
+<div class="col-sm-6">
+
+OK, now we
+
+</div> 
+<div class="col-sm-6">
+![img]({{ site.baseurl }}/images/lessons/TK.png)
+</div>
+</section>  
+
+<section class="row">
+<div class="col-sm-6">
+
+OK, now we
+
+</div> 
+<div class="col-sm-6">
+![img]({{ site.baseurl }}/images/lessons/TK.png)
+</div>
+</section>  
+
+
+<section class="row">
+<div class="col-sm-6">
+
+OK, now we
+
+</div> 
+<div class="col-sm-6">
+![img]({{ site.baseurl }}/images/lessons/TK.png)
+</div>
+</section>  
 
 
 
