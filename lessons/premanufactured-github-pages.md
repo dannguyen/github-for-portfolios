@@ -3,6 +3,7 @@ layout: lesson
 title: "Pre-Fab Pages with Github's Automatic Page Generator"
 deck: "An (optional) tour of Github Pages pre-built templates and of Markdown, and practical experience with the concept of 'separation of content and presentation.'"
 lesson_number: 3
+image: 'https://www.flickr.com/photos/zokuga/5903677201/ https://www.flickr.com/photos/zokuga/11913708424/'
 ---
 
 <section class="overview">

@@ -1,10 +1,19 @@
 
 <ul>
+  {% assign lessons = site.pages | filter_lessons_from_pages | sort_by_lesson_number %}
+  {% for lesson in lessons %}
+      <li>
+        <span class="title">
+          <a href="{{site.baseurl}}{{lesson.url}}">{{lesson.lesson_number}}. {{ lesson.title }}</a>
+        </span>
 
-  {% for page in site.pages %}
-    {% if page.layout == 'lesson' %}
-      <li><a href="{{site.baseurl}}{{page.url}}">{{page.lesson_number}}. {{ page.title }}</a></li>
-    {% endif %}
+        &ndash;
+
+        <span class="deck">
+          {{ lesson.deck }}
+        </span>
+      </li>
+
   {% endfor %}
 
 

@@ -3,6 +3,7 @@ layout: lesson
 title: "Clone, Edit, Commit, and Sync"
 deck: "How to install the Github desktop app, make a local copy of your Github repo, manage and edit your webpage project on your own operating system, and sync with your Github repo."
 lesson_number: 4
+image: 'https://www.flickr.com/photos/zokuga/8665431657/'
 ---
 
 
