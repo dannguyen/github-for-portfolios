@@ -31,7 +31,7 @@ alphanumeric characters.
 Be sure to check your email afterwards to __confirm__ the registration.
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/github-signup.png)
+![howto]({{ site.baseurl }}/images/lessons/1/github-signup.png)
 </div>
 </section>
 
@@ -43,7 +43,7 @@ making anything that needs to be hidden or propietary, we can choose the __Free_
 visible projects.
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/github-choose-plan.png)
+![howto]({{ site.baseurl }}/images/lessons/1/github-choose-plan.png)
 </div>
 </section>
 
@@ -64,7 +64,7 @@ Navigate back to the [Github homepage](//github.com). Now that you're a new memb
 Click the green __New repository__ button to get started.
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/github-create-new-repo.png)
+![howto]({{ site.baseurl }}/images/lessons/1/github-create-new-repo.png)
 </div>
 </section>
 
@@ -80,7 +80,7 @@ For the __Repository __name__, enter your __username__, followed by `github.io`.
 All of the other fields, including __Description__, can be left alone for now. Hit the green __Create Repository__ button.
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/github-name-new-repo.png)
+![howto]({{ site.baseurl }}/images/lessons/1/github-name-new-repo.png)
 </div>
 </section>
 
@@ -93,7 +93,7 @@ If you are unfamiliar to git, about 95 percent of this screen will be totally al
 For now, revisit [https://github.com](https://github.com) to see what the homepage looks like.
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/github-new-repo-created.png)
+![howto]({{ site.baseurl }}/images/lessons/1/github-new-repo-created.png)
 </div>
 </section>
 
@@ -109,7 +109,7 @@ For now, let's take a quick look at your __user__ page, which you can visit by g
 
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/github-new-repo-listed.png)
+![howto]({{ site.baseurl }}/images/lessons/1/github-new-repo-listed.png)
 </div>
 </section>
 
@@ -129,7 +129,7 @@ that contains your portfolio, i.e. `yourname.github.io`
 Let's go to that page now by clicking on the listed repo link.
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/github-user-page.png)
+![howto]({{ site.baseurl }}/images/lessons/1/github-user-page.png)
 </div>
 </section>
 
@@ -147,7 +147,7 @@ On our empty repo page, the one instruction we should care about is the one that
 Click on the __README__ link, which conveniently takes you to the Github file editor.
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/github-link-to-create-readme.png)
+![howto]({{ site.baseurl }}/images/lessons/1/github-link-to-create-readme.png)
 </div>
 </section>
 
@@ -164,7 +164,7 @@ Notice at the top of the file how `README.md` has been filled out for you. You _
 any filename you want. But let's stick with `README.md`
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/github-create-readme-blank.png)
+![howto]({{ site.baseurl }}/images/lessons/1/github-create-readme-blank.png)
 </div>
 </section>
 
@@ -178,7 +178,7 @@ but the upshot here is that you can type in any text you want, it doesn't have t
 
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/github-editor-markdown-sample.png)
+![howto]({{ site.baseurl }}/images/lessons/1/github-editor-markdown-sample.png)
 <br>
 </div>
 </section>
@@ -230,7 +230,7 @@ http://dantnguyen.github.io/
 At the bottom of the page, you can ignore the optional fields and just click the green button to __Commit new file__
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/github-commit-readme.png)
+![howto]({{ site.baseurl }}/images/lessons/1/github-commit-readme.png)
 </div>
 </section>
 
@@ -245,7 +245,7 @@ As we'll see later, "commit" is not synonymous with "create". A commit can consi
 
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/github-readme-exists.png)
+![howto]({{ site.baseurl }}/images/lessons/1/github-readme-exists.png)
 </div>
 </section>
 
@@ -258,7 +258,7 @@ Scroll down a bit and you'll see that Github has rendered `README.md` &ndash; ev
 Note that this is _not_ your actual portfolio page. Again, think of a repo as simply a folder for your project, and this is how Github displays the project's file listing.
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/github-readme-basic.png)
+![howto]({{ site.baseurl }}/images/lessons/1/github-readme-basic.png)
 </div>
 </section>
 
@@ -282,11 +282,11 @@ We're not going to cover the internals of git in this tutorial, so for now keep 
 `http://github.com/your_username/your_username.github.io/`
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/github-post-readme-tree-master.png)
+![howto]({{ site.baseurl }}/images/lessons/1/github-post-readme-tree-master.png)
 
 For *our limited purposes*, this is functionally the same repo page:
 
-![howto]({{ site.baseurl }}/images/lessons/github-base-repo-url-sans-tree-master.png)
+![howto]({{ site.baseurl }}/images/lessons/1/github-base-repo-url-sans-tree-master.png)
 </div>
 </section>
 

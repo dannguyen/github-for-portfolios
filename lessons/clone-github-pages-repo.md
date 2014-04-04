@@ -31,9 +31,9 @@ The Github app for Windows is here:
 </div>
 <div class="col-sm-6">
 
-![howto]({{ site.baseurl }}/images/lessons/github-windows-download.png)
+![howto]({{ site.baseurl }}/images/lessons/4/github-windows-download.png)
 
-![howto]({{ site.baseurl }}/images/lessons/github-mac-download.png)
+![howto]({{ site.baseurl }}/images/lessons/4/github-mac-download.png)
 
 
 </div>
@@ -47,7 +47,7 @@ Find the zip file in your __Downloads__ folder
 
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/github-zip-in-downloads.png)
+![howto]({{ site.baseurl }}/images/lessons/4/github-zip-in-downloads.png)
 </div>
 </section>
 
@@ -57,7 +57,7 @@ Find the zip file in your __Downloads__ folder
 Double-click on the zip file which will produce a __Github.app__ file. You can move this file to your __Applications__ folder, or just double-click it and the app will offer to move itself for you.
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/github-app-opened.png)
+![howto]({{ site.baseurl }}/images/lessons/4/github-app-opened.png)
 </div>
 </section>
 
@@ -72,7 +72,7 @@ The app should ask you to sign with your Github credentials so that it can sync 
 <div class="col-sm-6">
 
 
-![howto]({{ site.baseurl }}/images/lessons/github-app-asking-for-permission.png)
+![howto]({{ site.baseurl }}/images/lessons/4/github-app-asking-for-permission.png)
 </div>
 </section>
 
@@ -94,7 +94,7 @@ The app should ask you to sign with your Github credentials so that it can sync 
 </div>
 <div class="col-sm-6">
 
-![howto]({{ site.baseurl }}/images/lessons/github-app-show-account.png)
+![howto]({{ site.baseurl }}/images/lessons/4/github-app-show-account.png)
 </div>
 </section>
 
@@ -104,7 +104,7 @@ The app should ask you to sign with your Github credentials so that it can sync 
 A little Git terminology: the term __clone__ refers to a __git__ function that makes an entirely new copy of a repo. At the most basic level, this is no different than stashing a project folder on a USB drive or Dropbox and allowing collaborators to copy it onto their own computer.
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/github-app-clone-specific-repo.png)
+![howto]({{ site.baseurl }}/images/lessons/4/github-app-clone-specific-repo.png)
 </div>
 </section>
 
@@ -115,7 +115,7 @@ A little Git terminology: the term __clone__ refers to a __git__ function that m
 Part of cloning a repo is you also clone the __git__ activity, i.e. the history of changes so far.
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/github-app-show-history-so-far.png)
+![howto]({{ site.baseurl }}/images/lessons/4/github-app-show-history-so-far.png)
 
 </div>
 </section>
@@ -128,7 +128,7 @@ Part of cloning a repo is you also clone the __git__ activity, i.e. the history 
 text
 </div>
 <div class="col-sm-6">
-![Show in Finder]({{ site.baseurl }}/images/lessons/github-app-cloned-repo-list.png)
+![Show in Finder]({{ site.baseurl }}/images/lessons/4/github-app-cloned-repo-list.png)
 
 </div>
 </section>
@@ -139,7 +139,7 @@ text
 After cloning the repo, you'll see a new file folder with the same name as the repo. 
 </div>
 <div class="col-sm-6">
-![The repo downloaded to our computer]({{ site.baseurl }}/images/lessons/local-download-folder.png)
+![The repo downloaded to our computer]({{ site.baseurl }}/images/lessons/4/local-download-folder.png)
 </div>
 </section>
 
@@ -151,7 +151,7 @@ Go ahead and open the repo folder. If you weren't convinced that a git repo is p
 You can visit the repo page on Github to confirm that the files are the same. The takeaway here is that Github.com can be seen, for our purposes, as a website that stores a copy of our project and allows us to peruse it via a web browser. But at any time, we can make an exact copy of the repo and distribute our files as we please.
 </div>
 <div class="col-sm-6">
-![The local repo's listing of files compared to Github's]({{ site.baseurl }}/images/lessons/local-repo-file-listing.png)
+![The local repo's listing of files compared to Github's]({{ site.baseurl }}/images/lessons/4/local-repo-file-listing.png)
 </div>
 </section>
 
@@ -167,7 +167,7 @@ This is functionally no different than just editing `index.html` (and `README.md
 Just as if you gave a haircut to an identical (human) twin, the hair on the other twin doesn't automatically update, so do our file changes not automatically propogate to all the other cloned repos.
 </div>
 <div class="col-sm-6">
-![Editing the youtube embed code]({{ site.baseurl }}/images/lessons/editing-index-html-youtube-embed.png)
+![Editing the youtube embed code]({{ site.baseurl }}/images/lessons/4/editing-index-html-youtube-embed.png)
 </div>
 </section>
 
@@ -189,7 +189,7 @@ Then enter a commit message and press the __Commit__ button.
 
 </div>
 <div class="col-sm-6">
-![Github app showing the diff]({{ site.baseurl }}/images/lessons/github-app-showing-index-html-diff.png)
+![Github app showing the diff]({{ site.baseurl }}/images/lessons/4/github-app-showing-index-html-diff.png)
 </div>
 </section>
 
@@ -207,7 +207,7 @@ So what does __commit__ actually mean in the __local__ context? We're basically 
 After pressing the __Commit__ button, you should notice that the bottom half of the app has a section for __Unsynced Commits__. It means exactly what you might think: these fresh _commits_ need to be _synced_ with Github.com.
 </div>
 <div class="col-sm-6">
-![After pressing commit]({{ site.baseurl }}/images/lessons/github-app-post-commit.png)
+![After pressing commit]({{ site.baseurl }}/images/lessons/4/github-app-post-commit.png)
 </div>
 </section>
 
@@ -218,7 +218,7 @@ After pressing the __Commit__ button, you should notice that the bottom half of 
 So press the big __Sync__ button. You may get a request from the Github app to use the credentials you have set for your Github.com account.
 </div>
 <div class="col-sm-6">
-![Granting permissions]({{ site.baseurl }}/images/lessons/github-app-asking-for-permission.png)
+![Granting permissions]({{ site.baseurl }}/images/lessons/4/github-app-asking-for-permission.png)
 </div>
 </section>
 
@@ -228,7 +228,7 @@ So press the big __Sync__ button. You may get a request from the Github app to u
 After a few seconds, you'll see that the sections for __Uncommitted Changes__ and __Unsynced Commits__ are now empty, indicating that the sync action has finished.
 </div>
 <div class="col-sm-6">
-![After syncing to server]({{ site.baseurl }}/images/lessons/github-app-post-sync.png)
+![After syncing to server]({{ site.baseurl }}/images/lessons/4/github-app-post-sync.png)
 </div>
 </section>
 
@@ -239,7 +239,7 @@ After a few seconds, you'll see that the sections for __Uncommitted Changes__ an
 In the __Github app__, check out the __History__ tab, which will now list the latest commit.
 </div>
 <div class="col-sm-6">
-![Looking at the history]({{ site.baseurl }}/images/lessons/github-app-showing-history.png)
+![Looking at the history]({{ site.baseurl }}/images/lessons/4/github-app-showing-history.png)
 </div>
 </section>
 
@@ -248,7 +248,7 @@ In the __Github app__, check out the __History__ tab, which will now list the la
 Now visit your __Github.com repo page__ which will also show the synced files. In my case, the only file I changed was `index.html`
 </div>
 <div class="col-sm-6">
-![Github site showing latest commit and message]({{ site.baseurl }}/images/lessons/github-site-showing-sync-and-message.png)
+![Github site showing latest commit and message]({{ site.baseurl }}/images/lessons/4/github-site-showing-sync-and-message.png)
 </div>
 </section>
 
@@ -257,7 +257,7 @@ Now visit your __Github.com repo page__ which will also show the synced files. I
 Finally, visit your home on Github Pages, e.g. `http://your_username.github.io`, to see the changes you've made to `index.html`
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/screenshot-of-new-youtube-embed-on-site.jpg)
+![howto]({{ site.baseurl }}/images/lessons/4/screenshot-of-new-youtube-embed-on-site.jpg)
 </div>
 </section>
 
@@ -314,16 +314,16 @@ TK
 </section>
 
 
-![howto]({{ site.baseurl }}/images/lessons/)
+![howto]({{ site.baseurl }}/images/lessons/4/)
 
-![howto]({{ site.baseurl }}/images/lessons/)
-![howto]({{ site.baseurl }}/images/lessons/)
-![howto]({{ site.baseurl }}/images/lessons/)
-![howto]({{ site.baseurl }}/images/lessons/)
-
-
+![howto]({{ site.baseurl }}/images/lessons/4/)
+![howto]({{ site.baseurl }}/images/lessons/4/)
+![howto]({{ site.baseurl }}/images/lessons/4/)
+![howto]({{ site.baseurl }}/images/lessons/4/)
 
 
 
-![howto]({{ site.baseurl }}/images/lessons/)
+
+
+![howto]({{ site.baseurl }}/images/lessons/4/)
 
