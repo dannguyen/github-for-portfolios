@@ -6,6 +6,7 @@ lesson_number: 5
 image: 'https://www.flickr.com/photos/zokuga/9602466213/in/set-72157627679581509'
 ---
 
+__TK: This chapter obviously not complete__
 
 ## Creating the index.html skeleton
 

@@ -276,8 +276,9 @@ __Github Pages__ sits more on the __power-and-control__-side of the spectrum. If
 </div>
 
 <div class="col-sm-6">
-TKIMG
-![The new index.html]({{ site.baseurl }}/images/lessons/2/)
+Placeholder kitty 
+![TK cat](//placekitten.com/600/400)
+<!-- ![The new index.html]({{ site.baseurl }}/images/lessons/2/) -->
 </div>
 </section>
 

@@ -7,6 +7,9 @@ image: 'https://www.flickr.com/photos/zokuga/5903677201/ https://www.flickr.com/
 ---
 
 <section class="overview">
+
+__TK: This chapter obviously not complete__
+
 In this lesson, we will explore the __Automatic Page Generator__. [This is a feature of Github Pages that](https://help.github.com/articles/creating-pages-with-the-automatic-generator), with a press of a button, builds out a nice looking page (e.g. an `index.html` file) from a pre-designed template.
 
 Since the entire purpose of this tutorial is to create something of our own, from scratch if necessary, __this chapter is meant to be entirely optional__. Pretty as Github Pages' templates are, they can't accomodate the variety of design and expressions that we may want for our personal portfolio page.
@@ -332,7 +335,7 @@ Why is that? Probably because Github doesn't want repo/README pages [to turn int
 
 Notice the blank spot where an embedded YouTube video should be shown:
 
-![Missing youtube video embed]({{ site.baseurl }}/images/lessons/3/TK)
+![Missing youtube video embed TK]({{ site.baseurl }}/images/lessons/3/TK)
 </div>
 </section>  
 
@@ -348,7 +351,7 @@ Again, click on the __Load README.md__ button, then choose a layout, and then hi
 
 </div> 
 <div class="col-sm-6">
-![img]({{ site.baseurl }}/images/lessons/3/TK.png)
+![TK]({{ site.baseurl }}/images/lessons/3/TK.png)
 </div>
 </section>  
 
@@ -360,17 +363,17 @@ And here is how Github's Automatic page generator prettied up my `README.md`. No
 
 </div> 
 <div class="col-sm-6">
-![img]({{ site.baseurl }}/images/lessons/3/TK.png)
+![TK]({{ site.baseurl }}/images/lessons/3/TK.png)
 </div>
 </section>  
 
 <section class="row">
 <div class="col-sm-6">
-
+TK
 
 </div> 
 <div class="col-sm-6">
-![img]({{ site.baseurl }}/images/lessons/3/TK.png)
+![TK]({{ site.baseurl }}/images/lessons/3/TK.png)
 </div>
 </section>  
 
@@ -378,11 +381,11 @@ And here is how Github's Automatic page generator prettied up my `README.md`. No
 <section class="row">
 <div class="col-sm-6">
 
-OK, now we
+TK
 
 </div> 
 <div class="col-sm-6">
-![img]({{ site.baseurl }}/images/lessons/3/TK.png)
+![TK]({{ site.baseurl }}/images/lessons/3/TK.png)
 </div>
 </section>  
 
