@@ -10,10 +10,31 @@ lesson_number: 4
 
 <section class="row">
 <div class="col-sm-6">
-Show link on Github.com
+
+Github provides a desktop application to let you manage your Github-based repos via point-and-click.
+
+Downloading and using the Github desktop app is _entirely optional_; most developers manage their repos from the __command-line__. But using the Github desktop app provides the smoothest transition from the web-browser editing we've done so far.
+
+
+
+The Github app for Mac can be found here:
+
+[https://mac.github.com/](https://mac.github.com/)
+
+
+The Github app for Windows is here:
+
+[https://windows.github.com/](https://windows.github.com/)
+
+
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/)
+
+![howto]({{ site.baseurl }}/images/lessons/github-windows-download.png)
+
+![howto]({{ site.baseurl }}/images/lessons/github-mac-download.png)
+
+
 </div>
 </section>
 
@@ -40,22 +61,42 @@ Double-click on the zip file which will produce a __Github.app__ file. You can m
 </section>
 
 
+
 <section class="row">
 <div class="col-sm-6">
-The app should ask you to sign with your Github credentials so that it can sync with Github.com. You'll see TK.
+The app should ask you to sign with your Github credentials so that it can sync with Github.com.
 
 
 </div>
 <div class="col-sm-6">
 
 
-![howto]({{ site.baseurl }}/images/lessons/github-app-show-account.png)
+![howto]({{ site.baseurl }}/images/lessons/github-app-asking-for-permission.png)
 </div>
 </section>
 
 
 
+
+
+
+
+
+
+
 ## Clone a repo
+
+<section class="row">
+<div class="col-sm-6">
+The app should ask you to sign with your Github credentials so that it can sync with Github.com. You'll see TK.
+
+</div>
+<div class="col-sm-6">
+
+![howto]({{ site.baseurl }}/images/lessons/github-app-show-account.png)
+</div>
+</section>
+
 
 <section class="row">
 <div class="col-sm-6">
