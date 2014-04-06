@@ -1,6 +1,6 @@
-# How to build a Web Portfolio from Scratch with Github Pages
+# How to build a web portfolio from scratch with Github Pages
 
-<a href="http://dannguyen.github.io/github-for-portfolios">(![at the moma](/images/main-logo.jpg)</a>
+<a href="http://dannguyen.github.io/github-for-portfolios">![at the moma](/images/main-logo.jpg)</a>
 
 A layperson's step-by-step guide to building webpages with Github. You can visit the live tutorial (which itself was publislhed via [Github Pages](https://pages.github.com/)) at:
 
