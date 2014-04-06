@@ -1,7 +1,7 @@
 @import "bootstrap.css.scss";
 
 body{
-  font-size: 16px;
+  font-size: 15px;
 }
 
 div.img-wrap{
@@ -53,19 +53,27 @@ header.header{
       h1{
         font-size: 3.6em;
         margin-bottom: 0.1em;
+        text-align: center;
+
       }
       h2{
         color: #a33;
         margin-top: 0;
-      }
+        text-align: center;
 
-      text-align: center;
+      }
     }
   }
-
 }
 
 article.lesson{
+
+  div.status{
+    padding: 0.5em;
+    border: thin solid #C5B100;
+    background: #FAFAE2;
+    text-align: center;
+  }
 
   header{
     // position: relative;
@@ -157,15 +165,23 @@ article.lesson{
 
 
 .lessons-list{
-
   li.lesson{
-
+    margin-bottom: 1.1em;
   }
+
   div.thumb{
     border: thin solid #777;
     img{ width: 100%; }
     margin-bottom: 0.3em;
   }
 
-  div.title{ font-weight: bold; margin-bottom: 0.2em; }
+  div.title{
+    font-weight: bold;
+    margin-bottom: 0.2em;
+    text-align: left;
+  }
+
+  div.deck{
+    font-size: 0.9em;
+  }
 }

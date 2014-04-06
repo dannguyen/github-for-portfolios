@@ -4,6 +4,7 @@ title: "Setting Up a Place on Github"
 deck: "How to open a Github account, create a project repository, and create a new file in the repository."
 lesson_number: 1
 image_url: "https://www.flickr.com/photos/zokuga/9489770991/"
+status: Mostly complete
 ---
 
 <section class="overview">

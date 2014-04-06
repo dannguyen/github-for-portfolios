@@ -4,18 +4,30 @@ title: "Clone, Edit, Commit, and Sync"
 deck: "How to install the Github desktop app, make a local copy of your Github repo, manage and edit your webpage project on your own operating system, and sync with your Github repo."
 lesson_number: 4
 image_url: 'https://www.flickr.com/photos/zokuga/8665431657/'
+status: Just a draft
 ---
 
-__TK: This chapter obviously not complete__
+
+<section class="overview">
+
+As you've probably noticed from using Github's Automatic Page Generator, or past web-development experience, a website consists of more than just a single HTML file. Besides having multiple pages (i.e. multiple HTML files), most websites also have image files, for example.
+
+By using Github.com's web interface, we've been able to add and edit __text__ files. But, at the time of writing, there isn't a way to add multimedia assets, such as images, to our repo.
+
+Even if Github adds such an upload feature to its web interface, you can imagine that it will be a bit cumbersome to build an entire website, from scratch, from within your web browser. What would be convenient is if we could build the website on our own operating system, e.g. using the files and folders system that we've been accustomed to since the first Macintosh and Windows system.
+
+So this chapter walks through the process of downloading a __local copy__ of our Github repo, editing and changing the files on our own computer system, and then syncing those changes so that they appear on our live Github-powered portfolio pages.
+</section>
+
+
+
 
 ## Download the Github application
 
 <section class="row">
 <div class="col-sm-6">
 
-Github provides a desktop application to let you manage your Github-based repos via point-and-click.
-
-Downloading and using the Github desktop app is _entirely optional_; most developers manage their repos from the __command-line__. But using the Github desktop app provides the smoothest transition from the web-browser editing we've done so far.
+Github provides a __desktop application__ to let you manage your Github-based repos with a graphical interface. Downloading and using the Github desktop app is _entirely optional_; most developers manage their repos from the __command-line__. But using the Github desktop app provides the smoothest transition from the web-browser editing we've done so far.
 
 
 
@@ -76,11 +88,6 @@ The app should ask you to sign with your Github credentials so that it can sync 
 ![howto]({{ site.baseurl }}/images/lessons/4/github-app-asking-for-permission.png)
 </div>
 </section>
-
-
-
-
-
 
 
 
@@ -274,6 +281,8 @@ Second, Github.com does not allow us (yet) to add __non-text__ files via the web
 So by learning how to use the Github app and cloning the repo, we've made the process a bit more complicated, but we've also gained more flexibility in what we can add to our web project.
 </section>
 
+
+<!-- 
 ## Uploading new files
 <section class="row">
 <div class="col-sm-6">
@@ -328,3 +337,4 @@ TK
 
 ![howto]({{ site.baseurl }}/images/lessons/4/)
 
+ -->

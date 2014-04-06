@@ -4,11 +4,11 @@ title: "Pre-Fab Pages with Github's Automatic Page Generator"
 deck: "An (optional) tour of Github Pages pre-built templates and of Markdown, and practical experience with the concept of 'separation of content and presentation.'"
 lesson_number: 3
 image_url: 'https://www.flickr.com/photos/zokuga/11913708424/'
+status: Mostly complete
 ---
 
 <section class="overview">
 
-__TK: This chapter obviously not complete__
 
 In this lesson, we will explore the __Automatic Page Generator__. [This is a feature of Github Pages that](https://help.github.com/articles/creating-pages-with-the-automatic-generator), with a press of a button, builds out a nice looking page (e.g. an `index.html` file) from a pre-designed template.
 
@@ -234,7 +234,7 @@ No new insights here. We've only replaced the default __Body__ field in Github P
 </section>  
 
 
-## Making a new webpage
+## Customizing a new webpage
 
 <!-- <section class="row">
 <div class="col-sm-6">
@@ -363,17 +363,41 @@ And here is how Github's Automatic page generator prettied up my `README.md`. No
 
 </div> 
 <div class="col-sm-6">
-![Publizhed customized readme]({{ site.baseurl }}/images/lessons/3/customized-readme-published-as-pages.jpg)
+![Published customized readme]({{ site.baseurl }}/images/lessons/3/customized-readme-published-as-pages.jpg)
 </div>
 </section>  
+
+
+
+<section class="row">
+<div class="col-sm-6">
+
+Up to this point, we've been letting Github and its Automatic Page Generator do the heavy lifting: we give it some content in `README.md`, and it produces a nice `index.html` file &ndash; with a package of code files that dictate the styling and structure &ndash; and pushes it live to `your_username.github.io`. There's not a lot to _grok_, we're just learning how to use this particular feature of Github, the details of which may change as Github refines/redesigns the process.
+
+But the main takeaway for novice web developers is this: Github Pages was able to take the  __content__ &ndash; i.e. what we put into `README.md` &ndash; and stuff it into a template. You can repeat the process and use different templates with the same content. Some designs look better than others, perhaps, but you can see how the _code that dictates the visual design and structure_ can be __independent__ of the _actual content_.
+
+We haven't yet touched the HTML code that structure the content, nor the actual design code, which typically consists of __Cascading Style Sheets__, i.e. __CSS__.
+</div> 
+<div class="col-sm-6">
+![img]({{ site.baseurl }}/images/lessons/3/github-pages-templates-4.jpg)
+</div>
+</section>  
+
+
+
+
 
 
 ## Editing HTML manually
 
 <section class="row">
 <div class="col-sm-6">
-While we're at at the portfolio page, __View Source__ to see what happened to the YouTube embed code.
 
+Going forward, we're going to assemble our own HTML and CSS files. So consider the work done by Github's Automatic Page Generator to be the __scaffolding__ from which we work off.
+
+As you've seen, this "scaffolding" process has left off some of our custom code, e.g. the YouTube video embed code.
+
+Go to your __portfolio homepage__ and __View Source__ to see what happened to the YouTube embed code. The Automatic Page Generator simply left it out.
 </div> 
 <div class="col-sm-6">
 ![Missing embed]({{ site.baseurl }}/images/lessons/3/github-pages-removed-video-embed.png)
@@ -384,11 +408,11 @@ While we're at at the portfolio page, __View Source__ to see what happened to th
 
 <section class="row">
 <div class="col-sm-6">
-You can rectify this by going to your Github repo page: 
+You can rectify this by going to your Github.com repo page: 
 
 e.g. `https://github.com/your_username/your_username.github.io`
 
-&ndash; and clicking on `index.html`:
+&ndash; and click the `index.html` link:
 </div> 
 <div class="col-sm-6">
 ![Post-published index.html]({{ site.baseurl }}/images/lessons/3/post-publish-click-on-index-html.png)
@@ -400,7 +424,7 @@ e.g. `https://github.com/your_username/your_username.github.io`
 
 <section class="row">
 <div class="col-sm-6">
-Click the __Edit__ page
+Click the __Edit__ button
 </div> 
 <div class="col-sm-6">
 ![Edit]({{ site.baseurl }}/images/lessons/3/post-publish-focus-on-index-html.png)
@@ -410,7 +434,16 @@ Click the __Edit__ page
 
 <section class="row">
 <div class="col-sm-6">
-Manually re-adding video embed code into index.html
+And paste the YouTube video embed code into its proper place, e.g.:
+
+~~~html
+<iframe width="640" height="360" src="//www.youtube.com/embed/dfCd2eQfueY?list=UUw7F4bJbtGwORQwMBxlGb6w" frameborder="0" allowfullscreen>
+  </iframe>
+~~~
+
+
+Then __commit__ the change and re-visit your portfolio homepage (it make take a minute for Github Pages to update the page after you've made the commit).
+
 </div> 
 <div class="col-sm-6">
 ![img]({{ site.baseurl }}/images/lessons/3/github-pages-manually-re-adding-video-embed.png)
@@ -422,7 +455,12 @@ Manually re-adding video embed code into index.html
 
 <section class="row">
 <div class="col-sm-6">
-The page with the video embed in place
+
+You should now see the YouTube video embedded and playable on the portfolio homepage.
+
+What happened? Again, Github Pages simply takes the code that exists in your portfolio repo and publishes the contents, in this case, the code you pasted into `index.html`. This is in contrast to the Automatic Page Generator, which does all the hand-holding and code-generating, with the trade-off that it will omit certain kinds of raw HTML, e..g the YouTube video `<iframe>` code.
+
+From this point on, you'll be writing your own HTML in order to have complete freedom in building your portfolio.
 </div> 
 <div class="col-sm-6">
 
@@ -433,56 +471,6 @@ The page with the video embed in place
 </section>  
 
 
-
-<section class="row">
-<div class="col-sm-6">
-All four templates
-</div> 
-<div class="col-sm-6">
-![img]({{ site.baseurl }}/images/lessons/3/github-pages-templates-4.jpg)
-</div>
-</section>  
-
-
-
-
-
-#### TK: More examples to come...
-
-
-
-
-
-
-
-<!-- 
-More images
-
- -->
-
-
-
-## TKTK
-
-<section class="row">
-<div class="col-sm-6">
-Customizing index
-</div> 
-<div class="col-sm-6">
-![img]({{ site.baseurl }}/images/lessons/3/github-pages-customizing-index-for-template.png)
-
-</div>
-</section>  
-
-
-<section class="row">
-<div class="col-sm-6">
-Github Pages removed my embed iframe code
-</div> 
-<div class="col-sm-6">
-![img]({{ site.baseurl }}/images/lessons/3/github-pages-removed-video-embed.png)
-</div>
-</section>  
 
 
 

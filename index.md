@@ -2,9 +2,16 @@
 layout: home
 title: Using Github Pages to building web portfolios from scratch 
 ---
-This a very narrow, novice-focused tutorial aimed at someone who has no web devleopment experience and has never used [Github](https://github.com), or [Git](http://git-scm.com/), or even the command line, but for whatever reason, wants to build a webpage of their own, mostly from scratch. 
+This a very narrowly focused-tutorial about web development aimed at novices who have absolutely no web devleopment experiences, nor have used [Github](https://github.com) or [Git](http://git-scm.com/), or even the command line. 
+
+The end product is a web portfolio, built (mostly) from scratch, that is easy to edit and easy to publish _anywhere_ &ndash; Github merely provides an easy starting point.
 
 (_This tutorial is in progress. [Feel free to fork it on Github](http://github.com/dannguyen/github-for-portfolios)_)
+
+## Lessons
+
+{% include lessons_list.html %}
+
 
 ##### Topics covered
 - How to use Github and Github Pages to publish content
@@ -23,9 +30,7 @@ This a very narrow, novice-focused tutorial aimed at someone who has no web devl
 
 Because it's easy and free. And if you don't like Github, you can take the exact code you've produced and put it anywhere else that acts as a web server. The important thing is: if you _do_ want to learn web development, how to use Git, how to use Github, how to program, and so forth, this lesson provides a stepping-stone to those concepts as well as a canvas to practice on. And even if you don't want to learn anything, you can come away with something useful: a customized web homepage that you can maintain yourself.
 
-## Lessons
 
-{% include lessons_list.html %}
 
 
 
