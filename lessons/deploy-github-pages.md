@@ -3,7 +3,7 @@ layout: lesson
 title: "Publishing Web Pages from Scratch with Github Pages"
 deck: "How to create and publish a file to the Web and how that is better/worse than publishing a blog post on WordPress."
 lesson_number: 2
-image: 'https://www.flickr.com/photos/zokuga/6785589935/'
+image_url: 'https://www.flickr.com/photos/zokuga/6787076613/'
 ---
 
 <section class="overview">

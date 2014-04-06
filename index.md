@@ -23,30 +23,10 @@ This a very narrow, novice-focused tutorial aimed at someone who has no web devl
 
 Because it's easy and free. And if you don't like Github, you can take the exact code you've produced and put it anywhere else that acts as a web server. The important thing is: if you _do_ want to learn web development, how to use Git, how to use Github, how to program, and so forth, this lesson provides a stepping-stone to those concepts as well as a canvas to practice on. And even if you don't want to learn anything, you can come away with something useful: a customized web homepage that you can maintain yourself.
 
+## Lessons
 
-### Lessons
+{% include lessons_list.html %}
 
-1. [Setup Github]({{ site.baseurl }}/lessons/setup-github)
-
-
-2. [Deploy a Github Page]({{ site.baseurl }}/lessons/deploy-github-pages)
-
-3. [Pre-manufactured Github Pages]({{ site.baseurl }}/lessons/premanufactured-github-pages)
-
-
-4. _To be added:_ Clone, Edit, Commit, and Push
-
-
-5. _To be added:_ Creating a Portfolio
-  - How to edit HTML, JavaScript, and CSS files
-  - How to tweak and test things you have no clue about
-
-6. _To be added:_ Github Independence
-  - Basic git concepts
-  - Cloning and copying
-  - How to collaborate with others
-  - How to customize a web domain
-  - How to move off of Github
 
 
 -------------
@@ -118,6 +98,3 @@ Github is used because of specific features that prevent us from having to do an
 - [Mastering Markdown](https://guides.github.com/overviews/mastering-markdown/) - Github's guide
 
 
-# PAGES
-
-{% include lessons_list.html %}

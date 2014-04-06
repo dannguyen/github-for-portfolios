@@ -4,6 +4,10 @@ body{
   font-size: 16px;
 }
 
+div.img-wrap{
+  img{ width: 100%;}
+}
+
 .content-silo{
   @extend .col-md-8 !optional;
   @extend .col-md-offset-2 !optional;
@@ -45,8 +49,16 @@ header.header{
 
 .layout{
   &.home{
-    h1.title{
-      font-size: 4.0em;
+    div.title{
+      h1{
+        font-size: 3.6em;
+        margin-bottom: 0.1em;
+      }
+      h2{
+        color: #a33;
+        margin-top: 0;
+      }
+
       text-align: center;
     }
   }
@@ -56,31 +68,53 @@ header.header{
 article.lesson{
 
   header{
-     padding-top: 10.5em;
+    // position: relative;
+    // height: 1000px;
+    background: black;
 
-    div.title{
-        text-align: center;
-        text-shadow: 1px 1px #444;
-
-      .lesson-number{
-        font-size: 2.2em;
-        font-weight: bold;
-        color: #a33;
+    div.header-background{
+      img{
+        width: 100%;
+        max-width: 1170px;
+        margin: auto auto;
+        background: black;
       }
-      h1{
+
+      text-align: center;
+      width: 100%;
+      // position: absolute;
+      // top: 0;
+      // left: 0;
+    }
+
+    div.header-content{
+      padding-top: 2.0em;
+      padding-bottom: 2.0em;
+
+      text-align: center;
+
+      div.title{
+          text-align: center;
+          text-shadow: 1px 1px #444;
+
+        .lesson-number{
+          font-size: 2.2em;
+          font-weight: bold;
+          color: #a33;
+        }
+        h1{
+          color: white;
+          font-size: 3.6em;
+          margin-top: 1px
+        }
+      }
+
+      div.deck{
         color: white;
-        font-size: 4.3em;
-        margin-top: 1px
+        background: black;
+        padding: 1.0em 0em;
       }
     }
-
-    div.deck{
-      color: white;
-      background: black;
-      padding: 1.0em 0em;
-
-    }
-
   }
 
 
@@ -122,4 +156,16 @@ article.lesson{
 }
 
 
+.lessons-list{
 
+  li.lesson{
+
+  }
+  div.thumb{
+    border: thin solid #777;
+    img{ width: 100%; }
+    margin-bottom: 0.3em;
+  }
+
+  div.title{ font-weight: bold; margin-bottom: 0.2em; }
+}

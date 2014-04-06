@@ -1,21 +1,27 @@
 
-<ul>
+<section class="lessons-list">
+<ul class="list list-unstyled">
+<div class="row">
   {% assign lessons = site.pages | filter_lessons_from_pages | sort_by_lesson_number %}
   {% for lesson in lessons %}
-      <li>
-        <span class="title">
+      <li class="col-sm-4">
+        <div class="thumb">
+          <img src="{{ site.baseurl }}/images/lessons/thumbs/{{lesson.lesson_number}}.jpg" alt="">
+        </div>
+
+        <div class="title">
           <a href="{{site.baseurl}}{{lesson.url}}">{{lesson.lesson_number}}. {{ lesson.title }}</a>
-        </span>
+        </div>
 
-        &ndash;
 
-        <span class="deck">
+        <div class="deck">
           {{ lesson.deck }}
-        </span>
+        </div>
       </li>
 
   {% endfor %}
 
-
+</div>
 </ul>
+</section>
 

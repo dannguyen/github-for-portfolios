@@ -3,7 +3,7 @@ layout: lesson
 title: "Pre-Fab Pages with Github's Automatic Page Generator"
 deck: "An (optional) tour of Github Pages pre-built templates and of Markdown, and practical experience with the concept of 'separation of content and presentation.'"
 lesson_number: 3
-image: 'https://www.flickr.com/photos/zokuga/5903677201/ https://www.flickr.com/photos/zokuga/11913708424/'
+image_url: 'https://www.flickr.com/photos/zokuga/11913708424/'
 ---
 
 <section class="overview">
@@ -335,7 +335,7 @@ Why is that? Probably because Github doesn't want repo/README pages [to turn int
 
 Notice the blank spot where an embedded YouTube video should be shown:
 
-![Missing youtube video embed TK]({{ site.baseurl }}/images/lessons/3/TK)
+![Missing youtube video embed TK]({{ site.baseurl }}/images/lessons/3/missing-youtube-video-embed-in-readme.jpg)
 </div>
 </section>  
 
@@ -351,7 +351,7 @@ Again, click on the __Load README.md__ button, then choose a layout, and then hi
 
 </div> 
 <div class="col-sm-6">
-![TK]({{ site.baseurl }}/images/lessons/3/TK.png)
+![Loading customized readme]({{ site.baseurl }}/images/lessons/3/load-customized-readme-for-generator.png)
 </div>
 </section>  
 
@@ -363,74 +363,49 @@ And here is how Github's Automatic page generator prettied up my `README.md`. No
 
 </div> 
 <div class="col-sm-6">
-![TK]({{ site.baseurl }}/images/lessons/3/TK.png)
+![Publizhed customized readme]({{ site.baseurl }}/images/lessons/3/customized-readme-published-as-pages.jpg)
 </div>
 </section>  
+
+
+## Editing HTML manually
 
 <section class="row">
 <div class="col-sm-6">
-TK
+While we're at at the portfolio page, __View Source__ to see what happened to the YouTube embed code.
 
 </div> 
 <div class="col-sm-6">
-![TK]({{ site.baseurl }}/images/lessons/3/TK.png)
+![Missing embed]({{ site.baseurl }}/images/lessons/3/github-pages-removed-video-embed.png)
 </div>
 </section>  
 
-
-<section class="row">
-<div class="col-sm-6">
-
-TK
-
-</div> 
-<div class="col-sm-6">
-![TK]({{ site.baseurl }}/images/lessons/3/TK.png)
-</div>
-</section>  
-
-
-
-
-#### TK: More examples to come...
-
-
-
-
-
-
-
-<!-- 
-More images
-
- -->
-
-
-
-<!-- 
 
 
 <section class="row">
 <div class="col-sm-6">
-Customizing index
+You can rectify this by going to your Github repo page: 
+
+e.g. `https://github.com/your_username/your_username.github.io`
+
+&ndash; and clicking on `index.html`:
 </div> 
 <div class="col-sm-6">
-![img]({{ site.baseurl }}/images/lessons/3/github-pages-customizing-index-for-template.png)
-
+![Post-published index.html]({{ site.baseurl }}/images/lessons/3/post-publish-click-on-index-html.png)
 </div>
 </section>  
+
+
 
 
 <section class="row">
 <div class="col-sm-6">
-Github Pages removed my embed iframe code
+Click the __Edit__ page
 </div> 
 <div class="col-sm-6">
-![img]({{ site.baseurl }}/images/lessons/3/github-pages-removed-video-embed.png)
+![Edit]({{ site.baseurl }}/images/lessons/3/post-publish-focus-on-index-html.png)
 </div>
 </section>  
-
-
 
 
 <section class="row">
@@ -469,4 +444,46 @@ All four templates
 </section>  
 
 
+
+
+
+#### TK: More examples to come...
+
+
+
+
+
+
+
+<!-- 
+More images
+
  -->
+
+
+
+## TKTK
+
+<section class="row">
+<div class="col-sm-6">
+Customizing index
+</div> 
+<div class="col-sm-6">
+![img]({{ site.baseurl }}/images/lessons/3/github-pages-customizing-index-for-template.png)
+
+</div>
+</section>  
+
+
+<section class="row">
+<div class="col-sm-6">
+Github Pages removed my embed iframe code
+</div> 
+<div class="col-sm-6">
+![img]({{ site.baseurl }}/images/lessons/3/github-pages-removed-video-embed.png)
+</div>
+</section>  
+
+
+
+
