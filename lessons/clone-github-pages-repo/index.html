@@ -2,45 +2,99 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Lesson 3. Clone, Edit, Commit, and Push</title>
-        <meta name="viewport" content="width=device-width">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Clone, Edit, Commit, and Sync</title>
+<meta name="viewport" content="width=device-width">
 
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/github-for-portfolios/assets/bootstrap.min-344dc9bf034f34ea6ca892fe97eaaa35.css">
-        <link rel="stylesheet" href="/github-for-portfolios/assets/main-195fb80ab8368317e53ec707075a9120.css">
+<!-- Custom CSS -->
+
+<link rel="stylesheet" href="/github-for-portfolios/assets/main-34b52b5450fab0b4b10521d2d85ed897.css">
 
     </head>
     <body>
-
+        <!-- begin  layouts/default -->
 <header class="header">
+  <div class="container">
 
-    <div class="container">
-            <div class="site-title"><a href="/github-for-portfolios/">Creating Simple Web Portfolios using Github Pages</a></div>
-    </div>
+          <div class="site-title"><a href="/github-for-portfolios/">Creating Simple Web Portfolios using Github Pages</a></div>
+
+  </div>
 </header>
 
 
-<div class="container">
+<div class="home layout">
+      <!-- begin  layouts/lesson -->
+
+<article class="layout lesson">
+  <header>
+    <div class="header-background">
+      <img src="/github-for-portfolios/images/lessons/headers/4.jpg" alt="">
+
+    </div>
+
+    <div class="header-content">
+      <div class="container">
+        <div class="title">
+          <div class="lesson-number">Lesson 4</div>
+          <h1>Clone, Edit, Commit, and Sync</h1>
+        </div>
+      </div>
+
+      <div class="deck">
+        <div class="container">
+          <div class="row">
+            <div class="content-silo">
+                How to install the Github desktop app, make a local copy of your Github repo, manage and edit your webpage project on your own operating system, and sync with your Github repo.
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </header>
 
 
-          <article class="lesson">
+  <section class="sec content">
+    <div class="container">
+
+      <div class="status">
+        This lesson is: <strong>Just a draft</strong>
+      </div>
 
 
-<div class="title">
-  <div class="lesson-number">Lesson </div>
-  <h1>Lesson 3. Clone, Edit, Commit, and Push</h1>
-</div>
+      <section class="overview">
+
+  <p>As you’ve probably noticed from using Github’s Automatic Page Generator, or past web-development experience, a website consists of more than just a single HTML file. Besides having multiple pages (i.e. multiple HTML files), most websites also have image files, for example.</p>
+
+  <p>By using Github.com’s web interface, we’ve been able to add and edit <strong>text</strong> files. But, at the time of writing, there isn’t a way to add multimedia assets, such as images, to our repo.</p>
+
+  <p>Even if Github adds such an upload feature to its web interface, you can imagine that it will be a bit cumbersome to build an entire website, from scratch, from within your web browser. What would be convenient is if we could build the website on our own operating system, e.g. using the files and folders system that we’ve been accustomed to since the first Macintosh and Windows system.</p>
+
+  <p>So this chapter walks through the process of downloading a <strong>local copy</strong> of our Github repo, editing and changing the files on our own computer system, and then syncing those changes so that they appear on our live Github-powered portfolio pages.</p>
+</section>
 
 <h2 id="download-the-github-application">Download the Github application</h2>
 
 <section class="row">
   <div class="col-sm-6">
-    <p>Show link on Github.com</p>
+
+    <p>Github provides a <strong>desktop application</strong> to let you manage your Github-based repos with a graphical interface. Downloading and using the Github desktop app is <em>entirely optional</em>; most developers manage their repos from the <strong>command-line</strong>. But using the Github desktop app provides the smoothest transition from the web-browser editing we’ve done so far.</p>
+
+    <p>The Github app for Mac can be found here:</p>
+
+    <p><a href="https://mac.github.com/">https://mac.github.com/</a></p>
+
+    <p>The Github app for Windows is here:</p>
+
+    <p><a href="https://windows.github.com/">https://windows.github.com/</a></p>
+
   </div>
   <div class="col-sm-6">
-    <p>![howto]({“source”=&gt;”.”, “destination”=&gt;”_site”, “plugins”=&gt;”_plugins”, “layouts”=&gt;”_layouts”, “data_source”=&gt;”_data”, “keep_files”=&gt;[“.git”, “.svn”], “gems”=&gt;[], “timezone”=&gt;nil, “encoding”=&gt;nil, “safe”=&gt;false, “detach”=&gt;false, “show_drafts”=&gt;nil, “limit_posts”=&gt;0, “lsi”=&gt;false, “future”=&gt;true, “pygments”=&gt;true, “relative_permalinks”=&gt;true, “markdown”=&gt;”kramdown”, “permalink”=&gt;”pretty”, “baseurl”=&gt;”/github-for-portfolios”, “include”=&gt;[“.htaccess”], “exclude”=&gt;[“Gemfile”, “Gemfile.lock”, “Rakefile”, “README.md”], “paginate_path”=&gt;”/page:num”, “markdown_ext”=&gt;”markdown,mkd,mkdn,md”, “textile_ext”=&gt;”textile”, “port”=&gt;”4000”, “host”=&gt;”0.0.0.0”, “excerpt_separator”=&gt;”\n\n”, “maruku”=&gt;{“fenced_code_blocks”=&gt;true, “use_tex”=&gt;false, “use_divs”=&gt;false, “png_engine”=&gt;”blahtex”, “png_dir”=&gt;”images/latex”, “png_url”=&gt;”/images/latex”}, “rdiscount”=&gt;{“extensions”=&gt;[]}, “redcarpet”=&gt;{“extensions”=&gt;[]}, “kramdown”=&gt;{“auto_ids”=&gt;true, “footnote_nr”=&gt;1, “entity_output”=&gt;”as_char”, “toc_levels”=&gt;”1..6”, “smart_quotes”=&gt;”lsquo,rsquo,ldquo,rdquo”, “use_coderay”=&gt;false, “coderay”=&gt;{“coderay_wrap”=&gt;”div”, “coderay_line_numbers”=&gt;”inline”, “coderay_line_number_start”=&gt;1, “coderay_tab_width”=&gt;4, “coderay_bold_every”=&gt;10, “coderay_css”=&gt;”style”}, “parse_block_html”=&gt;true, “coderay_line_numbers”=&gt;”nil”}, “redcloth”=&gt;{“hard_breaks”=&gt;true}, “name”=&gt;”Creating Simple Web Portfolios using Github Pages”, “repourl”=&gt;”dannguyen/github-for-portfolios”, “assets”=&gt;{“baseurl”=&gt;”/github-for-portfolios/assets”, “css_compressor”=&gt;”sass”}, “time”=&gt;2014-04-02 07:59:29 -0400, “posts”=&gt;[], “pages”=&gt;[#&lt;Jekyll:Page @name=”index.md”&gt;, #&lt;Jekyll:Page @name=”clone-github-pages-repo.md”&gt;, #&lt;Jekyll:Page @name=”deploy-github-pages.md”&gt;, #&lt;Jekyll:Page @name=”premanufactured-github-pages.md”&gt;, #&lt;Jekyll:Page @name=”remove-rebuild-recommit.md”&gt;, #&lt;Jekyll:Page @name=”setup-github.md”&gt;], “html_pages”=&gt;[#&lt;Jekyll:Page @name=”index.md”&gt;, #&lt;Jekyll:Page @name=”clone-github-pages-repo.md”&gt;, #&lt;Jekyll:Page @name=”deploy-github-pages.md”&gt;, #&lt;Jekyll:Page @name=”premanufactured-github-pages.md”&gt;, #&lt;Jekyll:Page @name=”remove-rebuild-recommit.md”&gt;, #&lt;Jekyll:Page @name=”setup-github.md”&gt;], “categories”=&gt;{}, “tags”=&gt;{}, “data”=&gt;{}}/images/lessons/)</p>
+
+    <p><img src="/github-for-portfolios/images/lessons/4/github-windows-download.png" alt="howto" /></p>
+
+    <p><img src="/github-for-portfolios/images/lessons/4/github-mac-download.png" alt="howto" /></p>
+
   </div>
 </section>
 
@@ -51,7 +105,7 @@
 
   </div>
   <div class="col-sm-6">
-    <p><img src="/github-for-portfolios/images/lessons/github-zip-in-downloads.png" alt="howto" /></p>
+    <p><img src="/github-for-portfolios/images/lessons/4/github-zip-in-downloads.png" alt="howto" /></p>
   </div>
 </section>
 
@@ -60,9 +114,22 @@
     <p>Double-click on the zip file which will produce a <strong>Github.app</strong> file. You can move this file to your <strong>Applications</strong> folder, or just double-click it and the app will offer to move itself for you.</p>
   </div>
   <div class="col-sm-6">
-    <p><img src="/github-for-portfolios/images/lessons/github-app-opened.png" alt="howto" /></p>
+    <p><img src="/github-for-portfolios/images/lessons/4/github-app-opened.png" alt="howto" /></p>
   </div>
 </section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>The app should ask you to sign with your Github credentials so that it can sync with Github.com.</p>
+
+  </div>
+  <div class="col-sm-6">
+
+    <p><img src="/github-for-portfolios/images/lessons/4/github-app-asking-for-permission.png" alt="howto" /></p>
+  </div>
+</section>
+
+<h2 id="clone-a-repo">Clone a repo</h2>
 
 <section class="row">
   <div class="col-sm-6">
@@ -71,18 +138,16 @@
   </div>
   <div class="col-sm-6">
 
-    <p><img src="/github-for-portfolios/images/lessons/github-app-show-account.png" alt="howto" /></p>
+    <p><img src="/github-for-portfolios/images/lessons/4/github-app-show-account.png" alt="howto" /></p>
   </div>
 </section>
-
-<h2 id="clone-a-repo">Clone a repo</h2>
 
 <section class="row">
   <div class="col-sm-6">
     <p>A little Git terminology: the term <strong>clone</strong> refers to a <strong>git</strong> function that makes an entirely new copy of a repo. At the most basic level, this is no different than stashing a project folder on a USB drive or Dropbox and allowing collaborators to copy it onto their own computer.</p>
   </div>
   <div class="col-sm-6">
-    <p><img src="/github-for-portfolios/images/lessons/github-app-clone-specific-repo.png" alt="howto" /></p>
+    <p><img src="/github-for-portfolios/images/lessons/4/github-app-clone-specific-repo.png" alt="howto" /></p>
   </div>
 </section>
 
@@ -91,7 +156,7 @@
     <p>Part of cloning a repo is you also clone the <strong>git</strong> activity, i.e. the history of changes so far.</p>
   </div>
   <div class="col-sm-6">
-    <p><img src="/github-for-portfolios/images/lessons/github-app-show-history-so-far.png" alt="howto" /></p>
+    <p><img src="/github-for-portfolios/images/lessons/4/github-app-show-history-so-far.png" alt="howto" /></p>
 
   </div>
 </section>
@@ -101,7 +166,7 @@
     <p>text</p>
   </div>
   <div class="col-sm-6">
-    <p><img src="/github-for-portfolios/images/lessons/github-app-cloned-repo-list.png" alt="Show in Finder" /></p>
+    <p><img src="/github-for-portfolios/images/lessons/4/github-app-cloned-repo-list.png" alt="Show in Finder" /></p>
 
   </div>
 </section>
@@ -111,7 +176,7 @@
     <p>After cloning the repo, you’ll see a new file folder with the same name as the repo. </p>
   </div>
   <div class="col-sm-6">
-    <p><img src="/github-for-portfolios/images/lessons/local-download-folder.png" alt="The repo downloaded to our computer" /></p>
+    <p><img src="/github-for-portfolios/images/lessons/4/local-download-folder.png" alt="The repo downloaded to our computer" /></p>
   </div>
 </section>
 
@@ -122,7 +187,7 @@
     <p>You can visit the repo page on Github to confirm that the files are the same. The takeaway here is that Github.com can be seen, for our purposes, as a website that stores a copy of our project and allows us to peruse it via a web browser. But at any time, we can make an exact copy of the repo and distribute our files as we please.</p>
   </div>
   <div class="col-sm-6">
-    <p><img src="/github-for-portfolios/images/lessons/local-repo-file-listing.png" alt="The local repo's listing of files compared to Github's" /></p>
+    <p><img src="/github-for-portfolios/images/lessons/4/local-repo-file-listing.png" alt="The local repo's listing of files compared to Github's" /></p>
   </div>
 </section>
 
@@ -137,7 +202,7 @@
     <p>Just as if you gave a haircut to an identical (human) twin, the hair on the other twin doesn’t automatically update, so do our file changes not automatically propogate to all the other cloned repos.</p>
   </div>
   <div class="col-sm-6">
-    <p><img src="/github-for-portfolios/images/lessons/editing-index-html-youtube-embed.png" alt="Editing the youtube embed code" /></p>
+    <p><img src="/github-for-portfolios/images/lessons/4/editing-index-html-youtube-embed.png" alt="Editing the youtube embed code" /></p>
   </div>
 </section>
 
@@ -157,7 +222,7 @@
 
   </div>
   <div class="col-sm-6">
-    <p><img src="/github-for-portfolios/images/lessons/github-app-showing-index-html-diff.png" alt="Github app showing the diff" /></p>
+    <p><img src="/github-for-portfolios/images/lessons/4/github-app-showing-index-html-diff.png" alt="Github app showing the diff" /></p>
   </div>
 </section>
 
@@ -174,7 +239,7 @@
     <p>After pressing the <strong>Commit</strong> button, you should notice that the bottom half of the app has a section for <strong>Unsynced Commits</strong>. It means exactly what you might think: these fresh <em>commits</em> need to be <em>synced</em> with Github.com.</p>
   </div>
   <div class="col-sm-6">
-    <p><img src="/github-for-portfolios/images/lessons/github-app-post-commit.png" alt="After pressing commit" /></p>
+    <p><img src="/github-for-portfolios/images/lessons/4/github-app-post-commit.png" alt="After pressing commit" /></p>
   </div>
 </section>
 
@@ -183,7 +248,7 @@
     <p>So press the big <strong>Sync</strong> button. You may get a request from the Github app to use the credentials you have set for your Github.com account.</p>
   </div>
   <div class="col-sm-6">
-    <p><img src="/github-for-portfolios/images/lessons/github-app-asking-for-permission.png" alt="Granting permissions" /></p>
+    <p><img src="/github-for-portfolios/images/lessons/4/github-app-asking-for-permission.png" alt="Granting permissions" /></p>
   </div>
 </section>
 
@@ -192,7 +257,7 @@
     <p>After a few seconds, you’ll see that the sections for <strong>Uncommitted Changes</strong> and <strong>Unsynced Commits</strong> are now empty, indicating that the sync action has finished.</p>
   </div>
   <div class="col-sm-6">
-    <p><img src="/github-for-portfolios/images/lessons/github-app-post-sync.png" alt="After syncing to server" /></p>
+    <p><img src="/github-for-portfolios/images/lessons/4/github-app-post-sync.png" alt="After syncing to server" /></p>
   </div>
 </section>
 
@@ -201,7 +266,7 @@
     <p>In the <strong>Github app</strong>, check out the <strong>History</strong> tab, which will now list the latest commit.</p>
   </div>
   <div class="col-sm-6">
-    <p><img src="/github-for-portfolios/images/lessons/github-app-showing-history.png" alt="Looking at the history" /></p>
+    <p><img src="/github-for-portfolios/images/lessons/4/github-app-showing-history.png" alt="Looking at the history" /></p>
   </div>
 </section>
 
@@ -210,7 +275,7 @@
     <p>Now visit your <strong>Github.com repo page</strong> which will also show the synced files. In my case, the only file I changed was <code>index.html</code></p>
   </div>
   <div class="col-sm-6">
-    <p><img src="/github-for-portfolios/images/lessons/github-site-showing-sync-and-message.png" alt="Github site showing latest commit and message" /></p>
+    <p><img src="/github-for-portfolios/images/lessons/4/github-site-showing-sync-and-message.png" alt="Github site showing latest commit and message" /></p>
   </div>
 </section>
 
@@ -219,7 +284,7 @@
     <p>Finally, visit your home on Github Pages, e.g. <code>http://your_username.github.io</code>, to see the changes you’ve made to <code>index.html</code></p>
   </div>
   <div class="col-sm-6">
-    <p><img src="/github-for-portfolios/images/lessons/screenshot-of-new-youtube-embed-on-site.jpg" alt="howto" /></p>
+    <p><img src="/github-for-portfolios/images/lessons/4/screenshot-of-new-youtube-embed-on-site.jpg" alt="howto" /></p>
   </div>
 </section>
 
@@ -235,81 +300,235 @@
   <p>So by learning how to use the Github app and cloning the repo, we’ve made the process a bit more complicated, but we’ve also gained more flexibility in what we can add to our web project.</p>
 </section>
 
-<h2 id="uploading-new-files">Uploading new files</h2>
+<!-- 
+## Uploading new files
 <section class="row">
-  <div class="col-sm-6">
+<div class="col-sm-6">
 
-  </div>
-  <div class="col-sm-6">
+</div>
+<div class="col-sm-6">
 
-  </div>
+</div>
+</section>
+
+
+
+<section class="row">
+<div class="col-sm-6">
+TK
+</div>
+<div class="col-sm-6">
+
+</div>
+</section>
+
+
+<section class="row">
+<div class="col-sm-6">
+TK
+</div>
+<div class="col-sm-6">
+
+</div>
 </section>
 
 <section class="row">
-  <div class="col-sm-6">
-    <p>TK</p>
-  </div>
-  <div class="col-sm-6">
+<div class="col-sm-6">
+TK
+</div>
+<div class="col-sm-6">
 
-  </div>
+</div>
 </section>
 
-<section class="row">
-  <div class="col-sm-6">
-    <p>TK</p>
-  </div>
-  <div class="col-sm-6">
 
-  </div>
-</section>
+![howto](/github-for-portfolios/images/lessons/4/)
 
-<section class="row">
-  <div class="col-sm-6">
-    <p>TK</p>
-  </div>
-  <div class="col-sm-6">
-
-  </div>
-</section>
-
-<p><img src="/github-for-portfolios/images/lessons/" alt="howto" /></p>
-
-<p><img src="/github-for-portfolios/images/lessons/" alt="howto" />
-<img src="/github-for-portfolios/images/lessons/" alt="howto" />
-<img src="/github-for-portfolios/images/lessons/" alt="howto" />
-<img src="/github-for-portfolios/images/lessons/" alt="howto" /></p>
-
-<p><img src="/github-for-portfolios/images/lessons/" alt="howto" /></p>
+![howto](/github-for-portfolios/images/lessons/4/)
+![howto](/github-for-portfolios/images/lessons/4/)
+![howto](/github-for-portfolios/images/lessons/4/)
+![howto](/github-for-portfolios/images/lessons/4/)
 
 
 
 
 
+![howto](/github-for-portfolios/images/lessons/4/)
+
+ -->
+
+    </div>
+  </section>
 </article>
 
 
-</div>
+  <section class="sec">
+    <div class="container">
+      <div class="lessons-list">
+        
+<section class="lessons-list">
+<ul class="list list-unstyled">
+ 
+  
+
+      <li class="lesson">
+        <div class="row">
+
+        <div class="col-sm-4">
+          <div class="thumb">
+            <a href="/github-for-portfolios/lessons/setup-github/">
+              <img src="/github-for-portfolios/images/lessons/thumbs/1.jpg" alt="">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-8">
+          <div class="title">
+            <a href="/github-for-portfolios/lessons/setup-github/">1. Setting Up a Place on Github</a>
+          </div>
+          <div class="deck">
+            How to open a Github account, create a project repository, and create a new file in the repository.
+          </div>
+
+        </div>
+        </div>
+
+      </li>
+
+  
+
+      <li class="lesson">
+        <div class="row">
+
+        <div class="col-sm-4">
+          <div class="thumb">
+            <a href="/github-for-portfolios/lessons/deploy-github-pages/">
+              <img src="/github-for-portfolios/images/lessons/thumbs/2.jpg" alt="">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-8">
+          <div class="title">
+            <a href="/github-for-portfolios/lessons/deploy-github-pages/">2. Publishing Web Pages from Scratch with Github Pages</a>
+          </div>
+          <div class="deck">
+            How to create and publish a file to the Web and how that is better/worse than publishing a blog post on WordPress.
+          </div>
+
+        </div>
+        </div>
+
+      </li>
+
+  
+
+      <li class="lesson">
+        <div class="row">
+
+        <div class="col-sm-4">
+          <div class="thumb">
+            <a href="/github-for-portfolios/lessons/premanufactured-github-pages/">
+              <img src="/github-for-portfolios/images/lessons/thumbs/3.jpg" alt="">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-8">
+          <div class="title">
+            <a href="/github-for-portfolios/lessons/premanufactured-github-pages/">3. Pre-Fab Pages with Github's Automatic Page Generator</a>
+          </div>
+          <div class="deck">
+            An (optional) tour of Github Pages pre-built templates and of Markdown, and practical experience with the concept of 'separation of content and presentation.'
+          </div>
+
+        </div>
+        </div>
+
+      </li>
+
+  
+
+      <li class="lesson">
+        <div class="row">
+
+        <div class="col-sm-4">
+          <div class="thumb">
+            <a href="/github-for-portfolios/lessons/clone-github-pages-repo/">
+              <img src="/github-for-portfolios/images/lessons/thumbs/4.jpg" alt="">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-8">
+          <div class="title">
+            <a href="/github-for-portfolios/lessons/clone-github-pages-repo/">4. Clone, Edit, Commit, and Sync</a>
+          </div>
+          <div class="deck">
+            How to install the Github desktop app, make a local copy of your Github repo, manage and edit your webpage project on your own operating system, and sync with your Github repo.
+          </div>
+
+        </div>
+        </div>
+
+      </li>
+
+  
+
+      <li class="lesson">
+        <div class="row">
+
+        <div class="col-sm-4">
+          <div class="thumb">
+            <a href="/github-for-portfolios/lessons/creating-your-portfolio/">
+              <img src="/github-for-portfolios/images/lessons/thumbs/5.jpg" alt="">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-8">
+          <div class="title">
+            <a href="/github-for-portfolios/lessons/creating-your-portfolio/">5. Creating and Publishing Your Portfolio</a>
+          </div>
+          <div class="deck">
+            How to use HTML, JavaScript, and CSS to build your own web portfolio. And then, how to tweak and test things of which you have no real understanding.
+          </div>
+
+        </div>
+        </div>
+
+      </li>
+
+  
+
+</ul>
+</section>
 
 
-<footer class="footer">
-<div class="container">
-    <div class="contact">
-      <p>
-        By <a href="http://danwin.com">Dan Nguyen</a> | <a href="https://twitter.com/dancow">@dancow</a><br />
+      </div>
 
-      </p>
     </div>
+  </section>
 
 
-    <div>
-      <p>Fork <a href="//github.com/dannguyen/github-for-portfolios">this tutorial on Github</a></p>
+<!-- end  layouts/lesson -->
+
+</div>
+<!-- end  layouts/default -->
+
+        <footer class="footer">
+    <div class="container">
+
+                <div class="contact">
+                  <p>
+                    By <a href="http://danwin.com">Dan Nguyen</a> | <a href="https://twitter.com/dancow">@dancow</a><br />
+                  </p>
+
+                  <p>Fork <a href="//github.com/dannguyen/github-for-portfolios">this tutorial on Github</a></p>
+                </div>
 
     </div>
-</div>
 </footer>
-
-
-
 
     </body>
 </html>
