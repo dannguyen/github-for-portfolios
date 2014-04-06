@@ -269,6 +269,40 @@ Finally, visit your home on Github Pages, e.g. `http://your_username.github.io`,
 </div>
 </section>
 
+
+
+## Uploading new files
+<section class="row">
+<div class="col-sm-6">
+_Incomplete section_
+</div>
+<div class="col-sm-6">
+![TK](//placekitten.com/700/300)
+</div>
+</section>
+
+## Deleting files
+<section class="row">
+<div class="col-sm-6">
+_Incomplete section_
+</div>
+<div class="col-sm-6">
+![TK](//placekitten.com/700/300)
+</div>
+</section>
+
+## Syncing changes and conflicts
+<section class="row">
+<div class="col-sm-6">
+_Incomplete section_
+</div>
+<div class="col-sm-6">
+![TK](//placekitten.com/700/300)
+</div>
+</section>
+
+
+
 <section class="overview">
 If you haven't been too confused by this new procedure, you might have noticed that, despite walking through all these different steps, we _did not gain any new functionality_.
 
@@ -282,16 +316,11 @@ So by learning how to use the Github app and cloning the repo, we've made the pr
 </section>
 
 
+
+
+
 <!-- 
-## Uploading new files
-<section class="row">
-<div class="col-sm-6">
 
-</div>
-<div class="col-sm-6">
-
-</div>
-</section>
 
 
 

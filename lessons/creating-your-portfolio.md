@@ -8,7 +8,45 @@ status: Just a draft
 ---
 
 
-## Creating the index.html skeleton
+## Making a clean slate
+
+## Creating the index.html
+
+
+<section class="row">
+<div class="col-sm-8">
+Sample code
+</div>
+<div class="col-sm-4">
+
+~~~ html
+<!doctype html>
+<html lang="en">
+<head>
+  <title>My Portfolio</title>
+</head>
+  <body>
+    
+
+    <img src="http://placekitten.com/900/300" alt="A cat">
+
+    <h1>Welcome to my Portfolio</h1>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, sunt, ex, incidunt obcaecati magnam nemo nulla.
+    </p>
+
+
+  </body>
+</html>
+~~~
+
+
+</div>
+</section>
+
+
+
 
 ## Downloading Bootstrap
 
