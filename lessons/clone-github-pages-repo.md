@@ -40,6 +40,8 @@ The Github app for Windows is here:
 
 [https://windows.github.com/](https://windows.github.com/)
 
+Github [also has online documentation for its desktop app](https://mac.github.com/help.html), but assumes you're using it to do the full range of Git/Github functionality.
+
 
 </div>
 <div class="col-sm-6">
