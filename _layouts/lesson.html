@@ -5,30 +5,43 @@ layout: default
 <!-- begin  layouts/lesson -->
 
 <article class="layout lesson">
-  <div class="container">
-    <div class="title">
-      <div class="lesson-number">Lesson {{page.lesson_number}}</div>
-      <h1>{{ page.title }}</h1>
-    </div>
-
-    <div class="row">
-      <div class="content-silo">
-        <div class="deck">
-          {{page.deck}}
-        </div>
+  <header style="background: url(http://placekitten.com/1600/800);">
+    <div class="container">
+      <div class="title">
+        <div class="lesson-number">Lesson {{page.lesson_number}}</div>
+        <h1>{{ page.title }}</h1>
       </div>
     </div>
 
-  </div>
+    <div class="deck">
+      <div class="container">
+        <div class="row">
+          <div class="content-silo">
+              {{page.deck}}
+            </div>
+          </div>
+        </div>
+      </div>
 
-  {{ content }}
+
+  </header>
+
+  <section class="sec content">
+    <div class="container">
+      {{ content }}
+    </div>
+  </section>
 </article>
 
 
-<div class="lessons-list">
-  {% include lessons_list.html %}
+  <section class="sec">
+    <div class="container">
+      <div class="lessons-list">
+        {% include lessons_list.html %}
+      </div>
 
-</div>
+    </div>
+  </section>
 
 
 <!-- end  layouts/lesson -->
