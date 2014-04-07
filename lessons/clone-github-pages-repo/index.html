@@ -122,7 +122,7 @@
 
 <section class="row">
   <div class="col-sm-6">
-    <p>The app should ask you to sign with your Github credentials so that it can sync with Github.com.</p>
+    <p>The app should ask you to sign with your Github credentials so that it can sync with your Github.com account.</p>
 
   </div>
   <div class="col-sm-6">
@@ -131,22 +131,81 @@
   </div>
 </section>
 
-<h2 id="clone-a-repo">Clone a repo</h2>
+<section class="row">
+  <div class="col-sm-6">
+
+    <p>Let’s get quickly acquainted with the <strong>Github Desktop App</strong>.</p>
+
+    <p>First look at the <strong>sidebar</strong>: you should see two subheads with (short) lists:</p>
+
+    <ul>
+      <li><strong>THIS COMPUTER</strong>
+        <ul>
+          <li>My Repositories</li>
+        </ul>
+      </li>
+      <li><strong>GITHUB.COM</strong>
+        <ul>
+          <li>username</li>
+        </ul>
+      </li>
+    </ul>
+
+    <p>Those two subheads represent the two physical locations where your Github repos might be stored: on Github.com (which you’ve been working with so far, via web browser) and on your own computer. </p>
+  </div>
+  <div class="col-sm-6">
+
+    <p><img src="/github-for-portfolios/images/lessons/4/github-desktop-app-sidebar.png" alt="Desktop app sidebar" /></p>
+  </div>
+</section>
 
 <section class="row">
   <div class="col-sm-6">
-    <p>The app should ask you to sign with your Github credentials so that it can sync with Github.com. You’ll see TK.</p>
+
+    <p>If you click on the  <strong>My Repositories</strong> item, under the <strong>THIS COMPUTER</strong> subhead, you should see an empty screen. This is because you haven’t yet copied your Github repos to your computer yet.</p>
 
   </div>
   <div class="col-sm-6">
 
+    <p><img src="/github-for-portfolios/images/lessons/4/github-desktop-app-this-computer-list.png" alt="howto" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>Now click on <strong>username</strong> under the <strong>GITHUB.COM</strong> subhead. You should see a lone repo:</p>
+
+    <p><code>username/username.github.io</code></p>
+
+    <p>This is the publish-to-Github-Pages repo you’ve been editing for the entirety of the lesson so far. As you create new repos on Github.com, they will show up in this listing.</p>
+
+    <p>And as you <strong>clone</strong> those repos over to your local computer, you’ll see a similar list under <strong>THIS COMPUTER</strong> » <strong>My Repositories</strong>. </p>
+
+    <p>Let’s now create our first <strong>cloned repo</strong>.</p>
+
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/4/github-desktop-app-githubcom-list.png" alt="howto" /></p>
+  </div>
+</section>
+
+<h2 id="clone-a-repo">Clone a repo</h2>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>A little Git terminology: the term <strong>clone</strong> refers to a <strong>git</strong> function that makes an entirely new copy of a repo. At the most basic level, this is no different than stashing a project folder on a USB drive or Dropbox and allowing collaborators to copy it onto their own computer.</p>
+
+    <p>In the Github Desktop App sidebar, click the <strong>GITHUB.COM</strong> » <strong>username</strong> repo. In the right-side of the app, you should see a button that says <strong>Clone to Computer</strong>. Click it.</p>
+  </div>
+  <div class="col-sm-6">
     <p><img src="/github-for-portfolios/images/lessons/4/github-app-show-account.png" alt="howto" /></p>
   </div>
 </section>
 
 <section class="row">
   <div class="col-sm-6">
-    <p>A little Git terminology: the term <strong>clone</strong> refers to a <strong>git</strong> function that makes an entirely new copy of a repo. At the most basic level, this is no different than stashing a project folder on a USB drive or Dropbox and allowing collaborators to copy it onto their own computer.</p>
+    <p>The app should pop-up a prompt asking you where to download the repo to. Again, <strong>cloning</strong> a repo from Github.com to your own computer is essentially the same as downloading a copy of it.</p>
+
   </div>
   <div class="col-sm-6">
     <p><img src="/github-for-portfolios/images/lessons/4/github-app-clone-specific-repo.png" alt="howto" /></p>
@@ -155,7 +214,78 @@
 
 <section class="row">
   <div class="col-sm-6">
+    <p>Now in the desktop app sidebar, click on the <strong>THIS COMPUTER</strong> » <strong>My Repositories</strong> list item. The right-side of the destkop app should now have a single item: the <code>username/username.github.io</code> repo, with a message saying it was “<em>Synchronized less than a minute ago</em>”.</p>
+
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/4/github-app-first-clone.png" alt="howto" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>Right-click on the cloned repo item, which will bring up a pop-up menu. </p>
+
+    <p>If you select  <strong>View on Github</strong>, it will take you to that repo’s top-level page on Github.com, which you’re familiar with by now.</p>
+
+    <p>If you select <strong>Remove</strong>, it will delete the repository from your computer but will <em>leave alone the copy on Github.com</em>. Deleting a clone doesn’t delete the master copy.</p>
+
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/4/github-app-cloned-repo-list.png" alt="howto" /></p>
+
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>For now, select <strong>Show in Finder</strong>, which should take you to where you told the Github app to clone the repo.</p>
+
+    <p>Your repo should have been downloaded to a folder named: <code>username.github.io</code></p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/4/local-download-folder.png" alt="howto" /></p>
+
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>Double-click your repo folder. Does that file listing look familiar? Visit your repo folder at Github.com if you need to refresh your memory. See, a Git repo is very much like a typical folder of files.</p>
+
+    <p>The takeaway here is that Github.com can be seen, for our purposes, as a website that stores a copy of our project and allows us to peruse it via a web browser. But at any time, we can make an exact copy of the repo and distribute our files as we please.</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/4/local-repo-file-listing.png" alt="howto" /></p>
+
+  </div>
+</section>
+
+<h2 id="viewing-the-git-activity">Viewing the Git activity</h2>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>Of course, a Git repo has a few additional features to it. There’s a (hidden) metadata file that lists, among other things, the repo’s configuration settings and history. In the desktop app’s <strong>My Repositories</strong> listing, either double-click your cloned-repo item, or click the little arrow button that’s at the right end of the listing.</p>
+
+    <p>The Github Desktop App will now focus on the cloned repo: the <strong>left sidebar</strong> will change to fit this context with a set of new buttons. </p>
+
+    <p>Notice the <strong>top-navigation</strong>: when you want to go back to the top-level list of repositories, simply click on <strong>Repositories</strong>.</p>
+
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/4/github-app-first-clone-arrow-button.png" alt="Highlighting the arrow button" /></p>
+
+    <p><img src="/github-for-portfolios/images/lessons/4/github-app-top-nav-sidebar-detail.png" alt="Top nav and sidebar" /></p>
+
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
     <p>Part of cloning a repo is you also clone the <strong>git</strong> activity, i.e. the history of changes so far.</p>
+
+    <p>That commit history and the messages should look familiar to you.</p>
+
   </div>
   <div class="col-sm-6">
     <p><img src="/github-for-portfolios/images/lessons/4/github-app-show-history-so-far.png" alt="howto" /></p>
@@ -163,38 +293,13 @@
   </div>
 </section>
 
-<section class="row">
-  <div class="col-sm-6">
-    <p>text</p>
-  </div>
-  <div class="col-sm-6">
-    <p><img src="/github-for-portfolios/images/lessons/4/github-app-cloned-repo-list.png" alt="Show in Finder" /></p>
-
-  </div>
-</section>
+<h2 id="making-changes-to-our-local-repo">Making changes to our local repo</h2>
 
 <section class="row">
   <div class="col-sm-6">
-    <p>After cloning the repo, you’ll see a new file folder with the same name as the repo. </p>
-  </div>
-  <div class="col-sm-6">
-    <p><img src="/github-for-portfolios/images/lessons/4/local-download-folder.png" alt="The repo downloaded to our computer" /></p>
-  </div>
-</section>
 
-<section class="row">
-  <div class="col-sm-6">
-    <p>Go ahead and open the repo folder. If you weren’t convinced that a git repo is pretty much like any file folder, here’s the proof.</p>
+    <p>Visit your <strong>cloned repo folder</strong> wherever you downloaded it.</p>
 
-    <p>You can visit the repo page on Github to confirm that the files are the same. The takeaway here is that Github.com can be seen, for our purposes, as a website that stores a copy of our project and allows us to peruse it via a web browser. But at any time, we can make an exact copy of the repo and distribute our files as we please.</p>
-  </div>
-  <div class="col-sm-6">
-    <p><img src="/github-for-portfolios/images/lessons/4/local-repo-file-listing.png" alt="The local repo's listing of files compared to Github's" /></p>
-  </div>
-</section>
-
-<section class="row">
-  <div class="col-sm-6">
     <p>Go ahead and click through the files. The images should open in your native image editor, text files in your text editor, and so forth.</p>
 
     <p>I’ve chosen to open the <code>index.html</code> file in my own text-editor to change the YouTube embed code.</p>
@@ -208,7 +313,16 @@
   </div>
 </section>
 
-<h2 id="committing-changes-to-our-local-repo">Committing changes to our local repo</h2>
+<section class="row">
+  <div class="col-sm-6">
+
+    <p><strong>More text, to be continued…TK</strong></p>
+
+  </div>
+  <div class="col-sm-6">
+    <p><img src="//placekitten.com/600/500" alt="TK" /></p>
+  </div>
+</section>
 
 <section class="row">
   <div class="col-sm-6">
@@ -283,7 +397,7 @@
 
 <section class="row">
   <div class="col-sm-6">
-    <p>Finally, visit your home on Github Pages, e.g. <code>http://your_username.github.io</code>, to see the changes you’ve made to <code>index.html</code></p>
+    <p>Finally, visit your home on Github Pages, e.g. <code>http://username.github.io</code>, to see the changes you’ve made to <code>index.html</code></p>
   </div>
   <div class="col-sm-6">
     <p><img src="/github-for-portfolios/images/lessons/4/screenshot-of-new-youtube-embed-on-site.jpg" alt="howto" /></p>
