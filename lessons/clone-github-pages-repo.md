@@ -80,7 +80,7 @@ Double-click on the zip file which will produce a __Github.app__ file. You can m
 
 <section class="row">
 <div class="col-sm-6">
-The app should ask you to sign with your Github credentials so that it can sync with Github.com.
+The app should ask you to sign with your Github credentials so that it can sync with your Github.com account.
 
 
 </div>
@@ -95,15 +95,71 @@ The app should ask you to sign with your Github credentials so that it can sync 
 
 
 
-## Clone a repo
 
 <section class="row">
 <div class="col-sm-6">
-The app should ask you to sign with your Github credentials so that it can sync with Github.com. You'll see TK.
+
+Let's get quickly acquainted with the __Github Desktop App__.
+
+First look at the __sidebar__: you should see two subheads with (short) lists:
+
+- __THIS COMPUTER__
+  + My Repositories
+- __GITHUB.COM__
+  + username
+
+Those two subheads represent the two physical locations where your Github repos might be stored: on Github.com (which you've been working with so far, via web browser) and on your own computer. 
+</div>
+<div class="col-sm-6">
+
+![Desktop app sidebar]({{ site.baseurl }}/images/lessons/4/github-desktop-app-sidebar.png)
+</div>
+</section>
+
+
+
+<section class="row">
+<div class="col-sm-6">
+
+If you click on the  __My Repositories__ item, under the __THIS COMPUTER__ subhead, you should see an empty screen. This is because you haven't yet copied your Github repos to your computer yet.
+
 
 </div>
 <div class="col-sm-6">
 
+![howto]({{ site.baseurl }}/images/lessons/4/github-desktop-app-this-computer-list.png)
+</div>
+</section>
+
+
+<section class="row">
+<div class="col-sm-6">
+Now click on __username__ under the __GITHUB.COM__ subhead. You should see a lone repo:
+
+`username/username.github.io`
+
+This is the publish-to-Github-Pages repo you've been editing for the entirety of the lesson so far. As you create new repos on Github.com, they will show up in this listing.
+
+And as you __clone__ those repos over to your local computer, you'll see a similar list under __THIS COMPUTER__ &raquo; __My Repositories__. 
+
+Let's now create our first __cloned repo__.
+
+</div>
+<div class="col-sm-6">
+![howto]({{ site.baseurl }}/images/lessons/4/github-desktop-app-githubcom-list.png)
+</div>
+</section>
+
+
+## Clone a repo
+
+<section class="row">
+<div class="col-sm-6">
+A little Git terminology: the term __clone__ refers to a __git__ function that makes an entirely new copy of a repo. At the most basic level, this is no different than stashing a project folder on a USB drive or Dropbox and allowing collaborators to copy it onto their own computer.
+
+In the Github Desktop App sidebar, click the __GITHUB.COM__ &raquo; __username__ repo. In the right-side of the app, you should see a button that says __Clone to Computer__. Click it.
+</div>
+<div class="col-sm-6">
 ![howto]({{ site.baseurl }}/images/lessons/4/github-app-show-account.png)
 </div>
 </section>
@@ -111,10 +167,89 @@ The app should ask you to sign with your Github credentials so that it can sync 
 
 <section class="row">
 <div class="col-sm-6">
-A little Git terminology: the term __clone__ refers to a __git__ function that makes an entirely new copy of a repo. At the most basic level, this is no different than stashing a project folder on a USB drive or Dropbox and allowing collaborators to copy it onto their own computer.
+The app should pop-up a prompt asking you where to download the repo to. Again, __cloning__ a repo from Github.com to your own computer is essentially the same as downloading a copy of it.
+
 </div>
 <div class="col-sm-6">
 ![howto]({{ site.baseurl }}/images/lessons/4/github-app-clone-specific-repo.png)
+</div>
+</section>
+
+
+<section class="row">
+<div class="col-sm-6">
+Now in the desktop app sidebar, click on the __THIS COMPUTER__ &raquo; __My Repositories__ list item. The right-side of the destkop app should now have a single item: the `username/username.github.io` repo, with a message saying it was "_Synchronized less than a minute ago_".
+
+</div>
+<div class="col-sm-6">
+![howto]({{ site.baseurl }}/images/lessons/4/github-app-first-clone.png)
+</div>
+</section>
+
+
+
+
+<section class="row">
+<div class="col-sm-6">
+Right-click on the cloned repo item, which will bring up a pop-up menu. 
+
+If you select  __View on Github__, it will take you to that repo's top-level page on Github.com, which you're familiar with by now.
+
+If you select __Remove__, it will delete the repository from your computer but will _leave alone the copy on Github.com_. Deleting a clone doesn't delete the master copy.
+
+
+
+</div>
+<div class="col-sm-6">
+![howto]({{ site.baseurl }}/images/lessons/4/github-app-cloned-repo-list.png)
+
+</div>
+</section>
+
+
+
+
+<section class="row">
+<div class="col-sm-6">
+For now, select __Show in Finder__, which should take you to where you told the Github app to clone the repo.
+
+Your repo should have been downloaded to a folder named: `username.github.io`
+</div>
+<div class="col-sm-6">
+![howto]({{ site.baseurl }}/images/lessons/4/local-download-folder.png)
+
+</div>
+</section>
+
+<section class="row">
+<div class="col-sm-6">
+Double-click your repo folder. Does that file listing look familiar? Visit your repo folder at Github.com if you need to refresh your memory. See, a Git repo is very much like a typical folder of files.
+
+The takeaway here is that Github.com can be seen, for our purposes, as a website that stores a copy of our project and allows us to peruse it via a web browser. But at any time, we can make an exact copy of the repo and distribute our files as we please.
+</div>
+<div class="col-sm-6">
+![howto]({{ site.baseurl }}/images/lessons/4/local-repo-file-listing.png)
+
+</div>
+</section>
+
+## Viewing the Git activity
+
+<section class="row">
+<div class="col-sm-6">
+Of course, a Git repo has a few additional features to it. There's a (hidden) metadata file that lists, among other things, the repo's configuration settings and history. In the desktop app's __My Repositories__ listing, either double-click your cloned-repo item, or click the little arrow button that's at the right end of the listing.
+
+The Github Desktop App will now focus on the cloned repo: the __left sidebar__ will change to fit this context with a set of new buttons. 
+
+Notice the __top-navigation__: when you want to go back to the top-level list of repositories, simply click on __Repositories__.
+
+</div>
+<div class="col-sm-6">
+![Highlighting the arrow button]({{ site.baseurl }}/images/lessons/4/github-app-first-clone-arrow-button.png)
+
+![Top nav and sidebar]({{ site.baseurl }}/images/lessons/4/github-app-top-nav-sidebar-detail.png)
+
+
 </div>
 </section>
 
@@ -123,6 +258,10 @@ A little Git terminology: the term __clone__ refers to a __git__ function that m
 <section class="row">
 <div class="col-sm-6">
 Part of cloning a repo is you also clone the __git__ activity, i.e. the history of changes so far.
+
+That commit history and the messages should look familiar to you.
+
+
 </div>
 <div class="col-sm-6">
 ![howto]({{ site.baseurl }}/images/lessons/4/github-app-show-history-so-far.png)
@@ -133,41 +272,15 @@ Part of cloning a repo is you also clone the __git__ activity, i.e. the history 
 
 
 
-<section class="row">
-<div class="col-sm-6">
-text
-</div>
-<div class="col-sm-6">
-![Show in Finder]({{ site.baseurl }}/images/lessons/4/github-app-cloned-repo-list.png)
 
-</div>
-</section>
 
+## Making changes to our local repo
 
 <section class="row">
 <div class="col-sm-6">
-After cloning the repo, you'll see a new file folder with the same name as the repo. 
-</div>
-<div class="col-sm-6">
-![The repo downloaded to our computer]({{ site.baseurl }}/images/lessons/4/local-download-folder.png)
-</div>
-</section>
 
+Visit your __cloned repo folder__ wherever you downloaded it.
 
-<section class="row">
-<div class="col-sm-6">
-Go ahead and open the repo folder. If you weren't convinced that a git repo is pretty much like any file folder, here's the proof.
-
-You can visit the repo page on Github to confirm that the files are the same. The takeaway here is that Github.com can be seen, for our purposes, as a website that stores a copy of our project and allows us to peruse it via a web browser. But at any time, we can make an exact copy of the repo and distribute our files as we please.
-</div>
-<div class="col-sm-6">
-![The local repo's listing of files compared to Github's]({{ site.baseurl }}/images/lessons/4/local-repo-file-listing.png)
-</div>
-</section>
-
-
-<section class="row">
-<div class="col-sm-6">
 Go ahead and click through the files. The images should open in your native image editor, text files in your text editor, and so forth.
 
 I've chosen to open the `index.html` file in my own text-editor to change the YouTube embed code.
@@ -182,7 +295,20 @@ Just as if you gave a haircut to an identical (human) twin, the hair on the othe
 </section>
 
 
-## Committing changes to our local repo
+<section class="row">
+<div class="col-sm-6">
+
+__More text, to be continued...TK__
+
+</div>
+<div class="col-sm-6">
+![TK](//placekitten.com/600/500)
+</div>
+</section>
+
+
+
+
 
 <section class="row">
 <div class="col-sm-6">
@@ -264,7 +390,7 @@ Now visit your __Github.com repo page__ which will also show the synced files. I
 
 <section class="row">
 <div class="col-sm-6">
-Finally, visit your home on Github Pages, e.g. `http://your_username.github.io`, to see the changes you've made to `index.html`
+Finally, visit your home on Github Pages, e.g. `http://username.github.io`, to see the changes you've made to `index.html`
 </div>
 <div class="col-sm-6">
 ![howto]({{ site.baseurl }}/images/lessons/4/screenshot-of-new-youtube-embed-on-site.jpg)

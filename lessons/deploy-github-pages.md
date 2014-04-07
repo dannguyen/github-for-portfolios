@@ -13,7 +13,7 @@ In the previous lesson, we created a `README.md` file. And Github turned it into
 
 But it's just a quickie-homepage for our repo, with a URL that looks like any regular normal file (which, well, it is...):
 
-`github.com/your_username/your_username.github.io/README.md`
+`github.com/username/username.github.io/README.md`
 
 
 Github provides a web publishing service called [Github Pages](//pages.github.com). In this lesson, we will learn how to publish a proper webpage via   __Github Pages__. 
@@ -24,9 +24,9 @@ Github provides a web publishing service called [Github Pages](//pages.github.co
 
 <section class="row">
 <div class="col-sm-6">
-According to the [Github Pages documentation](//pages.github.com), by creating a repo named  `your_username.github.io`, Github Pages knows (by convention) to publish anything in this repo to the corresponding URL:
+According to the [Github Pages documentation](//pages.github.com), by creating a repo named  `username.github.io`, Github Pages knows (by convention) to publish anything in this repo to the corresponding URL:
 
-[https://your_username.github.io](https://your_username.github.io)
+[https://username.github.io](https://username.github.io)
 
 However, if you visit that URL, you'll find a 404 page.
 </div> 
@@ -46,7 +46,7 @@ However, if you visit that URL, you'll find a 404 page.
 <div class="col-sm-6">
 Go back to your __repository homepage__ on github.com, e.g.
 
-`github.com/your_username/your_username.github.io`
+`github.com/username/username.github.io`
 
 To the __right__ of the repo name is a little __paper-plus icon__. Click on it to create a new file.
 </div>
@@ -69,7 +69,7 @@ Then type in some __plain-text__ nonsense, e.g.:
 
 
     ----------------------------
-    http://your_username.github.io
+    http://username.github.io
 
 </div>
 <div class="col-sm-6">
@@ -105,7 +105,7 @@ So what changed? Believe it or not, _you've published your own webpage_.
 
 As per the Github Pages convention, your new webpage exists at: 
 
-`https://your_username.github.io`
+`https://username.github.io`
 
 And if you visit that address, you should see a very unimpressive page.
 
@@ -158,7 +158,7 @@ And that's OK. It's underwhelming because Github Pages merely took the simple te
 
 
     ----------------------------
-    http://your_username.github.io
+    http://username.github.io
 
 &ndash; and put it on a public web server, *as is*.
 
@@ -250,7 +250,7 @@ __Commit__ your changes. These should go into effect near-instantaneously, but f
 
 Then revisit your __Github Pages__ homepage, e.g.
 
-`http://your_username.github.io`
+`http://username.github.io`
 
 Pretty plain, but at least it's a bonafide webpage; notice those properly-formatted `h1` and `h2` header tags.
 </div>
@@ -326,7 +326,7 @@ If you want, you can go back to your __Github.com repo page__ and create a new f
 <div class="col-sm-6">
 Commit the new `blog-post.html` file, which will be auto-published by __Github Pages__, and visit it at:
 
-`your_username.github.io/blog-post.html`
+`username.github.io/blog-post.html`
 
 And again, Github Pages does basically _nothing_.
 
@@ -413,7 +413,7 @@ Commit the new `wiki-gif.html` to your repo.
 
 Wait a second for Github Pages to auto-publish that page and visit it at the expected URL:
 
-`http://your_username.github.io/wiki-gif.html`
+`http://username.github.io/wiki-gif.html`
 
 The two pages are __identical__, from the content, to Wikipedia's exact styling, even down to the revolving-GIF.
 

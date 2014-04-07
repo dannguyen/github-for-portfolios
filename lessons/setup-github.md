@@ -280,7 +280,7 @@ The rest of it &ndash; `tree/master` &ndash; is a reflection of how `git` [inter
 
 We're not going to cover the internals of git in this tutorial, so for now keep thinking of your project repo as any other file folder you've maintained. You can always get to the root of your repo at this URL:
 
-`http://github.com/your_username/your_username.github.io/`
+`http://github.com/username/username.github.io/`
 </div>
 <div class="col-sm-6">
 ![howto]({{ site.baseurl }}/images/lessons/1/github-post-readme-tree-master.png)

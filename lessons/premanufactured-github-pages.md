@@ -26,7 +26,7 @@ If you _do_ like the Automatic Page Generator, [you can read Github's official d
 
 <section class="row">
 <div class="col-sm-6">
-Go back to the top level of your Github repo page, e.g. `https://github.com/your_username/your_username.github.io`
+Go back to the top level of your Github repo page, e.g. `https://github.com/username/username.github.io`
 
 Then click on the __Settings__ link, via the right sidebar.
 </div> 
@@ -61,7 +61,7 @@ Click on the __Automatic Page Generator__ button
 <section class="row">
 <div class="col-sm-6">
 This will take you to a Github file-editing screen, though slightly different than what we've used before. This editor is specifically
-for creating an `index.html` page for your __Github Pages__ (i.e. what's published at `http://your_username.github.io`)
+for creating an `index.html` page for your __Github Pages__ (i.e. what's published at `http://username.github.io`)
 
 You don't have a choice to name the file, as it is automatically `index.html`. And the __Body__ text is parsed as [Markdown](https://help.github.com/articles/markdown-basics), which is a simplified version of HTML.
 
@@ -108,7 +108,7 @@ Click on the green checkmark labeled __Publish__.
 
 <section class="row">
 <div class="col-sm-6">
-You should be taken back to your Github.com repo page (not your newly created Github Pages homepage). There might be a banner message informing you to wait a few minutes before checking out the changes at `http://your_username.github.io`
+You should be taken back to your Github.com repo page (not your newly created Github Pages homepage). There might be a banner message informing you to wait a few minutes before checking out the changes at `http://username.github.io`
 </div> 
 <div class="col-sm-6">
 ![img]({{ site.baseurl }}/images/lessons/3/auto-github-pages-post-publish-banner-message.png)
@@ -134,7 +134,7 @@ It should also have left your existing files intact, including `README.md`
 <div class="col-sm-6">
 Now checkout your new automatically-generated Github Pages `index.html`, which can now be found at:
 
-`http://your_username.github.io`
+`http://username.github.io`
 
 (Again, `index.html` is the default webpage displayed when you're at a website's root or directory level)
 
@@ -372,7 +372,7 @@ And here is how Github's Automatic page generator prettied up my `README.md`. No
 <section class="row">
 <div class="col-sm-6">
 
-Up to this point, we've been letting Github and its Automatic Page Generator do the heavy lifting: we give it some content in `README.md`, and it produces a nice `index.html` file &ndash; with a package of code files that dictate the styling and structure &ndash; and pushes it live to `your_username.github.io`. There's not a lot to _grok_, we're just learning how to use this particular feature of Github, the details of which may change as Github refines/redesigns the process.
+Up to this point, we've been letting Github and its Automatic Page Generator do the heavy lifting: we give it some content in `README.md`, and it produces a nice `index.html` file &ndash; with a package of code files that dictate the styling and structure &ndash; and pushes it live to `username.github.io`. There's not a lot to _grok_, we're just learning how to use this particular feature of Github, the details of which may change as Github refines/redesigns the process.
 
 But the main takeaway for novice web developers is this: Github Pages was able to take the  __content__ &ndash; i.e. what we put into `README.md` &ndash; and stuff it into a template. You can repeat the process and use different templates with the same content. Some designs look better than others, perhaps, but you can see how the _code that dictates the visual design and structure_ can be __independent__ of the _actual content_.
 
@@ -410,7 +410,7 @@ Go to your __portfolio homepage__ and __View Source__ to see what happened to th
 <div class="col-sm-6">
 You can rectify this by going to your Github.com repo page: 
 
-e.g. `https://github.com/your_username/your_username.github.io`
+e.g. `https://github.com/username/username.github.io`
 
 &ndash; and click the `index.html` link:
 </div> 
