@@ -13,6 +13,8 @@ At the end of the tutorial, the goal is for the user to have a basic website tha
 
 Feel free to fork the site. Leave questions/comments [in this repo's Issues section](https://github.com/dannguyen/github-for-portfolios/issues), or tweet me at [@dancow](//twitter.com/dancow).
 
+This tutorial was built using [Github Pages](https://pages.github.com/), [Jekyll](http://jekyllrb.com/), [Bootswatch v3.1.1](http://bootswatch.com/), and the [Sublime Text editor](http://www.sublimetext.com/).
+
 
 ## How to clone and edit this repo
 

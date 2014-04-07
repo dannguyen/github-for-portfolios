@@ -283,11 +283,34 @@ Visit your __cloned repo folder__ wherever you downloaded it.
 
 Go ahead and click through the files. The images should open in your native image editor, text files in your text editor, and so forth.
 
-I've chosen to open the `index.html` file in my own text-editor to change the YouTube embed code.
+I've chosen to open the `index.html` file in my own text-editor ([Sublime Text](http://www.sublimetext.com/), which you can try for free) to change the YouTube embed code.
 
-This is functionally no different than just editing `index.html` (and `README.md`) in the web browser, as we've done previously. Except that the file is _only updated on our computer_. Again, we're working on a _clone_ of the project repo, which now exists independently of the copy on Github.com. 
 
-Just as if you gave a haircut to an identical (human) twin, the hair on the other twin doesn't automatically update, so do our file changes not automatically propogate to all the other cloned repos.
+
+
+
+</div>
+<div class="col-sm-6">
+![Finding index.html clone]({{ site.baseurl }}/images/lessons/4/cloned-repo-index-highlighted-with-sublime-text.png)
+</div>
+</section>
+
+
+<section class="row">
+<div class="col-sm-6">
+
+In my example, I'm removing the current YouTube `<iframe>` embed code and replacing it with this one:
+
+~~~ html
+<iframe width="560" height="315" src="//www.youtube.com/embed/zVTwUVHefgM" frameborder="0" allowfullscreen></iframe>
+~~~
+
+
+Editing our local, cloned `index.html` and saving it with our own text editor is no different than just editing `index.html` (and `README.md`) in the web browser, as we've done previously. 
+
+Except that the file is _only updated on our computer_. Again, we're working on a _clone_ of the project repo, which now exists independently of the copy on Github.com. Just as if you gave a haircut to an identical (human) twin, the hair on the other twin doesn't automatically update, so do our file changes not automatically propogate to all the other cloned repos.
+
+
 </div>
 <div class="col-sm-6">
 ![Editing the youtube embed code]({{ site.baseurl }}/images/lessons/4/editing-index-html-youtube-embed.png)
@@ -295,16 +318,8 @@ Just as if you gave a haircut to an identical (human) twin, the hair on the othe
 </section>
 
 
-<section class="row">
-<div class="col-sm-6">
 
-__More text, to be continued...TK__
 
-</div>
-<div class="col-sm-6">
-![TK](//placekitten.com/600/500)
-</div>
-</section>
 
 
 
@@ -312,14 +327,13 @@ __More text, to be continued...TK__
 
 <section class="row">
 <div class="col-sm-6">
-So it's nice that we can make changes to our cloned repo without screwing up work that we've stored on Github.com. _However_, the repo on Github.com is the one that gets published via __Github Pages__.
+So the upshot is we can make changes to our cloned repo without screwing up work that we've stored on Github.com. _However_, the repo on Github.com is the one that gets published via __Github Pages__.
 
 And if we want our _local_ changes to make it online, we need to __sync__ our local repo with the Github.com repo.
 
-
 The first step is to __commit__ our changes. Click the __Changes__ tab (in the Github app's side-menu). Since I edited my `index.html`, this screen shows me that I have changes to `index.html` to commit. On the right-hand side, the Github app shows me the __diff__ of `index.html`, that is, what I've cut out (in <span style="color: #900;">red</span>) and what I've added (in <span style="color:#0a0">green</span>)
 
-Everytime you make changes to your local repo, the Github app (which continuously monitors that file folder) will update and show the changes. Try it out for yourself.
+Each time you make changes to your __local repo__, the Github desktop app (which continuously monitors that file folder) will update and show the changes. Try it out for yourself by making small changes to the other text files.
 
 Then enter a commit message and press the __Commit__ button.
 
@@ -330,20 +344,44 @@ Then enter a commit message and press the __Commit__ button.
 </section>
 
 
+
+
+
+
+
 ## Syncing with Github.com
 
 <section class="row">
 <div class="col-sm-6">
-When we edited files on Github.com, pressing __Commit__ meant that the changes were saved and reflected online.
 
-Things happen a little differently in our __local file system__. First of all, anytime you hit __Save__, such as in your text-editor, you are still saving the file &ndash; being inside a git repo doesn't change that.
+The left side of the desktop app will update to reflect that you've __committed__ a new change (or set of changes). Notice that under __Unsynced Commits__, there's an item with the commit message ("Changing youtube video around"), as well as a __Sync__ button.
 
-So what does __commit__ actually mean in the __local__ context? We're basically telling __git__ (through the friendly Github app user-interface): "Here's a snapshot of my project, please note the changes". But we haven't yet said: "Now make these changes appear on Github.com"
+The word __Unsynced__ is a clue that our local changes have not yet affected what's on Github.com.
 
-After pressing the __Commit__ button, you should notice that the bottom half of the app has a section for __Unsynced Commits__. It means exactly what you might think: these fresh _commits_ need to be _synced_ with Github.com.
 </div>
 <div class="col-sm-6">
-![After pressing commit]({{ site.baseurl }}/images/lessons/4/github-app-post-commit.png)
+![After pressing commit unsynced commits]({{ site.baseurl }}/images/lessons/4/github-app-unsynced-commits.png)
+</div>
+</section>
+
+<section class="row">
+<div class="col-sm-6">
+
+A review of Git terminology: when we edited files on Github.com and pressed __Commit__, we saw the changes saved and reflected online immediately.
+
+But with __Git__, the [__commit__ command](http://gitref.org/basic/#commit) merely means that we're recording a __snapshot__ of our repo as it currently exists.
+
+This is not the same as __saving__ a file, like as you're used to in your word processor or image editor. That action __saves__ a snapshot of the _file_. But in the context of a Git repo, the repo doesn't consider that saved file as part of the repo's current snapshot until you hit __commit__.
+
+Inside Github.com's file editor, though, when you hit __Commit__, it does the saving of the file, the snapshotting of the repo, and then, if the repo is connected to Github Pages, the re-publishing of the file. But that's unique to how __Github.com__ handles repo.
+
+Now that we're working off of a __local repo__, on our computer, we need to take an extra step to say, "Now, make these _local_ changes appear on Github.com."
+
+We make this happen by pressing the __Sync__ button that has shown up in the Github desktop app.
+
+</div>
+<div class="col-sm-6">
+![After pressing commit unsynced commits]({{ site.baseurl }}/images/lessons/4/github-app-unsynced-commits-closeup.png)
 </div>
 </section>
 
@@ -351,7 +389,7 @@ After pressing the __Commit__ button, you should notice that the bottom half of 
 
 <section class="row">
 <div class="col-sm-6">
-So press the big __Sync__ button. You may get a request from the Github app to use the credentials you have set for your Github.com account.
+You may get a request from the Github app to use the credentials for your Github.com account. __Allow__ (or Always Allow) the Github app the access it needs.
 </div>
 <div class="col-sm-6">
 ![Granting permissions]({{ site.baseurl }}/images/lessons/4/github-app-asking-for-permission.png)
@@ -367,7 +405,6 @@ After a few seconds, you'll see that the sections for __Uncommitted Changes__ an
 ![After syncing to server]({{ site.baseurl }}/images/lessons/4/github-app-post-sync.png)
 </div>
 </section>
-
 
 
 <section class="row">
@@ -393,42 +430,135 @@ Now visit your __Github.com repo page__ which will also show the synced files. I
 Finally, visit your home on Github Pages, e.g. `http://username.github.io`, to see the changes you've made to `index.html`
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/4/screenshot-of-new-youtube-embed-on-site.jpg)
+![howto]({{ site.baseurl }}/images/lessons/4/new-index-html-with-new-youtube-video.jpg)
 </div>
 </section>
 
 
 
 ## Uploading new files
+
 <section class="row">
 <div class="col-sm-6">
-_Incomplete section_
+So we actually haven't done anything _new_ by cloning our repo and using the Github desktop app: it's essentially the same __Edit-and-Commit__ routine, with an additional __Sync__ to keep the clone and original repo _in sync_.
+
+But now we're working with our repo as if it were any other file folder on our system. Which means we can drag-and-drop files of any type into our repo folder. In this next exercise, we'll add a new photo to our page.
 </div>
 <div class="col-sm-6">
-![TK](//placekitten.com/700/300)
+![images folder]({{ site.baseurl }}/images/lessons/4/cloned-repo-images-folder.png)
 </div>
 </section>
 
-## Deleting files
 <section class="row">
 <div class="col-sm-6">
-_Incomplete section_
+First, download a photo from the Internet and save it as something like: `my-photo.jpg` in your Downloads folder.
+
 </div>
 <div class="col-sm-6">
-![TK](//placekitten.com/700/300)
+![save photo]({{ site.baseurl }}/images/lessons/4/save-my-photo.jpg)
 </div>
 </section>
+
+<section class="row">
+<div class="col-sm-6">
+Then, drag-and-drop it into your local repo folder, under the `images` subdirectory (which you can create if it doesn't already exist).
+</div>
+<div class="col-sm-6">
+![copy photo]({{ site.baseurl }}/images/lessons/4/copy-my-photo.png)
+</div>
+</section>
+
+
+
+<section class="row">
+<div class="col-sm-6">
+
+Now edit `index.html` in a text-editor. Find the existing `<img>` tag if you're using my example code:
+
+~~~html
+<p><img src="http://i.imgur.com/2i35DTo.jpg" alt="alt text"></p>
+~~~
+
+This code does show an image, which you can visit on the Web at [http://i.imgur.com/2i35DTo.jpg](http://i.imgur.com/2i35DTo.jpg). But what if the image's server (`i.imgur.com`) goes down? Now that our new image, `images/my-photo.jpg` is _inside_ our repo, we have control of it &ndash; though we are responsible for hosting it on our own server (in this case, Github Pages).
+
+To have our `index.html` use our image file, we simply update the `src` attribute of the `img` tag:
+
+~~~html
+<p><img src="/images/my-photo.jpg" alt="my new photo"></p>
+~~~
+
+</div>
+<div class="col-sm-6">
+![TK]({{ site.baseurl }}/images/lessons/4/add-my-photo-img.png)
+</div>
+</section>
+ 
+
+<section class="row">
+<div class="col-sm-6">
+Check out the __Changes__ tab of the Github Desktop App. You should see under __Uncommitted Changes__, the new image file and a change to `index.html`.
+
+Hit the __Commit__ button, then __Sync__ the files with Github.com.
+</div>
+<div class="col-sm-6">
+![photo changes]({{ site.baseurl }}/images/lessons/4/github-app-photo-added.jpg)
+</div>
+</section>
+
+
+
+<section class="row">
+<div class="col-sm-6">
+Check out your portfolio repo on Github.com. You should see the commit message on two different files (`index.html` and the `images` sub directory)
+</div>
+<div class="col-sm-6">
+![com synced]({{ site.baseurl }}/images/lessons/4/github-com-photo-synced.png)
+</div>
+</section>
+
+
+
+<section class="row">
+<div class="col-sm-6">
+Finally, checkout your portfolio homepage at `username.github.io` to see the new photo.
+
+Again, nothing substantially new, just a demonstration of how easy it is to add new files to our portfolio homepage. In the next chapters, we'll be drag-and-dropping whole folders in and out of our repo.
+</div>
+<div class="col-sm-6">
+![New photo]({{ site.baseurl }}/images/lessons/4/github-pages-photo-synced.jpg)
+</div>
+</section>
+
+
+
+
 
 ## Syncing changes and conflicts
 <section class="row">
 <div class="col-sm-6">
-_Incomplete section_
+What happens when you change the same file on Github.com _and_ on your local repo before syncing?
+
+
+__More text, to be continued...TK__
+
 </div>
 <div class="col-sm-6">
 ![TK](//placekitten.com/700/300)
 </div>
 </section>
 
+
+
+## Deleting files
+<section class="row">
+<div class="col-sm-6">
+__More text, to be continued...TK__
+
+</div>
+<div class="col-sm-6">
+![TK](//placekitten.com/700/300)
+</div>
+</section>
 
 
 <section class="overview">
@@ -444,54 +574,3 @@ So by learning how to use the Github app and cloning the repo, we've made the pr
 </section>
 
 
-
-
-
-<!-- 
-
-
-
-
-<section class="row">
-<div class="col-sm-6">
-TK
-</div>
-<div class="col-sm-6">
-
-</div>
-</section>
-
-
-<section class="row">
-<div class="col-sm-6">
-TK
-</div>
-<div class="col-sm-6">
-
-</div>
-</section>
-
-<section class="row">
-<div class="col-sm-6">
-TK
-</div>
-<div class="col-sm-6">
-
-</div>
-</section>
-
-
-![howto]({{ site.baseurl }}/images/lessons/4/)
-
-![howto]({{ site.baseurl }}/images/lessons/4/)
-![howto]({{ site.baseurl }}/images/lessons/4/)
-![howto]({{ site.baseurl }}/images/lessons/4/)
-![howto]({{ site.baseurl }}/images/lessons/4/)
-
-
-
-
-
-![howto]({{ site.baseurl }}/images/lessons/4/)
-
- -->

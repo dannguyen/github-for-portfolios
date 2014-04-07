@@ -14,10 +14,10 @@ status: Just a draft
 
 
 <section class="row">
-<div class="col-sm-8">
+<div class="col-sm-4">
 Sample code
 </div>
-<div class="col-sm-4">
+<div class="col-sm-8">
 
 ~~~ html
 <!doctype html>
