@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Github Pages for Non-Developers: Build Web Portfolios From Scratch 
+title: "Github Pages for Non-Developers: Build Web Portfolios From Scratch" 
 ---
 
 <section class="sec">
