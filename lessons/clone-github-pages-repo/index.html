@@ -308,11 +308,29 @@
 
     <p>Go ahead and click through the files. The images should open in your native image editor, text files in your text editor, and so forth.</p>
 
-    <p>I’ve chosen to open the <code>index.html</code> file in my own text-editor to change the YouTube embed code.</p>
+    <p>I’ve chosen to open the <code>index.html</code> file in my own text-editor (<a href="http://www.sublimetext.com/">Sublime Text</a>, which you can try for free) to change the YouTube embed code.</p>
 
-    <p>This is functionally no different than just editing <code>index.html</code> (and <code>README.md</code>) in the web browser, as we’ve done previously. Except that the file is <em>only updated on our computer</em>. Again, we’re working on a <em>clone</em> of the project repo, which now exists independently of the copy on Github.com. </p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/4/cloned-repo-index-highlighted-with-sublime-text.png" alt="Finding index.html clone" /></p>
+  </div>
+</section>
 
-    <p>Just as if you gave a haircut to an identical (human) twin, the hair on the other twin doesn’t automatically update, so do our file changes not automatically propogate to all the other cloned repos.</p>
+<section class="row">
+  <div class="col-sm-6">
+
+    <p>In my example, I’m removing the current YouTube <code>&lt;iframe&gt;</code> embed code and replacing it with this one:</p>
+
+    <div><div class="CodeRay">
+  <div class="code"><pre><span style="color:#070;font-weight:bold">&lt;iframe</span> <span style="color:#b48">width</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">560</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">height</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">315</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">src</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">//www.youtube.com/embed/zVTwUVHefgM</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">frameborder</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">0</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">allowfullscreen</span><span style="color:#070;font-weight:bold">&gt;</span><span style="color:#070;font-weight:bold">&lt;/iframe&gt;</span>
+</pre></div>
+</div>
+    </div>
+
+    <p>Editing our local, cloned <code>index.html</code> and saving it with our own text editor is no different than just editing <code>index.html</code> (and <code>README.md</code>) in the web browser, as we’ve done previously. </p>
+
+    <p>Except that the file is <em>only updated on our computer</em>. Again, we’re working on a <em>clone</em> of the project repo, which now exists independently of the copy on Github.com. Just as if you gave a haircut to an identical (human) twin, the hair on the other twin doesn’t automatically update, so do our file changes not automatically propogate to all the other cloned repos.</p>
+
   </div>
   <div class="col-sm-6">
     <p><img src="/github-for-portfolios/images/lessons/4/editing-index-html-youtube-embed.png" alt="Editing the youtube embed code" /></p>
@@ -321,24 +339,13 @@
 
 <section class="row">
   <div class="col-sm-6">
-
-    <p><strong>More text, to be continued…TK</strong></p>
-
-  </div>
-  <div class="col-sm-6">
-    <p><img src="//placekitten.com/600/500" alt="TK" /></p>
-  </div>
-</section>
-
-<section class="row">
-  <div class="col-sm-6">
-    <p>So it’s nice that we can make changes to our cloned repo without screwing up work that we’ve stored on Github.com. <em>However</em>, the repo on Github.com is the one that gets published via <strong>Github Pages</strong>.</p>
+    <p>So the upshot is we can make changes to our cloned repo without screwing up work that we’ve stored on Github.com. <em>However</em>, the repo on Github.com is the one that gets published via <strong>Github Pages</strong>.</p>
 
     <p>And if we want our <em>local</em> changes to make it online, we need to <strong>sync</strong> our local repo with the Github.com repo.</p>
 
     <p>The first step is to <strong>commit</strong> our changes. Click the <strong>Changes</strong> tab (in the Github app’s side-menu). Since I edited my <code>index.html</code>, this screen shows me that I have changes to <code>index.html</code> to commit. On the right-hand side, the Github app shows me the <strong>diff</strong> of <code>index.html</code>, that is, what I’ve cut out (in <span style="color: #900;">red</span>) and what I’ve added (in <span style="color:#0a0">green</span>)</p>
 
-    <p>Everytime you make changes to your local repo, the Github app (which continuously monitors that file folder) will update and show the changes. Try it out for yourself.</p>
+    <p>Each time you make changes to your <strong>local repo</strong>, the Github desktop app (which continuously monitors that file folder) will update and show the changes. Try it out for yourself by making small changes to the other text files.</p>
 
     <p>Then enter a commit message and press the <strong>Commit</strong> button.</p>
 
@@ -352,22 +359,41 @@
 
 <section class="row">
   <div class="col-sm-6">
-    <p>When we edited files on Github.com, pressing <strong>Commit</strong> meant that the changes were saved and reflected online.</p>
 
-    <p>Things happen a little differently in our <strong>local file system</strong>. First of all, anytime you hit <strong>Save</strong>, such as in your text-editor, you are still saving the file – being inside a git repo doesn’t change that.</p>
+    <p>The left side of the desktop app will update to reflect that you’ve <strong>committed</strong> a new change (or set of changes). Notice that under <strong>Unsynced Commits</strong>, there’s an item with the commit message (“Changing youtube video around”), as well as a <strong>Sync</strong> button.</p>
 
-    <p>So what does <strong>commit</strong> actually mean in the <strong>local</strong> context? We’re basically telling <strong>git</strong> (through the friendly Github app user-interface): “Here’s a snapshot of my project, please note the changes”. But we haven’t yet said: “Now make these changes appear on Github.com”</p>
+    <p>The word <strong>Unsynced</strong> is a clue that our local changes have not yet affected what’s on Github.com.</p>
 
-    <p>After pressing the <strong>Commit</strong> button, you should notice that the bottom half of the app has a section for <strong>Unsynced Commits</strong>. It means exactly what you might think: these fresh <em>commits</em> need to be <em>synced</em> with Github.com.</p>
   </div>
   <div class="col-sm-6">
-    <p><img src="/github-for-portfolios/images/lessons/4/github-app-post-commit.png" alt="After pressing commit" /></p>
+    <p><img src="/github-for-portfolios/images/lessons/4/github-app-unsynced-commits.png" alt="After pressing commit unsynced commits" /></p>
   </div>
 </section>
 
 <section class="row">
   <div class="col-sm-6">
-    <p>So press the big <strong>Sync</strong> button. You may get a request from the Github app to use the credentials you have set for your Github.com account.</p>
+
+    <p>A review of Git terminology: when we edited files on Github.com and pressed <strong>Commit</strong>, we saw the changes saved and reflected online immediately.</p>
+
+    <p>But with <strong>Git</strong>, the <a href="http://gitref.org/basic/#commit"><strong>commit</strong> command</a> merely means that we’re recording a <strong>snapshot</strong> of our repo as it currently exists.</p>
+
+    <p>This is not the same as <strong>saving</strong> a file, like as you’re used to in your word processor or image editor. That action <strong>saves</strong> a snapshot of the <em>file</em>. But in the context of a Git repo, the repo doesn’t consider that saved file as part of the repo’s current snapshot until you hit <strong>commit</strong>.</p>
+
+    <p>Inside Github.com’s file editor, though, when you hit <strong>Commit</strong>, it does the saving of the file, the snapshotting of the repo, and then, if the repo is connected to Github Pages, the re-publishing of the file. But that’s unique to how <strong>Github.com</strong> handles repo.</p>
+
+    <p>Now that we’re working off of a <strong>local repo</strong>, on our computer, we need to take an extra step to say, “Now, make these <em>local</em> changes appear on Github.com.”</p>
+
+    <p>We make this happen by pressing the <strong>Sync</strong> button that has shown up in the Github desktop app.</p>
+
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/4/github-app-unsynced-commits-closeup.png" alt="After pressing commit unsynced commits" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>You may get a request from the Github app to use the credentials for your Github.com account. <strong>Allow</strong> (or Always Allow) the Github app the access it needs.</p>
   </div>
   <div class="col-sm-6">
     <p><img src="/github-for-portfolios/images/lessons/4/github-app-asking-for-permission.png" alt="Granting permissions" /></p>
@@ -406,14 +432,107 @@
     <p>Finally, visit your home on Github Pages, e.g. <code>http://username.github.io</code>, to see the changes you’ve made to <code>index.html</code></p>
   </div>
   <div class="col-sm-6">
-    <p><img src="/github-for-portfolios/images/lessons/4/screenshot-of-new-youtube-embed-on-site.jpg" alt="howto" /></p>
+    <p><img src="/github-for-portfolios/images/lessons/4/new-index-html-with-new-youtube-video.jpg" alt="howto" /></p>
   </div>
 </section>
 
 <h2 id="uploading-new-files">Uploading new files</h2>
+
 <section class="row">
   <div class="col-sm-6">
-    <p><em>Incomplete section</em></p>
+    <p>So we actually haven’t done anything <em>new</em> by cloning our repo and using the Github desktop app: it’s essentially the same <strong>Edit-and-Commit</strong> routine, with an additional <strong>Sync</strong> to keep the clone and original repo <em>in sync</em>.</p>
+
+    <p>But now we’re working with our repo as if it were any other file folder on our system. Which means we can drag-and-drop files of any type into our repo folder. In this next exercise, we’ll add a new photo to our page.</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/4/cloned-repo-images-folder.png" alt="images folder" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>First, download a photo from the Internet and save it as something like: <code>my-photo.jpg</code> in your Downloads folder.</p>
+
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/4/save-my-photo.jpg" alt="save photo" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>Then, drag-and-drop it into your local repo folder, under the <code>images</code> subdirectory (which you can create if it doesn’t already exist).</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/4/copy-my-photo.png" alt="copy photo" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+
+    <p>Now edit <code>index.html</code> in a text-editor. Find the existing <code>&lt;img&gt;</code> tag if you’re using my example code:</p>
+
+    <div><div class="CodeRay">
+  <div class="code"><pre><span style="color:#070;font-weight:bold">&lt;p&gt;</span><span style="color:#070;font-weight:bold">&lt;img</span> <span style="color:#b48">src</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">http://i.imgur.com/2i35DTo.jpg</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">alt</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">alt text</span><span style="color:#710">&quot;</span></span><span style="color:#070;font-weight:bold">&gt;</span><span style="color:#070;font-weight:bold">&lt;/p&gt;</span>
+</pre></div>
+</div>
+    </div>
+
+    <p>This code does show an image, which you can visit on the Web at <a href="http://i.imgur.com/2i35DTo.jpg">http://i.imgur.com/2i35DTo.jpg</a>. But what if the image’s server (<code>i.imgur.com</code>) goes down? Now that our new image, <code>images/my-photo.jpg</code> is <em>inside</em> our repo, we have control of it – though we are responsible for hosting it on our own server (in this case, Github Pages).</p>
+
+    <p>To have our <code>index.html</code> use our image file, we simply update the <code>src</code> attribute of the <code>img</code> tag:</p>
+
+    <div><div class="CodeRay">
+  <div class="code"><pre><span style="color:#070;font-weight:bold">&lt;p&gt;</span><span style="color:#070;font-weight:bold">&lt;img</span> <span style="color:#b48">src</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">/images/my-photo.jpg</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">alt</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">my new photo</span><span style="color:#710">&quot;</span></span><span style="color:#070;font-weight:bold">&gt;</span><span style="color:#070;font-weight:bold">&lt;/p&gt;</span>
+</pre></div>
+</div>
+    </div>
+
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/4/add-my-photo-img.png" alt="TK" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>Check out the <strong>Changes</strong> tab of the Github Desktop App. You should see under <strong>Uncommitted Changes</strong>, the new image file and a change to <code>index.html</code>.</p>
+
+    <p>Hit the <strong>Commit</strong> button, then <strong>Sync</strong> the files with Github.com.</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/4/github-app-photo-added.jpg" alt="photo changes" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>Check out your portfolio repo on Github.com. You should see the commit message on two different files (<code>index.html</code> and the <code>images</code> sub directory)</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/4/github-com-photo-synced.png" alt="com synced" /></p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-sm-6">
+    <p>Finally, checkout your portfolio homepage at <code>username.github.io</code> to see the new photo.</p>
+
+    <p>Again, nothing substantially new, just a demonstration of how easy it is to add new files to our portfolio homepage. In the next chapters, we’ll be drag-and-dropping whole folders in and out of our repo.</p>
+  </div>
+  <div class="col-sm-6">
+    <p><img src="/github-for-portfolios/images/lessons/4/github-pages-photo-synced.jpg" alt="New photo" /></p>
+  </div>
+</section>
+
+<h2 id="syncing-changes-and-conflicts">Syncing changes and conflicts</h2>
+<section class="row">
+  <div class="col-sm-6">
+    <p>What happens when you change the same file on Github.com <em>and</em> on your local repo before syncing?</p>
+
+    <p><strong>More text, to be continued…TK</strong></p>
+
   </div>
   <div class="col-sm-6">
     <p><img src="//placekitten.com/700/300" alt="TK" /></p>
@@ -423,17 +542,8 @@
 <h2 id="deleting-files">Deleting files</h2>
 <section class="row">
   <div class="col-sm-6">
-    <p><em>Incomplete section</em></p>
-  </div>
-  <div class="col-sm-6">
-    <p><img src="//placekitten.com/700/300" alt="TK" /></p>
-  </div>
-</section>
+    <p><strong>More text, to be continued…TK</strong></p>
 
-<h2 id="syncing-changes-and-conflicts">Syncing changes and conflicts</h2>
-<section class="row">
-  <div class="col-sm-6">
-    <p><em>Incomplete section</em></p>
   </div>
   <div class="col-sm-6">
     <p><img src="//placekitten.com/700/300" alt="TK" /></p>
@@ -452,54 +562,6 @@
   <p>So by learning how to use the Github app and cloning the repo, we’ve made the process a bit more complicated, but we’ve also gained more flexibility in what we can add to our web project.</p>
 </section>
 
-<!-- 
-
-
-
-
-<section class="row">
-<div class="col-sm-6">
-TK
-</div>
-<div class="col-sm-6">
-
-</div>
-</section>
-
-
-<section class="row">
-<div class="col-sm-6">
-TK
-</div>
-<div class="col-sm-6">
-
-</div>
-</section>
-
-<section class="row">
-<div class="col-sm-6">
-TK
-</div>
-<div class="col-sm-6">
-
-</div>
-</section>
-
-
-![howto](/github-for-portfolios/images/lessons/4/)
-
-![howto](/github-for-portfolios/images/lessons/4/)
-![howto](/github-for-portfolios/images/lessons/4/)
-![howto](/github-for-portfolios/images/lessons/4/)
-![howto](/github-for-portfolios/images/lessons/4/)
-
-
-
-
-
-![howto](/github-for-portfolios/images/lessons/4/)
-
- -->
 
     </div>
   </section>
