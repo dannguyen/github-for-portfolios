@@ -291,9 +291,18 @@ For *our limited purposes*, this is functionally the same repo page:
 </div>
 </section>
 
-## Wrapping up
 
-- Created a Github account
-- Created a repository that will contain the files for your portfolio website
-- Created a file in the repo
-- __Text, explanation, summary to be added...__
+<section class="conclusion">
+## Things we've learned
+
+- How to create a Github account
+- What a Github repository is
+- How to create a Github repo that will contain the files for your portfolio website
+- How to add and edit files in a Github repo
+
+...more to be written
+
+
+</section>
+
+

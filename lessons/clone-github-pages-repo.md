@@ -536,10 +536,16 @@ Again, nothing substantially new, just a demonstration of how easy it is to add 
 ## Syncing changes and conflicts
 <section class="row">
 <div class="col-sm-6">
-What happens when you change the same file on Github.com _and_ on your local repo before syncing?
+I don't intend to get into Github's full suite of collaboration features ([they've got guides for that](https://guides.github.com/)). But if you can clone _once_, you can obviously clone your repo from more than one computer. Which means you can edit and sync files from multiple computers.
 
+So what happens when two different computers clone a repo, edit the files, and then try to sync with Github.com?
+
+These sync-related __conflicts__ a basic pain when it comes to working on __Git__-managed projects. But hell, they're a __major pain__ for _any_ project that involves more than one person. You've probably run into this when a colleague has accidentally saved over one of your files.
+
+But one of Git's _raison d'etre_ is to keep track of changes and prevent information from being accidentally overwritten. We'll run through a quick example to see how that works.
 
 __More text, to be continued...TK__
+
 
 </div>
 <div class="col-sm-6">
@@ -552,6 +558,8 @@ __More text, to be continued...TK__
 ## Deleting files
 <section class="row">
 <div class="col-sm-6">
+Before we finish this lesson, let's see what happens when we just delete a whole bunch of files...which is what we want to do now because we want to build a website from scratch, not from the pre-fab HTML files we've been working with so far.
+
 __More text, to be continued...TK__
 
 </div>
@@ -561,7 +569,22 @@ __More text, to be continued...TK__
 </section>
 
 
-<section class="overview">
+<section class="conclusion">
+## Things we've learned
+
+- How to use the Github desktop app
+- How to clone a repo
+- How to work with a repo on our local operating and file system
+- How to sync changes with Github.com
+- How to handle conflicts
+- How to purge a repo and revert to its previous state
+
+...to be written
+
+
+</section>
+
+<!-- 
 If you haven't been too confused by this new procedure, you might have noticed that, despite walking through all these different steps, we _did not gain any new functionality_.
 
 That is, downloading the Github app, editing a file via text editor, and then syncing it, gave us no different a situation than as if we just edited the file directly on Github.com.
@@ -570,7 +593,4 @@ So why even download the Github app and clone the repo? For one thing, in most n
 
 Second, Github.com does not allow us (yet) to add __non-text__ files via the web browser. And even if it did, it probably wouldn't be easier than drag-and-droping files on our own operating system and file folders.
 
-So by learning how to use the Github app and cloning the repo, we've made the process a bit more complicated, but we've also gained more flexibility in what we can add to our web project.
-</section>
-
-
+So by learning how to use the Github app and cloning the repo, we've made the process a bit more complicated, but we've also gained more flexibility in what we can add to our web project. -->

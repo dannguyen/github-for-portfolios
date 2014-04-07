@@ -425,4 +425,14 @@ The two pages are __identical__, from the content, to Wikipedia's exact styling,
 
 
 
-#### TK: Conclusion to come,,,
+<section class="conclusion">
+## Things we've learned
+
+- How to use Github Pages to publish our Github repo
+- How HTML is different from plain text
+
+...more to be written TK
+
+
+</section>
+

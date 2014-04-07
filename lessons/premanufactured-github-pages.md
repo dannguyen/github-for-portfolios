@@ -471,6 +471,17 @@ From this point on, you'll be writing your own HTML in order to have complete fr
 </section>  
 
 
+<section class="conclusion">
+## Things we've learned
+
+- How to use the Automatic page generator
+- How content can be separated from presentation code.
+
+...more to be written TK
+
+
+</section>
+
 
 
 
