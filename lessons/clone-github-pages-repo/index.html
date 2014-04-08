@@ -15,7 +15,7 @@
 
 <!-- Custom CSS -->
 
-<link rel="stylesheet" href="/github-for-portfolios/assets/main-73fe2e048beeae9a6820b5f24a4cbc57.css">
+<link rel="stylesheet" href="/github-for-portfolios/assets/main-0ff30ce8ba9bdae003059ec8aa9e5346.css">
 
     </head>
     <body>
@@ -529,7 +529,13 @@
 <h2 id="syncing-changes-and-conflicts">Syncing changes and conflicts</h2>
 <section class="row">
   <div class="col-sm-6">
-    <p>What happens when you change the same file on Github.com <em>and</em> on your local repo before syncing?</p>
+    <p>I don’t intend to get into Github’s full suite of collaboration features (<a href="https://guides.github.com/">they’ve got guides for that</a>). But if you can clone <em>once</em>, you can obviously clone your repo from more than one computer. Which means you can edit and sync files from multiple computers.</p>
+
+    <p>So what happens when two different computers clone a repo, edit the files, and then try to sync with Github.com?</p>
+
+    <p>These sync-related <strong>conflicts</strong> a basic pain when it comes to working on <strong>Git</strong>-managed projects. But hell, they’re a <strong>major pain</strong> for <em>any</em> project that involves more than one person. You’ve probably run into this when a colleague has accidentally saved over one of your files.</p>
+
+    <p>But one of Git’s <em>raison d’etre</em> is to keep track of changes and prevent information from being accidentally overwritten. We’ll run through a quick example to see how that works.</p>
 
     <p><strong>More text, to be continued…TK</strong></p>
 
@@ -542,6 +548,8 @@
 <h2 id="deleting-files">Deleting files</h2>
 <section class="row">
   <div class="col-sm-6">
+    <p>Before we finish this lesson, let’s see what happens when we just delete a whole bunch of files…which is what we want to do now because we want to build a website from scratch, not from the pre-fab HTML files we’ve been working with so far.</p>
+
     <p><strong>More text, to be continued…TK</strong></p>
 
   </div>
@@ -550,18 +558,32 @@
   </div>
 </section>
 
-<section class="overview">
-  <p>If you haven’t been too confused by this new procedure, you might have noticed that, despite walking through all these different steps, we <em>did not gain any new functionality</em>.</p>
+<section class="conclusion">
+  <h2 id="things-weve-learned">Things we’ve learned</h2>
 
-  <p>That is, downloading the Github app, editing a file via text editor, and then syncing it, gave us no different a situation than as if we just edited the file directly on Github.com.</p>
+  <ul>
+    <li>How to use the Github desktop app</li>
+    <li>How to clone a repo</li>
+    <li>How to work with a repo on our local operating and file system</li>
+    <li>How to sync changes with Github.com</li>
+    <li>How to handle conflicts</li>
+    <li>How to purge a repo and revert to its previous state</li>
+  </ul>
 
-  <p>So why even download the Github app and clone the repo? For one thing, in most non-trivial projects, you’ll be editing more than one file at a time, and it’s usually easier to do this on your computer’s own text-editor than via the Github.com file editor.</p>
+  <p>…to be written</p>
 
-  <p>Second, Github.com does not allow us (yet) to add <strong>non-text</strong> files via the web browser. And even if it did, it probably wouldn’t be easier than drag-and-droping files on our own operating system and file folders.</p>
-
-  <p>So by learning how to use the Github app and cloning the repo, we’ve made the process a bit more complicated, but we’ve also gained more flexibility in what we can add to our web project.</p>
 </section>
 
+<!-- 
+If you haven't been too confused by this new procedure, you might have noticed that, despite walking through all these different steps, we _did not gain any new functionality_.
+
+That is, downloading the Github app, editing a file via text editor, and then syncing it, gave us no different a situation than as if we just edited the file directly on Github.com.
+
+So why even download the Github app and clone the repo? For one thing, in most non-trivial projects, you'll be editing more than one file at a time, and it's usually easier to do this on your computer's own text-editor than via the Github.com file editor.
+
+Second, Github.com does not allow us (yet) to add __non-text__ files via the web browser. And even if it did, it probably wouldn't be easier than drag-and-droping files on our own operating system and file folders.
+
+So by learning how to use the Github app and cloning the repo, we've made the process a bit more complicated, but we've also gained more flexibility in what we can add to our web project. -->
 
     </div>
   </section>
@@ -571,6 +593,7 @@
   <section class="sec">
     <div class="container">
       <div class="lessons-list">
+        <h2>Lessons List</h2>
         
 <section class="lessons-list">
 <ul class="list list-unstyled">
@@ -735,6 +758,17 @@
 
     </div>
 </footer>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49769365-1', 'dannguyen.github.io');
+  ga('send', 'pageview');
+
+</script>
 
     </body>
 </html>
