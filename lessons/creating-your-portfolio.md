@@ -9,6 +9,17 @@ status: Just a draft
 
 
 ## Making a clean slate
+<section class="row">
+<div class="col-sm-6">
+
+Lorem ipsum (and so forth)
+
+</div>
+<div class="col-sm-6">
+
+</div>
+</section>
+
 
 ## Creating the index.html
 
@@ -48,7 +59,7 @@ Sample code
 
 
 
-## Downloading Bootstrap
+## Adding styles and Bootstrap
 
 ## Creating the header
 
@@ -57,3 +68,5 @@ Sample code
 ## Adding content
 
 ## Adding sections
+
+## Adding JavaScript interaction

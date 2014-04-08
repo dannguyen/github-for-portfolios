@@ -131,6 +131,9 @@ Let's go to that page now by clicking on the listed repo link.
 </div>
 <div class="col-sm-6">
 ![howto]({{ site.baseurl }}/images/lessons/1/github-user-page.png)
+
+_Note: I used several Github accounts in setting up this lesson. If you're sharp-eyed, you'll note that this screenshot shows a Github account that is different than the one I use throughout the tutorial._
+
 </div>
 </section>
 
@@ -292,17 +295,84 @@ For *our limited purposes*, this is functionally the same repo page:
 </section>
 
 
-<section class="conclusion">
 ## Things we've learned
 
-- How to create a Github account
-- What a Github repository is
-- How to create a Github repo that will contain the files for your portfolio website
-- How to add and edit files in a Github repo
+<section class="row">
+<div class="col-sm-6">
+#### How to get to Github
 
-...more to be written
+The __Github homepage__ is at the URL:
 
+`https://github.com`
 
+After you've registered an account and logged in, the Github homepage will show data relevant to your account, in the way that `https://facebook.com` shows the personal newsfeed of the currently logged-in account.
+</div>
+<div class="col-sm-6">
+Placeholder cat
+![TK](http://placekitten.com/500/300)
+
+<!-- ![howto]({{ site.baseurl }}/images/lessons/1/TK.png)
+
+ --><br>
+</div>
 </section>
 
 
+<section class="row">
+<div class="col-sm-6">
+
+#### How to create a Github account
+
+Once you've registered with a `username`, your __Github account homepage__ will exist at:
+
+`https://github.com/username`
+
+In the next chapter, we will find out about the __Github Pages__ service, which publishes webpages at:
+
+`http://username.github.io`
+
+I mention this now because it might be a point of confusion. When I refer to your __Github account homepage__, I mean: `github.com/username`.
+
+When I refer to your __Github portfolio (or Pages) homepage__, I mean: `username.github.io` (which should 404 right now).
+</div>
+<div class="col-sm-6">
+Placeholder cat
+![TK](http://placekitten.com/500/300)
+<!-- ![howto]({{ site.baseurl }}/images/lessons/1/TK.png)
+ --><br>
+
+</div>
+</section>
+
+
+<section class="row">
+<div class="col-sm-6">
+#### How to create a Github repository
+
+A __repository__ is basically the file folder for a project. In this lesson, we created a repository that has the name of:
+
+`username.github.io`
+
+From now on, when I refer to your __portfolio project repo__, I mean the repo named `username.github.io`, which, confusingly, is the same of the URL of your soon-to-be actual Github-hosted homepage.
+
+The __homepage__, or the __root/top-level__ for this particular project repo can be found at the URL:
+
+`https://github.com/username/username.github.io`
+
+But you can name a repo whatever you want. To verify this for yourself, try creating a new repo called `hello-world` and notice how its top-level/homepage is located at:
+
+`https://github.com/username/hello-world`
+
+
+</div>
+<div class="col-sm-6">
+Placeholder cat
+![TK](http://placekitten.com/500/300)
+
+<!-- ![howto]({{ site.baseurl }}/images/lessons/1/TK.png) -->
+<br>
+</div>
+</section>
+
+
+__TK: More to be written__
