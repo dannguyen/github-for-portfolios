@@ -12,6 +12,8 @@ pygments: true
 permalink: pretty
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
 
+disqus_shortname: danondisqus
+
 assets:
   baseurl: /github-for-portfolios/assets
   css_compressor: sass
