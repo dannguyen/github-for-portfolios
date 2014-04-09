@@ -308,12 +308,9 @@ The __Github homepage__ is at the URL:
 After you've registered an account and logged in, the Github homepage will show data relevant to your account, in the way that `https://facebook.com` shows the personal newsfeed of the currently logged-in account.
 </div>
 <div class="col-sm-6">
-Placeholder cat
-![TK](http://placekitten.com/500/300)
 
-<!-- ![howto]({{ site.baseurl }}/images/lessons/1/TK.png)
+![homepage]({{ site.baseurl }}/images/lessons/1/key-concept-github-homepage.png)
 
- --><br>
 </div>
 </section>
 
@@ -327,19 +324,19 @@ Once you've registered with a `username`, your __Github account homepage__ will 
 
 `https://github.com/username`
 
-In the next chapter, we will find out about the __Github Pages__ service, which publishes webpages at:
+For our purposes, this page lists the various __repositories__ (i.e. projects) you've created and your recent activity.
 
-`http://username.github.io`
 
-I mention this now because it might be a point of confusion. When I refer to your __Github account homepage__, I mean: `github.com/username`.
+__Note:__ In the next chapter, we will learn about the __Github Pages__ service, and I'll be making reference to your __Github portfolio (or Pages) homepage__, which is an entirely different URL.
 
-When I refer to your __Github portfolio (or Pages) homepage__, I mean: `username.github.io` (which should 404 right now).
+But I will still refer to your __Github account homepage__, which, again, exists at this URL:
+
+`https://github.com/username`
+
 </div>
 <div class="col-sm-6">
-Placeholder cat
-![TK](http://placekitten.com/500/300)
-<!-- ![howto]({{ site.baseurl }}/images/lessons/1/TK.png)
- --><br>
+![account page]({{ site.baseurl }}/images/lessons/1/key-concept-github-account-page.png)
+
 
 </div>
 </section>
@@ -349,30 +346,42 @@ Placeholder cat
 <div class="col-sm-6">
 #### How to create a Github repository
 
-A __repository__ is basically the file folder for a project. In this lesson, we created a repository that has the name of:
+A __repository__ can be thought of as the file folder for a project. In this lesson, we created a repository that has the name of:
 
 `username.github.io`
 
-From now on, when I refer to your __portfolio project repo__, I mean the repo named `username.github.io`, which, confusingly, is the same of the URL of your soon-to-be actual Github-hosted homepage.
+From now on, when I refer to your __portfolio project repo__, or, the "repo for your portfolio," I am referring to the the __repository__ that is named `username.github.io`, which, yes, does indeed look like a URL.
 
 The __homepage__, or the __root/top-level__ for this particular project repo can be found at the URL:
 
 `https://github.com/username/username.github.io`
 
-But you can name a repo whatever you want. To verify this for yourself, try creating a new repo called `hello-world` and notice how its top-level/homepage is located at:
+Note: you can create repos with whatever name you'd like. To verify this for yourself, try creating a new repo called `hello-world` and notice how its top-level/homepage is located at:
 
 `https://github.com/username/hello-world`
 
 
 </div>
 <div class="col-sm-6">
-Placeholder cat
-![TK](http://placekitten.com/500/300)
-
-<!-- ![howto]({{ site.baseurl }}/images/lessons/1/TK.png) -->
-<br>
+![repo page]({{ site.baseurl }}/images/lessons/1/key-concept-github-repo-page.png)
 </div>
 </section>
 
 
-__TK: More to be written__
+
+<section class="row">
+<div class="col-sm-6">
+#### How to create a file on Github
+
+Using Github's web browser-based __file editor__, we were able to create a plaintext file named `README.md`.
+
+In the next lesson, we'll learn how to add new files and edit them using the browser-based file editor. And afterwards, we'll see how to add and edit files using text-editing programs on our own computer.
+
+</div>
+<div class="col-sm-6">
+
+
+![file editor]({{ site.baseurl }}/images/lessons/1/key-concept-github-file-editor.png)
+
+</div>
+</section>

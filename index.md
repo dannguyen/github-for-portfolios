@@ -45,6 +45,13 @@ Because it's easy and free. And if you don't like Github, you can take the exact
 -------------
 
 
+__Tweet__ this lesson if you like it:
+<a href="https://twitter.com/share" class="twitter-share-button" data-via="dancow" data-size="large">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+
+__Fork__ it and copy/improve it on [Github](http://github.com/dannguyen/github-for-portfolios).
+
 
 
 _To be added: more text, explanation_
