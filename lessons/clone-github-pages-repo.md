@@ -530,43 +530,27 @@ Again, nothing substantially new, just a demonstration of how easy it is to add 
 </section>
 
 
+## Sync practice: online-to-offline
 
-
-
-## Syncing changes and conflicts
 <section class="row">
 <div class="col-sm-6">
-I don't intend to get into Github's full suite of collaboration features ([they've got guides for that](https://guides.github.com/)). But if you can clone _once_, you can obviously clone your repo from more than one computer. Which means you can edit and sync files from multiple computers.
+One more exercise before we end this lesson.
 
-So what happens when two different computers clone a repo, edit the files, and then try to sync with Github.com?
+We've seen how to we can sync changes _from_ our __local__ repo _to_ our Github (i.e. __remote__) repo.
 
-These sync-related __conflicts__ a basic pain when it comes to working on __Git__-managed projects. But hell, they're a __major pain__ for _any_ project that involves more than one person. You've probably run into this when a colleague has accidentally saved over one of your files.
+But can the sync happen in the other direction? That is, can we make changes to the Github repo, and _then_ sync them with our local repo?
 
-But one of Git's _raison d'etre_ is to keep track of changes and prevent information from being accidentally overwritten. We'll run through a quick example to see how that works.
-
-__More text, to be continued...TK__
-
-
+TK: Text to come...
 </div>
 <div class="col-sm-6">
-![TK](//placekitten.com/700/300)
+![placeholder cat](//placekitten.com/600/400)
+<!-- ![New photo]({{ site.baseurl }}/images/lessons/4/github-pages-photo-synced.jpg) -->
 </div>
 </section>
 
 
 
-## Deleting files
-<section class="row">
-<div class="col-sm-6">
-Before we finish this lesson, let's see what happens when we just delete a whole bunch of files...which is what we want to do now because we want to build a website from scratch, not from the pre-fab HTML files we've been working with so far.
 
-__More text, to be continued...TK__
-
-</div>
-<div class="col-sm-6">
-![TK](//placekitten.com/700/300)
-</div>
-</section>
 
 
 <section class="conclusion">
@@ -576,8 +560,6 @@ __More text, to be continued...TK__
 - How to clone a repo
 - How to work with a repo on our local operating and file system
 - How to sync changes with Github.com
-- How to handle conflicts
-- How to purge a repo and revert to its previous state
 
 ...to be written
 
