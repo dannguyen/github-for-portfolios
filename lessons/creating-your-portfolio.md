@@ -59,14 +59,41 @@ Sample code
 
 
 
-## Adding styles and Bootstrap
+## Adding Bootstrap files
 
-## Creating the header
+- Download Bootstrap
+- Delete all unnecessary files
+- Create an /assets folder
+- Drag and drop
+
+## Incorporating bootstrap styles
+
+- Add link to bootstrap.css
+- Commit and sync
+- Refresh page
+- Add `container` div
+- recommit and refresh
 
 ## Creating the footer
+- Add footer div
+- Add footer style
+- Add unstyled list
 
-## Adding content
+
+## Creating the header
+- Add nav bar
+  + http://getbootstrap.com/components/#navbar
+  + http://getbootstrap.com/components/#navbar-fixed-top
+- Add full image
+- Add headline
 
 ## Adding sections
+- Descriptive text
+  + contact info
+  + link to resume
+  + 
+- List of stories
+- Photo gallery
+- Interactive map
 
 ## Adding JavaScript interaction
