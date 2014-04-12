@@ -425,14 +425,64 @@ The two pages are __identical__, from the content, to Wikipedia's exact styling,
 
 
 
-<section class="conclusion">
 ## Things we've learned
 
-- How to use Github Pages to publish our Github repo
-- How HTML is different from plain text
+<section class="row">
+<div class="col-sm-6">
+#### How to publish to Github Pages
 
-...more to be written TK
+__Github Pages__ is a service run by Github that, when properly configured, will auto-publish the contents of your __repo__ onto the Internet.
 
+To get Github Pages to work for you, if your username is `your_username`, then you must create a repo named `your_username.github.io`.
+
+After about 10 minutes, you can expect your content to be on the Web at the URL: `http://your_username.github.io`
+
+Going forward, I will refer to this as your __portfolio homepage/website__
+
+__Note:__ When I refer to the __Github repo homepage__ for your portfolio, I mean the URL of the actual Github repo, e.g.:
+
+`https://github.com/your_username/your_username.github.io`
+
+</div>
+<div class="col-sm-6">
+Placeholder kitty:
+
+![TK](//placekitten.com/600/400)
+<!-- ![repo page]({{ site.baseurl }}/images/lessons/1/key-concept-github-repo-page.png) -->
+</div>
 
 </section>
 
+<section class="row">
+<div class="col-sm-6">
+#### The basic structure of a website
+
+TK
+
+</div>
+<div class="col-sm-6">
+Placeholder kitty:
+
+![TK](//placekitten.com/600/400)
+<!-- ![repo page]({{ site.baseurl }}/images/lessons/1/key-concept-github-repo-page.png) -->
+</div>
+
+</section>
+
+
+
+<section class="row">
+<div class="col-sm-6">
+#### How plaintext is different from raw HTML
+
+TK
+
+</div>
+<div class="col-sm-6">
+Placeholder kitty:
+
+![TK](//placekitten.com/600/400)
+<!-- ![repo page]({{ site.baseurl }}/images/lessons/1/key-concept-github-repo-page.png) -->
+</div>
+
+</section>
