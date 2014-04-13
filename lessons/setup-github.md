@@ -4,7 +4,7 @@ title: "Setting Up a Place on Github"
 deck: "How to open a Github account, create a project repository, and create a new file in the repository."
 lesson_number: 1
 image_url: "https://www.flickr.com/photos/zokuga/9489770991/"
-status: Mostly complete
+status: Complete [2014-04-10]
 ---
 
 <section class="overview">
@@ -32,7 +32,7 @@ alphanumeric characters.
 Be sure to check your email afterwards to __confirm__ the registration.
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/1/github-signup.png)
+![howto]({% lesson_image_tag 1/github-signup.png %})
 </div>
 </section>
 
@@ -44,7 +44,7 @@ making anything that needs to be hidden or propietary, we can choose the __Free_
 visible projects.
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/1/github-choose-plan.png)
+![howto]({% lesson_image_tag 1/github-choose-plan.png %})
 </div>
 </section>
 
@@ -65,7 +65,7 @@ Navigate back to the [Github homepage](//github.com). Now that you're a new memb
 Click the green __New repository__ button to get started.
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/1/github-create-new-repo.png)
+![howto]({% lesson_image_tag 1/github-create-new-repo.png %})
 </div>
 </section>
 
@@ -81,7 +81,7 @@ For the __Repository __name__, enter your __username__, followed by `github.io`.
 All of the other fields, including __Description__, can be left alone for now. Hit the green __Create Repository__ button.
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/1/github-name-new-repo.png)
+![howto]({% lesson_image_tag 1/github-name-new-repo.png %})
 </div>
 </section>
 
@@ -94,7 +94,7 @@ If you are unfamiliar to git, about 95 percent of this screen will be totally al
 For now, revisit [https://github.com](https://github.com) to see what the homepage looks like.
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/1/github-new-repo-created.png)
+![howto]({% lesson_image_tag 1/github-new-repo-created.png %})
 </div>
 </section>
 
@@ -110,7 +110,7 @@ For now, let's take a quick look at your __user__ page, which you can visit by g
 
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/1/github-new-repo-listed.png)
+![howto]({% lesson_image_tag 1/github-new-repo-listed.png %})
 </div>
 </section>
 
@@ -130,7 +130,7 @@ that contains your portfolio, i.e. `yourname.github.io`
 Let's go to that page now by clicking on the listed repo link.
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/1/github-user-page.png)
+![howto]({% lesson_image_tag 1/github-user-page.png %})
 
 _Note: I used several Github accounts in setting up this lesson. If you're sharp-eyed, you'll note that this screenshot shows a Github account that is different than the one I use throughout the tutorial._
 
@@ -151,7 +151,7 @@ On our empty repo page, the one instruction we should care about is the one that
 Click on the __README__ link, which conveniently takes you to the Github file editor.
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/1/github-link-to-create-readme.png)
+![howto]({% lesson_image_tag 1/github-link-to-create-readme.png %})
 </div>
 </section>
 
@@ -168,7 +168,7 @@ Notice at the top of the file how `README.md` has been filled out for you. You _
 any filename you want. But let's stick with `README.md`
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/1/github-create-readme-blank.png)
+![howto]({% lesson_image_tag 1/github-create-readme-blank.png %})
 </div>
 </section>
 
@@ -182,7 +182,7 @@ but the upshot here is that you can type in any text you want, it doesn't have t
 
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/1/github-editor-markdown-sample.png)
+![howto]({% lesson_image_tag 1/github-editor-markdown-sample.png %})
 <br>
 </div>
 </section>
@@ -234,7 +234,7 @@ http://dantnguyen.github.io/
 At the bottom of the page, you can ignore the optional fields and just click the green button to __Commit new file__
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/1/github-commit-readme.png)
+![howto]({% lesson_image_tag 1/github-commit-readme.png %})
 </div>
 </section>
 
@@ -249,7 +249,7 @@ As we'll see later, "commit" is not synonymous with "create". A commit can consi
 
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/1/github-readme-exists.png)
+![howto]({% lesson_image_tag 1/github-readme-exists.png %})
 </div>
 </section>
 
@@ -262,7 +262,7 @@ Scroll down a bit and you'll see that Github has rendered `README.md` &ndash; ev
 Note that this is _not_ your actual portfolio page. Again, think of a repo as simply a folder for your project, and this is how Github displays the project's file listing.
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/1/github-readme-basic.png)
+![howto]({% lesson_image_tag 1/github-readme-basic.png %})
 </div>
 </section>
 
@@ -286,11 +286,11 @@ We're not going to cover the internals of git in this tutorial, so for now keep 
 `http://github.com/username/username.github.io/`
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/1/github-post-readme-tree-master.png)
+![howto]({% lesson_image_tag 1/github-post-readme-tree-master.png %})
 
 For *our limited purposes*, this is functionally the same repo page:
 
-![howto]({{ site.baseurl }}/images/lessons/1/github-base-repo-url-sans-tree-master.png)
+![howto]({% lesson_image_tag 1/github-base-repo-url-sans-tree-master.png %})
 </div>
 </section>
 
@@ -309,7 +309,7 @@ After you've registered an account and logged in, the Github homepage will show 
 </div>
 <div class="col-sm-6">
 
-![homepage]({{ site.baseurl }}/images/lessons/1/key-concept-github-homepage.png)
+![homepage]({% lesson_image_tag 1/key-concept-github-homepage.png %})
 
 </div>
 </section>
@@ -335,7 +335,7 @@ But I will still refer to your __Github account homepage__, which, again, exists
 
 </div>
 <div class="col-sm-6">
-![account page]({{ site.baseurl }}/images/lessons/1/key-concept-github-account-page.png)
+![account page]({% lesson_image_tag 1/key-concept-github-account-page.png %})
 
 
 </div>
@@ -363,7 +363,7 @@ Note: you can create repos with whatever name you'd like. To verify this for you
 
 </div>
 <div class="col-sm-6">
-![repo page]({{ site.baseurl }}/images/lessons/1/key-concept-github-repo-page.png)
+![repo page]({% lesson_image_tag 1/key-concept-github-repo-page.png %})
 </div>
 </section>
 
@@ -381,7 +381,7 @@ In the next lesson, we'll learn how to add new files and edit them using the bro
 <div class="col-sm-6">
 
 
-![file editor]({{ site.baseurl }}/images/lessons/1/key-concept-github-file-editor.png)
+![file editor]({% lesson_image_tag 1/key-concept-github-file-editor.png %})
 
 </div>
 </section>

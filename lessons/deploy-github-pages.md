@@ -4,7 +4,7 @@ title: "Publishing Web Pages from Scratch with Github Pages"
 deck: "How to create and publish a file to the Web and how that is better/worse than publishing a blog post on WordPress."
 lesson_number: 2
 image_url: 'https://www.flickr.com/photos/zokuga/6787076613/'
-status: Mostly complete
+status: Mostly complete [2014-04-03]
 ---
 
 <section class="overview">
@@ -31,7 +31,7 @@ According to the [Github Pages documentation](//pages.github.com), by creating a
 However, if you visit that URL, you'll find a 404 page.
 </div> 
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/2/github-pages-404.png)
+![howto]({% lesson_image_tag 2/github-pages-404.png %})
 
 </div>
 </section>  
@@ -51,7 +51,7 @@ Go back to your __repository homepage__ on github.com, e.g.
 To the __right__ of the repo name is a little __paper-plus icon__. Click on it to create a new file.
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/2/github-create-new-file.png)
+![howto]({% lesson_image_tag 2/github-create-new-file.png %})
 </div>
 </section>
 
@@ -73,7 +73,7 @@ Then type in some __plain-text__ nonsense, e.g.:
 
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/2/github-create-new-index.html-helloworld.png)
+![howto]({% lesson_image_tag 2/github-create-new-index.html-helloworld.png %})
 </div>
 </section>
 
@@ -90,7 +90,7 @@ After the commit, you should be taken to your repo file listing, which should no
 The README file should be unchanged because you didn't touch the `README.md`
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/2/github-pages-post-index-commit-first-tree-master-index.png)
+![howto]({% lesson_image_tag 2/github-pages-post-index-commit-first-tree-master-index.png %})
 </div>
 </section>
 
@@ -114,7 +114,7 @@ And if you visit that address, you should see a very unimpressive page.
 
 Behold, your new webpage (`index.html`) on Github Pages:
 
-![howto]({{ site.baseurl }}/images/lessons/2/github-raw-index-html-page.png)
+![howto]({% lesson_image_tag 2/github-raw-index-html-page.png %})
 </div>
 </section>
 
@@ -130,11 +130,11 @@ And yet your browser renders it all as a single line. If you don't know anything
 <div class="col-sm-6">
 
 
-![view source from the menubar]({{ site.baseurl }}/images/lessons/2/github-pages-plain-indexhtml-view-source-option.png)
+![view source from the menubar]({% lesson_image_tag 2/github-pages-plain-indexhtml-view-source-option.png %})
 
 The raw source (i.e. the plaintext) behind `index.html`:
 
-![view source]({{ site.baseurl }}/images/lessons/2/github-raw-index-view-source.png)
+![view source]({% lesson_image_tag 2/github-raw-index-view-source.png %})
 
 </div>
 </section>
@@ -167,9 +167,9 @@ So Github Pages basically did nothing here. It "published" your `index.html` pag
 </div>
 <div class="col-sm-6">
 
-![howto]({{ site.baseurl }}/images/lessons/2/github-raw-index-html-page.png)
+![howto]({% lesson_image_tag 2/github-raw-index-html-page.png %})
 
-![view source]({{ site.baseurl }}/images/lessons/2/github-raw-index-view-source.png)
+![view source]({% lesson_image_tag 2/github-raw-index-view-source.png %})
 </div>
 </section>
 
@@ -183,7 +183,7 @@ Go back to your __Github.com repo__ page (_not_ your __Github Pages__ homepage) 
 </div>
 
 <div class="col-sm-6">
-![README.md raw text]({{ site.baseurl }}/images/lessons/2/github-raw-readme-md.png)
+![README.md raw text]({% lesson_image_tag 2/github-raw-readme-md.png %})
 </div>
 </section>
 
@@ -195,7 +195,7 @@ Notice how Github turned the plaintext behind `README.md` into __actual HTML cod
 </div>
 
 <div class="col-sm-6">
-![README.md html source]({{ site.baseurl }}/images/lessons/2/github-html-source-rendered-readme-md.png)
+![README.md html source]({% lesson_image_tag 2/github-html-source-rendered-readme-md.png %})
 </div>
 </section>
 
@@ -208,7 +208,7 @@ In your repo page and file-listing, click through `index.html` and click the __E
 </div>
 
 <div class="col-sm-6">
-![Edit index.html via the Github file editor]({{ site.baseurl }}/images/lessons/2/github-edit-button-indexhtml.png)
+![Edit index.html via the Github file editor]({% lesson_image_tag 2/github-edit-button-indexhtml.png %})
 </div>
 </section>
 
@@ -238,7 +238,7 @@ Delete all the plaintext in `index.html` and replace it with some HTML. Such as:
 </div>
 
 <div class="col-sm-6">
-![Edit index.html by adding real HTML]({{ site.baseurl }}/images/lessons/2/github-revise-index.html.png)
+![Edit index.html by adding real HTML]({% lesson_image_tag 2/github-revise-index.html.png %})
 </div>
 </section>
 
@@ -256,7 +256,7 @@ Pretty plain, but at least it's a bonafide webpage; notice those properly-format
 </div>
 
 <div class="col-sm-6">
-![The new index.html]({{ site.baseurl }}/images/lessons/2/simple-index-html-with-html-rendered.png)
+![The new index.html]({% lesson_image_tag 2/simple-index-html-with-html-rendered.png %})
 </div>
 </section>
 
@@ -279,7 +279,7 @@ __Github Pages__ sits more on the __power-and-control__-side of the spectrum. If
 <div class="col-sm-6">
 Placeholder kitty 
 ![TK cat](//placekitten.com/600/400)
-<!-- ![The new index.html]({{ site.baseurl }}/images/lessons/2/) -->
+<!-- ![The new index.html]({% lesson_image_tag 2/ %}) -->
 </div>
 </section>
 
@@ -294,7 +294,7 @@ It took me about five minutes to create a new blog on [WordPress.com](http://wor
 </div>
 
 <div class="col-sm-6">
-![Creating a post in WordPress]({{ site.baseurl }}/images/lessons/2/wordpress-new-post-editor.png)
+![Creating a post in WordPress]({% lesson_image_tag 2/wordpress-new-post-editor.png %})
 </div>
 </section>
 
@@ -305,7 +305,7 @@ WordPress helpfully formats my post and fits it inside the pretty McKinley theme
 
 <div class="col-sm-6">
 
-![Publishing a simple post on WordPress]({{ site.baseurl }}/images/lessons/2/simple-post-published-on-wordpress.png)
+![Publishing a simple post on WordPress]({% lesson_image_tag 2/simple-post-published-on-wordpress.png %})
 </div>
 </section>
 
@@ -317,7 +317,7 @@ If you want, you can go back to your __Github.com repo page__ and create a new f
 </div>
 
 <div class="col-sm-6">
-![Blog post pasted into Github]({{ site.baseurl }}/images/lessons/2/simple-post-pasted-into-github.png)
+![Blog post pasted into Github]({% lesson_image_tag 2/simple-post-pasted-into-github.png %})
 </div>
 </section>
 
@@ -333,7 +333,7 @@ And again, Github Pages does basically _nothing_.
 </div>
 
 <div class="col-sm-6">
-![Blog post published via Github]({{ site.baseurl }}/images/lessons/2/simple-post-published-on-github.png)
+![Blog post published via Github]({% lesson_image_tag 2/simple-post-published-on-github.png %})
 </div>
 </section>
 
@@ -354,7 +354,7 @@ Visit the Wikipedia page for GIF:
 </div>
 <div class="col-sm-6">
 
-![Wikipedia GIF]({{ site.baseurl }}/images/lessons/2/wikipedia-gif-page.png)
+![Wikipedia GIF]({% lesson_image_tag 2/wikipedia-gif-page.png %})
 </div>
 </section>
 
@@ -364,7 +364,7 @@ Visit the Wikipedia page for GIF:
 __View Source__ of the Wikipedia entry on GIF, and then __Select All__ the code and __Copy__ it to your clipboard (i.e. via __Ctrl-C__ or __Cmd-C__)
 </div>
 <div class="col-sm-6">
-![View source of Wikipedia GIF]({{ site.baseurl }}/images/lessons/2/wikipedia-gif-source.png)
+![View source of Wikipedia GIF]({% lesson_image_tag 2/wikipedia-gif-source.png %})
 </div>
 </section>
 
@@ -374,7 +374,7 @@ __View Source__ of the Wikipedia entry on GIF, and then __Select All__ the code 
 If you have a WordPress blog, you can follow along as I try to paste this massive chunk of HTML code into the WordPress post editor (in the raw __Text mode__, not the __Visual mode__)
 </div>
 <div class="col-sm-6">
-![Wikipedia GIF into WordPress]({{ site.baseurl }}/images/lessons/2/wikipedia-gif-pasted-into-wordpress.png)
+![Wikipedia GIF into WordPress]({% lesson_image_tag 2/wikipedia-gif-pasted-into-wordpress.png %})
 </div>
 </section>
 
@@ -388,7 +388,7 @@ By having a user-friendly interface, WordPress necessarily has to make assumptio
 You can see the attempted [raw-Wikipedia-HTML-as-WordPress-blog-post on my sample blog](http://dantnguyen.wordpress.com/2014/04/02/wikipedia-gif-entry/).
 </div>
 <div class="col-sm-6">
-![Wiki gif published on Wordpress]({{ site.baseurl }}/images/lessons/2/wikipedia-gif-published-on-wordpress.png)
+![Wiki gif published on Wordpress]({% lesson_image_tag 2/wikipedia-gif-published-on-wordpress.png %})
 </div>
 </section>
 
@@ -401,7 +401,7 @@ Now copy-and-paste that same raw Wikipedia HTML into a new file in your Github r
 
 </div>
 <div class="col-sm-6">
-![Github wikipediagif]({{ site.baseurl }}/images/lessons/2/wikipedia-gif-pasted-into-github.png)
+![Github wikipediagif]({% lesson_image_tag 2/wikipedia-gif-pasted-into-github.png %})
 </div>
 </section>
 
@@ -419,7 +419,7 @@ The two pages are __identical__, from the content, to Wikipedia's exact styling,
 
 </div>
 <div class="col-sm-6">
-![Github wikipediagif]({{ site.baseurl }}/images/lessons/2/wikipedia-gif-copied.png)
+![Github wikipediagif]({% lesson_image_tag 2/wikipedia-gif-copied.png %})
 </div>
 </section>
 
@@ -448,7 +448,7 @@ __Note:__ When I refer to the __Github repo homepage__ for your portfolio, I mea
 Placeholder kitty:
 
 ![TK](//placekitten.com/600/400)
-<!-- ![repo page]({{ site.baseurl }}/images/lessons/1/key-concept-github-repo-page.png) -->
+<!-- ![repo page]({% lesson_image_tag 1/key-concept-github-repo-page.png %}) -->
 </div>
 
 </section>
@@ -464,7 +464,7 @@ TK
 Placeholder kitty:
 
 ![TK](//placekitten.com/600/400)
-<!-- ![repo page]({{ site.baseurl }}/images/lessons/1/key-concept-github-repo-page.png) -->
+<!-- ![repo page]({% lesson_image_tag 1/key-concept-github-repo-page.png %}) -->
 </div>
 
 </section>
@@ -482,7 +482,7 @@ TK
 Placeholder kitty:
 
 ![TK](//placekitten.com/600/400)
-<!-- ![repo page]({{ site.baseurl }}/images/lessons/1/key-concept-github-repo-page.png) -->
+<!-- ![repo page]({% lesson_image_tag 1/key-concept-github-repo-page.png %}) -->
 </div>
 
 </section>

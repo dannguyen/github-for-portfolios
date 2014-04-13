@@ -5,7 +5,7 @@ $(document).ready(function(){
     console.log(src);
     if(typeof src !== "undefined"){
       $(this).wrap(function(){
-        return "<a target=\"_blank\" href=\"" + src + "\"></a>";
+        return "<a class=\"image-link\" target=\"_blank\" href=\"" + src + "\"></a>";
       });
     }
   });

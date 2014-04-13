@@ -8,6 +8,13 @@ div.img-wrap{
   img{ width: 100%;}
 }
 
+
+a.image-link:hover{
+  img{
+    outline: #8888FF dashed 2px;
+  }
+}
+
 .content-silo{
   @extend .col-md-8 !optional;
   @extend .col-md-offset-2 !optional;
@@ -187,5 +194,11 @@ article.lesson{
 
   div.deck{
     font-size: 0.9em;
+  }
+
+  div.status{
+    color:black;
+    font-size: 0.9em;
+    font-style: italic;
   }
 }

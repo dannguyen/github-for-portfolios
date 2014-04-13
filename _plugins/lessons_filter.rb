@@ -10,6 +10,11 @@ module Jekyll
     def sort_by_lesson_number(lessons)
       lessons.sort{|a,b| a.data['lesson_number'] <=> b.data['lesson_number'] }
     end
+
+
+    # def lesson_image_path(specific_path)
+    # end
+
   end
 end
 

@@ -4,7 +4,7 @@ title: "How Git Manages Conflicts and Collaboration"
 deck: "By using Git, you automatically get data protection features built into your project. This is what makes collaboration so (relatively) smooth. But even if you work alone, Git can reduce anxiety."
 lesson_number: 5
 image_url: 'https://www.flickr.com/photos/zokuga/5296153116/'
-status: Just a stub
+status: Just a stub [2014-04-10]
 ---
 
 <section class="overhead">
@@ -37,21 +37,21 @@ One side-effect of managing your project through Git (actually, most would consi
 <div class="col-sm-6">
 Placeholder images
 
-![img]({{ site.baseurl }}/images/lessons/5/github-conflict-edit-on-github-published.png)
+![img]({% lesson_image_tag 5/github-conflict-edit-on-github-published.png %})
 
-![img]({{ site.baseurl }}/images/lessons/5/github-conflict-edit-on-github.png)
+![img]({% lesson_image_tag 5/github-conflict-edit-on-github.png %})
 
-![img]({{ site.baseurl }}/images/lessons/5/github-conflict-fixed-and-published.png)
+![img]({% lesson_image_tag 5/github-conflict-fixed-and-published.png %})
 
-![img]({{ site.baseurl }}/images/lessons/5/github-conflict-fixed-ready-to-sync-in-app.png)
+![img]({% lesson_image_tag 5/github-conflict-fixed-ready-to-sync-in-app.png %})
 
-![img]({{ site.baseurl }}/images/lessons/5/github-conflict-fixed-shown-in-app.png)
+![img]({% lesson_image_tag 5/github-conflict-fixed-shown-in-app.png %})
 
-![img]({{ site.baseurl }}/images/lessons/5/github-conflict-marked-in-text-file.png)
+![img]({% lesson_image_tag 5/github-conflict-marked-in-text-file.png %})
 
-![img]({{ site.baseurl }}/images/lessons/5/github-conflict-marked-in-the-app.png)
+![img]({% lesson_image_tag 5/github-conflict-marked-in-the-app.png %})
 
-![img]({{ site.baseurl }}/images/lessons/5/github-conflict-shown-in-app-history.png)
+![img]({% lesson_image_tag 5/github-conflict-shown-in-app-history.png %})
 
 ![TK](//placekitten.com/700/320)
 
@@ -72,7 +72,7 @@ __More text, to be continued...TK__
 </div>
 <div class="col-sm-6">
 
-![img]({{ site.baseurl }}/images/lessons/5/github-clone-move-to-trash.png)
+![img]({% lesson_image_tag 5/github-clone-move-to-trash.png %})
 
 ![TK](//placekitten.com/600/620)
 
@@ -89,13 +89,13 @@ __More text, to be continued...TK__
 </div>
 <div class="col-sm-6">
 
-![img]({{ site.baseurl }}/images/lessons/5/github-app-rollback-option.png)
+![img]({% lesson_image_tag 5/github-app-rollback-option.png %})
 
-![img]({{ site.baseurl }}/images/lessons/5/github-app-rollback-in-history.png)
+![img]({% lesson_image_tag 5/github-app-rollback-in-history.png %})
 
-![img]({{ site.baseurl }}/images/lessons/5/github-app-rollback-committed.png)
+![img]({% lesson_image_tag 5/github-app-rollback-committed.png %})
 
-![img]({{ site.baseurl }}/images/lessons/5/github-app-rollback-synced.png)
+![img]({% lesson_image_tag 5/github-app-rollback-synced.png %})
 
 
 ![TK](//placekitten.com/700/500)

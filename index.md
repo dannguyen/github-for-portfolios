@@ -100,9 +100,12 @@ Github is used because of specific features that prevent us from having to do an
 
 #### Using Github 
 
+
 - [Getting Started With a GitHub Repository](http://chronicle.com/blogs/profhacker/getting-started-with-a-github-repository/47393) - the first of a seven-article series on Github for non-coders, by Konrad M. Lawson, for The Chronicle of Higher Education
 
 - [GitHub For Beginners: Don't Get Scared, Get Started](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1#awesm=~oAh764aNbWfqyH) - by Lauren Orsini, for ReadWrite
+
+- [Github Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet) - inspired by Github's Zac Holman, a reference that assumes you have some Git/Github experience.
 
 - [Getting Started Guide for Github's desktop app](https://mac.github.com/help.html)
 

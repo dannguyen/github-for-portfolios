@@ -4,7 +4,7 @@ title: "Clone, Edit, Commit, and Sync"
 deck: "How to install the Github desktop app, make a local copy of your Github repo, manage and edit your webpage project on your own operating system, and sync with your Github repo."
 lesson_number: 4
 image_url: 'https://www.flickr.com/photos/zokuga/8665431657/'
-status: Just a draft
+status: Mostly complete [2014-04-11]
 ---
 
 
@@ -46,9 +46,9 @@ Github [also has online documentation for its desktop app](https://mac.github.co
 </div>
 <div class="col-sm-6">
 
-![howto]({{ site.baseurl }}/images/lessons/4/github-windows-download.png)
+![howto]({% lesson_image_tag 4/github-windows-download.png %})
 
-![howto]({{ site.baseurl }}/images/lessons/4/github-mac-download.png)
+![howto]({% lesson_image_tag 4/github-mac-download.png %})
 
 
 </div>
@@ -62,7 +62,7 @@ Find the zip file in your __Downloads__ folder
 
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/4/github-zip-in-downloads.png)
+![howto]({% lesson_image_tag 4/github-zip-in-downloads.png %})
 </div>
 </section>
 
@@ -72,7 +72,7 @@ Find the zip file in your __Downloads__ folder
 Double-click on the zip file which will produce a __Github.app__ file. You can move this file to your __Applications__ folder, or just double-click it and the app will offer to move itself for you.
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/4/github-app-opened.png)
+![howto]({% lesson_image_tag 4/github-app-opened.png %})
 </div>
 </section>
 
@@ -87,7 +87,7 @@ The app should ask you to sign with your Github credentials so that it can sync 
 <div class="col-sm-6">
 
 
-![howto]({{ site.baseurl }}/images/lessons/4/github-app-asking-for-permission.png)
+![howto]({% lesson_image_tag 4/github-app-asking-for-permission.png %})
 </div>
 </section>
 
@@ -112,7 +112,7 @@ Those two subheads represent the two physical locations where your Github repos 
 </div>
 <div class="col-sm-6">
 
-![Desktop app sidebar]({{ site.baseurl }}/images/lessons/4/github-desktop-app-sidebar.png)
+![Desktop app sidebar]({% lesson_image_tag 4/github-desktop-app-sidebar.png %})
 </div>
 </section>
 
@@ -127,7 +127,7 @@ If you click on the  __My Repositories__ item, under the __THIS COMPUTER__ subhe
 </div>
 <div class="col-sm-6">
 
-![howto]({{ site.baseurl }}/images/lessons/4/github-desktop-app-this-computer-list.png)
+![howto]({% lesson_image_tag 4/github-desktop-app-this-computer-list.png %})
 </div>
 </section>
 
@@ -146,7 +146,7 @@ Let's now create our first __cloned repo__.
 
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/4/github-desktop-app-githubcom-list.png)
+![howto]({% lesson_image_tag 4/github-desktop-app-githubcom-list.png %})
 </div>
 </section>
 
@@ -160,7 +160,7 @@ A little Git terminology: the term __clone__ refers to a __git__ function that m
 In the Github Desktop App sidebar, click the __GITHUB.COM__ &raquo; __username__ repo. In the right-side of the app, you should see a button that says __Clone to Computer__. Click it.
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/4/github-app-show-account.png)
+![howto]({% lesson_image_tag 4/github-app-show-account.png %})
 </div>
 </section>
 
@@ -171,7 +171,7 @@ The app should pop-up a prompt asking you where to download the repo to. Again, 
 
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/4/github-app-clone-specific-repo.png)
+![howto]({% lesson_image_tag 4/github-app-clone-specific-repo.png %})
 </div>
 </section>
 
@@ -182,7 +182,7 @@ Now in the desktop app sidebar, click on the __THIS COMPUTER__ &raquo; __My Repo
 
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/4/github-app-first-clone.png)
+![howto]({% lesson_image_tag 4/github-app-first-clone.png %})
 </div>
 </section>
 
@@ -201,7 +201,7 @@ If you select __Remove__, it will delete the repository from your computer but w
 
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/4/github-app-cloned-repo-list.png)
+![howto]({% lesson_image_tag 4/github-app-cloned-repo-list.png %})
 
 </div>
 </section>
@@ -216,7 +216,7 @@ For now, select __Show in Finder__, which should take you to where you told the 
 Your repo should have been downloaded to a folder named: `username.github.io`
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/4/local-download-folder.png)
+![howto]({% lesson_image_tag 4/local-download-folder.png %})
 
 </div>
 </section>
@@ -228,7 +228,7 @@ Double-click your repo folder. Does that file listing look familiar? Visit your 
 The takeaway here is that Github.com can be seen, for our purposes, as a website that stores a copy of our project and allows us to peruse it via a web browser. But at any time, we can make an exact copy of the repo and distribute our files as we please.
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/4/local-repo-file-listing.png)
+![howto]({% lesson_image_tag 4/local-repo-file-listing.png %})
 
 </div>
 </section>
@@ -245,9 +245,9 @@ Notice the __top-navigation__: when you want to go back to the top-level list of
 
 </div>
 <div class="col-sm-6">
-![Highlighting the arrow button]({{ site.baseurl }}/images/lessons/4/github-app-first-clone-arrow-button.png)
+![Highlighting the arrow button]({% lesson_image_tag 4/github-app-first-clone-arrow-button.png %})
 
-![Top nav and sidebar]({{ site.baseurl }}/images/lessons/4/github-app-top-nav-sidebar-detail.png)
+![Top nav and sidebar]({% lesson_image_tag 4/github-app-top-nav-sidebar-detail.png %})
 
 
 </div>
@@ -264,7 +264,7 @@ That commit history and the messages should look familiar to you.
 
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/4/github-app-show-history-so-far.png)
+![howto]({% lesson_image_tag 4/github-app-show-history-so-far.png %})
 
 </div>
 </section>
@@ -291,7 +291,7 @@ I've chosen to open the `index.html` file in my own text-editor ([Sublime Text](
 
 </div>
 <div class="col-sm-6">
-![Finding index.html clone]({{ site.baseurl }}/images/lessons/4/cloned-repo-index-highlighted-with-sublime-text.png)
+![Finding index.html clone]({% lesson_image_tag 4/cloned-repo-index-highlighted-with-sublime-text.png %})
 </div>
 </section>
 
@@ -313,7 +313,7 @@ Except that the file is _only updated on our computer_. Again, we're working on 
 
 </div>
 <div class="col-sm-6">
-![Editing the youtube embed code]({{ site.baseurl }}/images/lessons/4/editing-index-html-youtube-embed.png)
+![Editing the youtube embed code]({% lesson_image_tag 4/editing-index-html-youtube-embed.png %})
 </div>
 </section>
 
@@ -339,7 +339,7 @@ Then enter a commit message and press the __Commit__ button.
 
 </div>
 <div class="col-sm-6">
-![Github app showing the diff]({{ site.baseurl }}/images/lessons/4/github-app-showing-index-html-diff.png)
+![Github app showing the diff]({% lesson_image_tag 4/github-app-showing-index-html-diff.png %})
 </div>
 </section>
 
@@ -360,7 +360,7 @@ The word __Unsynced__ is a clue that our local changes have not yet affected wha
 
 </div>
 <div class="col-sm-6">
-![After pressing commit unsynced commits]({{ site.baseurl }}/images/lessons/4/github-app-unsynced-commits.png)
+![After pressing commit unsynced commits]({% lesson_image_tag 4/github-app-unsynced-commits.png %})
 </div>
 </section>
 
@@ -381,7 +381,7 @@ We make this happen by pressing the __Sync__ button that has shown up in the Git
 
 </div>
 <div class="col-sm-6">
-![After pressing commit unsynced commits]({{ site.baseurl }}/images/lessons/4/github-app-unsynced-commits-closeup.png)
+![After pressing commit unsynced commits]({% lesson_image_tag 4/github-app-unsynced-commits-closeup.png %})
 </div>
 </section>
 
@@ -392,7 +392,7 @@ We make this happen by pressing the __Sync__ button that has shown up in the Git
 You may get a request from the Github app to use the credentials for your Github.com account. __Allow__ (or Always Allow) the Github app the access it needs.
 </div>
 <div class="col-sm-6">
-![Granting permissions]({{ site.baseurl }}/images/lessons/4/github-app-asking-for-permission.png)
+![Granting permissions]({% lesson_image_tag 4/github-app-asking-for-permission.png %})
 </div>
 </section>
 
@@ -402,7 +402,7 @@ You may get a request from the Github app to use the credentials for your Github
 After a few seconds, you'll see that the sections for __Uncommitted Changes__ and __Unsynced Commits__ are now empty, indicating that the sync action has finished.
 </div>
 <div class="col-sm-6">
-![After syncing to server]({{ site.baseurl }}/images/lessons/4/github-app-post-sync.png)
+![After syncing to server]({% lesson_image_tag 4/github-app-post-sync.png %})
 </div>
 </section>
 
@@ -412,7 +412,7 @@ After a few seconds, you'll see that the sections for __Uncommitted Changes__ an
 In the __Github app__, check out the __History__ tab, which will now list the latest commit.
 </div>
 <div class="col-sm-6">
-![Looking at the history]({{ site.baseurl }}/images/lessons/4/github-app-showing-history.png)
+![Looking at the history]({% lesson_image_tag 4/github-app-showing-history.png %})
 </div>
 </section>
 
@@ -421,7 +421,7 @@ In the __Github app__, check out the __History__ tab, which will now list the la
 Now visit your __Github.com repo page__ which will also show the synced files. In my case, the only file I changed was `index.html`
 </div>
 <div class="col-sm-6">
-![Github site showing latest commit and message]({{ site.baseurl }}/images/lessons/4/github-site-showing-sync-and-message.png)
+![Github site showing latest commit and message]({% lesson_image_tag 4/github-site-showing-sync-and-message.png %})
 </div>
 </section>
 
@@ -430,7 +430,7 @@ Now visit your __Github.com repo page__ which will also show the synced files. I
 Finally, visit your home on Github Pages, e.g. `http://username.github.io`, to see the changes you've made to `index.html`
 </div>
 <div class="col-sm-6">
-![howto]({{ site.baseurl }}/images/lessons/4/new-index-html-with-new-youtube-video.jpg)
+![howto]({% lesson_image_tag 4/new-index-html-with-new-youtube-video.jpg %})
 </div>
 </section>
 
@@ -445,7 +445,7 @@ So we actually haven't done anything _new_ by cloning our repo and using the Git
 But now we're working with our repo as if it were any other file folder on our system. Which means we can drag-and-drop files of any type into our repo folder. In this next exercise, we'll add a new photo to our page.
 </div>
 <div class="col-sm-6">
-![images folder]({{ site.baseurl }}/images/lessons/4/cloned-repo-images-folder.png)
+![images folder]({% lesson_image_tag 4/cloned-repo-images-folder.png %})
 </div>
 </section>
 
@@ -455,7 +455,7 @@ First, download a photo from the Internet and save it as something like: `my-pho
 
 </div>
 <div class="col-sm-6">
-![save photo]({{ site.baseurl }}/images/lessons/4/save-my-photo.jpg)
+![save photo]({% lesson_image_tag 4/save-my-photo.jpg %})
 </div>
 </section>
 
@@ -464,7 +464,7 @@ First, download a photo from the Internet and save it as something like: `my-pho
 Then, drag-and-drop it into your local repo folder, under the `images` subdirectory (which you can create if it doesn't already exist).
 </div>
 <div class="col-sm-6">
-![copy photo]({{ site.baseurl }}/images/lessons/4/copy-my-photo.png)
+![copy photo]({% lesson_image_tag 4/copy-my-photo.png %})
 </div>
 </section>
 
@@ -489,7 +489,7 @@ To have our `index.html` use our image file, we simply update the `src` attribut
 
 </div>
 <div class="col-sm-6">
-![TK]({{ site.baseurl }}/images/lessons/4/add-my-photo-img.png)
+![TK]({% lesson_image_tag 4/add-my-photo-img.png %})
 </div>
 </section>
  
@@ -501,7 +501,7 @@ Check out the __Changes__ tab of the Github Desktop App. You should see under __
 Hit the __Commit__ button, then __Sync__ the files with Github.com.
 </div>
 <div class="col-sm-6">
-![photo changes]({{ site.baseurl }}/images/lessons/4/github-app-photo-added.jpg)
+![photo changes]({% lesson_image_tag 4/github-app-photo-added.jpg %})
 </div>
 </section>
 
@@ -512,7 +512,7 @@ Hit the __Commit__ button, then __Sync__ the files with Github.com.
 Check out your portfolio repo on Github.com. You should see the commit message on two different files (`index.html` and the `images` sub directory)
 </div>
 <div class="col-sm-6">
-![com synced]({{ site.baseurl }}/images/lessons/4/github-com-photo-synced.png)
+![com synced]({% lesson_image_tag 4/github-com-photo-synced.png %})
 </div>
 </section>
 
@@ -525,7 +525,8 @@ Finally, checkout your portfolio homepage at `username.github.io` to see the new
 Again, nothing substantially new, just a demonstration of how easy it is to add new files to our portfolio homepage. In the next chapters, we'll be drag-and-dropping whole folders in and out of our repo.
 </div>
 <div class="col-sm-6">
-![New photo]({{ site.baseurl }}/images/lessons/4/github-pages-photo-synced.jpg)
+![New files]({% lesson_image_tag 4/github-pages-photo-synced.jpg %})
+
 </div>
 </section>
 
@@ -544,9 +545,11 @@ TK: Text to come...
 </div>
 <div class="col-sm-6">
 ![placeholder cat](//placekitten.com/600/400)
-<!-- ![New photo]({{ site.baseurl }}/images/lessons/4/github-pages-photo-synced.jpg) -->
+<!-- ![New photo]({% lesson_image_tag 4/github-pages-photo-synced.jpg %}) -->
 </div>
 </section>
+
+
 
 
 

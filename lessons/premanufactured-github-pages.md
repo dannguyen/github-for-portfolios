@@ -4,7 +4,7 @@ title: "Pre-Fab Pages with Github's Automatic Page Generator"
 deck: "An (optional) tour of Github Pages pre-built templates and of Markdown, and practical experience with the concept of 'separation of content and presentation.'"
 lesson_number: 3
 image_url: 'https://www.flickr.com/photos/zokuga/11913708424/'
-status: Mostly complete
+status: Mostly complete [2014-04-03]
 ---
 
 <section class="overview">
@@ -31,7 +31,7 @@ Go back to the top level of your Github repo page, e.g. `https://github.com/user
 Then click on the __Settings__ link, via the right sidebar.
 </div> 
 <div class="col-sm-6">
-![img]({{ site.baseurl }}/images/lessons/3/github-pages-through-settings-menu.png)
+![img]({% lesson_image_tag 3/github-pages-through-settings-menu.png %})
 </div>
 </section>  
 
@@ -42,7 +42,7 @@ In the bottom half of the Settings page, look for the __Github Pages__ header.
 
 </div> 
 <div class="col-sm-6">
-![img]({{ site.baseurl }}/images/lessons/3/github-settings-whole.png)
+![img]({% lesson_image_tag 3/github-settings-whole.png %})
 </div>
 </section>  
 
@@ -53,7 +53,7 @@ Click on the __Automatic Page Generator__ button
 
 </div> 
 <div class="col-sm-6">
-![img]({{ site.baseurl }}/images/lessons/3/github-settings-focus-auto-page-generator.png)
+![img]({% lesson_image_tag 3/github-settings-focus-auto-page-generator.png %})
 </div>
 </section>  
 
@@ -74,7 +74,7 @@ If you want my advice, learning Markdown is probably one of the best mini-tech s
 Check out the [Github guide on Markdown](https://help.github.com/articles/markdown-basics). It's not important that you master it, just that you be aware of it for now.
 </div> 
 <div class="col-sm-6">
-![img]({{ site.baseurl }}/images/lessons/3/github-pages-default-template.png)
+![img]({% lesson_image_tag 3/github-pages-default-template.png %})
 
 </div>
 </section>  
@@ -86,7 +86,7 @@ Check out the [Github guide on Markdown](https://help.github.com/articles/markdo
 You don't have to edit anything yet, just leave the default Body content as is if you'd like. Go to the bottom of the page and hit the green __Continue to Layouts__ button.
 </div> 
 <div class="col-sm-6">
-![img]({{ site.baseurl }}/images/lessons/3/github-pages-continue-to-layouts.png)
+![img]({% lesson_image_tag 3/github-pages-continue-to-layouts.png %})
 
 </div>
 </section>  
@@ -100,7 +100,7 @@ You're now given the chance to pick from a variety of pre-made Pages layouts. Cl
 Click on the green checkmark labeled __Publish__.
 </div> 
 <div class="col-sm-6">
-![img]({{ site.baseurl }}/images/lessons/3/github-pages-choose-template.png)
+![img]({% lesson_image_tag 3/github-pages-choose-template.png %})
 
 </div>
 </section>  
@@ -111,7 +111,7 @@ Click on the green checkmark labeled __Publish__.
 You should be taken back to your Github.com repo page (not your newly created Github Pages homepage). There might be a banner message informing you to wait a few minutes before checking out the changes at `http://username.github.io`
 </div> 
 <div class="col-sm-6">
-![img]({{ site.baseurl }}/images/lessons/3/auto-github-pages-post-publish-banner-message.png)
+![img]({% lesson_image_tag 3/auto-github-pages-post-publish-banner-message.png %})
 </div>
 </section>  
 
@@ -124,7 +124,7 @@ Meanwhile, check out your repo's file listing. Besides modifying/creating your `
 It should also have left your existing files intact, including `README.md`
 </div> 
 <div class="col-sm-6">
-![img]({{ site.baseurl }}/images/lessons/3/auto-github-pages-repo-list-post-publish.png)
+![img]({% lesson_image_tag 3/auto-github-pages-repo-list-post-publish.png %})
 </div>
 </section>  
 
@@ -141,7 +141,7 @@ Now checkout your new automatically-generated Github Pages `index.html`, which c
 Your github.io homepage should look pretty similar to the preview you saw in the Layouts-choosing screen.
 </div> 
 <div class="col-sm-6">
-![img]({{ site.baseurl }}/images/lessons/3/github-pages-template-published.png)
+![img]({% lesson_image_tag 3/github-pages-template-published.png %})
 
 </div>
 </section>  
@@ -160,7 +160,7 @@ All of this raw HTML code was generated for you from the Markdown/text content t
 
 </div> 
 <div class="col-sm-6">
-![img]({{ site.baseurl }}/images/lessons/3/auto-github-pages-click-on-index.html.png)
+![img]({% lesson_image_tag 3/auto-github-pages-click-on-index.html.png %})
 
 </div>
 </section>  
@@ -176,7 +176,7 @@ All of this raw HTML code was generated for you from the Markdown/text content t
 <div class="col-sm-6">
 
 
-![img]({{ site.baseurl }}/images/lessons/3/auto-github-pages-index-html-raw-html.png)
+![img]({% lesson_image_tag 3/auto-github-pages-index-html-raw-html.png %})
 </div>
 </section>  
 
@@ -191,7 +191,7 @@ Go back to the __Settings__ page and click again on the __Automatic Page Generat
 
 </div> 
 <div class="col-sm-6">
-![img]({{ site.baseurl }}/images/lessons/3/github-settings-whole.png)
+![img]({% lesson_image_tag 3/github-settings-whole.png %})
 
 </div>
 </section>  
@@ -202,7 +202,7 @@ Go back to the __Settings__ page and click again on the __Automatic Page Generat
 This time, click on __Load README.md__ button
 </div> 
 <div class="col-sm-6">
-![img]({{ site.baseurl }}/images/lessons/3/auto-github-pages-editor-focus-on-load-readme.png)
+![img]({% lesson_image_tag 3/auto-github-pages-editor-focus-on-load-readme.png %})
 </div>
 </section>  
 
@@ -214,7 +214,7 @@ This will auto-load into the __Body__ field whatever is currently in your `READM
 Continue on to the __Layouts__ selection page.
 </div> 
 <div class="col-sm-6">
-![img]({{ site.baseurl }}/images/lessons/3/auto-github-pages-editor-loaded-readme.png)
+![img]({% lesson_image_tag 3/auto-github-pages-editor-loaded-readme.png %})
 </div>
 </section>  
 
@@ -228,7 +228,7 @@ No new insights here. We've only replaced the default __Body__ field in Github P
 
 </div> 
 <div class="col-sm-6">
-![img]({{ site.baseurl }}/images/lessons/3/auto-github-pages-editor-loaded-readme-templates.png)
+![img]({% lesson_image_tag 3/auto-github-pages-editor-loaded-readme-templates.png %})
 
 </div>
 </section>  
@@ -241,7 +241,7 @@ No new insights here. We've only replaced the default __Body__ field in Github P
 NOT NEEDED
 </div> 
 <div class="col-sm-6">
-![img]({{ site.baseurl }}/images/lessons/3/github-pages-customizing-index-for-template.png)
+![img]({% lesson_image_tag 3/github-pages-customizing-index-for-template.png %})
 
 </div>
 </section>   -->
@@ -313,7 +313,7 @@ In the sample code, there's a couple of lines worth paying attention to:
 
 </div> 
 <div class="col-sm-6">
-![img]({{ site.baseurl }}/images/lessons/3/auto-github-pages-customize-readme-md.png)
+![img]({% lesson_image_tag 3/auto-github-pages-customize-readme-md.png %})
 </div>
 </section>  
 
@@ -330,12 +330,12 @@ Why is that? Probably because Github doesn't want repo/README pages [to turn int
 
 </div> 
 <div class="col-sm-6">
-![img]({{ site.baseurl }}/images/lessons/3/auto-github-pages-publish-customize-readme-md.jpg)
+![img]({% lesson_image_tag 3/auto-github-pages-publish-customize-readme-md.jpg %})
 
 
 Notice the blank spot where an embedded YouTube video should be shown:
 
-![Missing youtube video embed TK]({{ site.baseurl }}/images/lessons/3/missing-youtube-video-embed-in-readme.jpg)
+![Missing youtube video embed TK]({% lesson_image_tag 3/missing-youtube-video-embed-in-readme.jpg %})
 </div>
 </section>  
 
@@ -351,7 +351,7 @@ Again, click on the __Load README.md__ button, then choose a layout, and then hi
 
 </div> 
 <div class="col-sm-6">
-![Loading customized readme]({{ site.baseurl }}/images/lessons/3/load-customized-readme-for-generator.png)
+![Loading customized readme]({% lesson_image_tag 3/load-customized-readme-for-generator.png %})
 </div>
 </section>  
 
@@ -363,7 +363,7 @@ And here is how Github's Automatic page generator prettied up my `README.md`. No
 
 </div> 
 <div class="col-sm-6">
-![Published customized readme]({{ site.baseurl }}/images/lessons/3/customized-readme-published-as-pages.jpg)
+![Published customized readme]({% lesson_image_tag 3/customized-readme-published-as-pages.jpg %})
 </div>
 </section>  
 
@@ -379,7 +379,7 @@ But the main takeaway for novice web developers is this: Github Pages was able t
 We haven't yet touched the HTML code that structure the content, nor the actual design code, which typically consists of __Cascading Style Sheets__, i.e. __CSS__.
 </div> 
 <div class="col-sm-6">
-![img]({{ site.baseurl }}/images/lessons/3/github-pages-templates-4.jpg)
+![img]({% lesson_image_tag 3/github-pages-templates-4.jpg %})
 </div>
 </section>  
 
@@ -400,7 +400,7 @@ As you've seen, this "scaffolding" process has left off some of our custom code,
 Go to your __portfolio homepage__ and __View Source__ to see what happened to the YouTube embed code. The Automatic Page Generator simply left it out.
 </div> 
 <div class="col-sm-6">
-![Missing embed]({{ site.baseurl }}/images/lessons/3/github-pages-removed-video-embed.png)
+![Missing embed]({% lesson_image_tag 3/github-pages-removed-video-embed.png %})
 </div>
 </section>  
 
@@ -415,7 +415,7 @@ e.g. `https://github.com/username/username.github.io`
 &ndash; and click the `index.html` link:
 </div> 
 <div class="col-sm-6">
-![Post-published index.html]({{ site.baseurl }}/images/lessons/3/post-publish-click-on-index-html.png)
+![Post-published index.html]({% lesson_image_tag 3/post-publish-click-on-index-html.png %})
 </div>
 </section>  
 
@@ -427,7 +427,7 @@ e.g. `https://github.com/username/username.github.io`
 Click the __Edit__ button
 </div> 
 <div class="col-sm-6">
-![Edit]({{ site.baseurl }}/images/lessons/3/post-publish-focus-on-index-html.png)
+![Edit]({% lesson_image_tag 3/post-publish-focus-on-index-html.png %})
 </div>
 </section>  
 
@@ -446,7 +446,7 @@ Then __commit__ the change and re-visit your portfolio homepage (it make take a 
 
 </div> 
 <div class="col-sm-6">
-![img]({{ site.baseurl }}/images/lessons/3/github-pages-manually-re-adding-video-embed.png)
+![img]({% lesson_image_tag 3/github-pages-manually-re-adding-video-embed.png %})
 
 </div>
 </section>  
@@ -464,7 +464,7 @@ From this point on, you'll be writing your own HTML in order to have complete fr
 </div> 
 <div class="col-sm-6">
 
-![img]({{ site.baseurl }}/images/lessons/3/github-pages-added-and-published-video-embed.jpg)
+![img]({% lesson_image_tag 3/github-pages-added-and-published-video-embed.jpg %})
 
 
 </div>
