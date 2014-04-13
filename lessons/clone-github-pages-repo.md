@@ -4,7 +4,7 @@ title: "Clone, Edit, Commit, and Sync"
 deck: "How to install the Github desktop app, make a local copy of your Github repo, manage and edit your webpage project on your own operating system, and sync with your Github repo."
 lesson_number: 4
 image_url: 'https://www.flickr.com/photos/zokuga/8665431657/'
-status: Mostly complete [2014-04-11]
+status: Mostly complete [2014-04-13]
 ---
 
 
@@ -533,27 +533,102 @@ Again, nothing substantially new, just a demonstration of how easy it is to add 
 
 ## Sync practice: online-to-offline
 
+
+
+
 <section class="row">
 <div class="col-sm-6">
-One more exercise before we end this lesson.
-
-We've seen how to we can sync changes _from_ our __local__ repo _to_ our Github (i.e. __remote__) repo.
+One more exercise before we end this lesson. We've seen how to we can sync changes _from_ our __local__ repo _to_ our Github (i.e. __remote__) repo.
 
 But can the sync happen in the other direction? That is, can we make changes to the Github repo, and _then_ sync them with our local repo?
 
-TK: Text to come...
+
+Let's find out. Go back to your __project repo page__ and click-through on your `index.html`. Then click the __Edit__ button.
+
 </div>
+
 <div class="col-sm-6">
-![placeholder cat](//placekitten.com/600/400)
-<!-- ![New photo]({% lesson_image_tag 4/github-pages-photo-synced.jpg %}) -->
+![img]({% lesson_image_tag 4/github-app-sync-remote-index-html.png %})
 </div>
 </section>
 
 
+<section class="row">
+<div class="col-sm-6">
+In the Github file editor, make a change you'll notice. In my example, I've uppercased the page's `<h1>` title. Then commit your change.
+</div>
+
+<div class="col-sm-6">
+![img]({% lesson_image_tag 4/github-app-sync-remotely-edit-index-html.png %})
+</div>
+</section>
+
+<section class="row">
+<div class="col-sm-6">
+Your project repo page will show that `index.html` has recently been updated.
+</div>
+
+<div class="col-sm-6">
+![img]({% lesson_image_tag 4/github-app-sync-note-remote-edit.png %})
+</div>
+</section>
+
+<section class="row">
+<div class="col-sm-6">
+To visually confirm the edit, visit `index.html` to see how it was auto-published by Github Pages at: `http://username.github.io`
+</div>
+
+<div class="col-sm-6">
+![img]({% lesson_image_tag 4/github-app-sync-note-published-index-html.png %})
+</div>
+</section>
+
+<section class="row">
+<div class="col-sm-6">
+Now go back to the __Github desktop app__. Select your project repo. At the top-right of the top nav, you should see a __Sync Branch__ button. Clicking this will sync your __local repo__ to the just-updated repo on Github.com
+</div>
+
+<div class="col-sm-6">
+![img]({% lesson_image_tag 4/github-app-sync-branch-button.png %})
+</div>
+</section>
+
+<section class="row">
+<div class="col-sm-6">
+Alternatively, you can click on __Repository__ in the menu navigation and select the __Synchronize__ action. (Or just hit __Cmd-S__ if you're on a Mac)
+</div>
+
+<div class="col-sm-6">
+![img]({% lesson_image_tag 4/github-app-sync-published-branch-menu.png %})
+</div>
+</section>
+
+
+<section class="row">
+<div class="col-sm-6">
+In the Github desktop app, click the __History__ submenu. You'll see that it has been updated to include the edit that was made on __Github.com__
+</div>
 
 
 
+<div class="col-sm-6">
+![img]({% lesson_image_tag  4/github-app-sync-note-history-change.png %})
+</div>
+</section>
 
+<section class="row">
+<div class="col-sm-6">
+To confirm that the sync-action actually had effect, you can go to the file folder on your computer that contains the repo. Note that the `index.html` file should have a newer timestamp than the other files.
+
+Not much new to understand here. We've just seen how both of the cloned repos &ndash; local and on Github.com &ndash; can independently make changes and sync with each other. However, it's important to note that __Github Pages__ will only publish from the repo on Github.com. So whatever changes you make locally needed to be pushed online if you want them seen on your live Github.io portfolio.page.
+
+What happens when you've made changes to `index.html` in _both_ repos but only later sync them? Then you might run into a __conflict__, which we'll cover in the next chapter.
+</div>
+
+<div class="col-sm-6">
+![img]({% lesson_image_tag  4/github-app-sync-note-file-timestamp-change.png %})
+</div>
+</section>
 
 
 <section class="conclusion">
