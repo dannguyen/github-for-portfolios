@@ -45,4 +45,4 @@ __Note:__ This section is not related to the actual tutorial and is meant for de
   ~~~
 
   - View the [tutorial I used here](http://blog.nitrous.io/2013/08/30/using-jekyll-plugins-on-github-pages.html)
-  - View this project's [Rakefile](Rakefile)
+  - View this project's [Rakefile](Rakefile).
